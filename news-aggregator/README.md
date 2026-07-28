@@ -13,6 +13,36 @@ items rather than a firehose, and it never fabricates a summary or a
 source — if a feed gives nothing useful, you get the raw headline and a
 link.
 
+## Get it on your iPhone (no coding required)
+
+1. **Deploy it to Render** (a free hosting service) so it's reachable from
+   anywhere, not just your own computer:
+   - Go to [render.com](https://render.com) and sign up (free, "Sign up with
+     GitHub" is easiest).
+   - Click **New +** → **Blueprint**.
+   - Pick this GitHub repository. Render will find the `render.yaml` at the
+     repo root and pre-fill everything (Dockerfile path, health check, free
+     plan). Click **Apply** / **Create**.
+   - Wait for the first build to finish (a few minutes). Render gives you a
+     URL like `https://signal-news-xxxx.onrender.com`.
+2. **Open that URL on your iPhone** in Safari (not Chrome — "Add to Home
+   Screen" as a full app only works from Safari).
+3. Tap the **Share** icon (square with an arrow) → **Add to Home Screen** →
+   **Add**. You now have a "Signal" app icon on your home screen that opens
+   full-screen, no browser bar.
+
+**Free-tier tradeoff, honestly:** Render's free plan puts the app to sleep
+after 15 minutes with no visitors, and — because the free plan has no
+persistent storage — every time it wakes up it starts with an empty feed
+and re-fetches everything from scratch (roughly 30–60 seconds total: wake-up
++ re-fetch). Since it auto-refreshes every time you open the app anyway,
+this mostly means: if you haven't opened it in a while, the first open of
+the day is a bit slow, then it's instant for the rest of the day as you
+keep reopening it. If that's annoying, Render's paid Starter plan (~$7/mo)
+keeps it always-on with a persistent database — see
+[Render's pricing](https://render.com/pricing) if you want that later; no
+code changes needed, just a plan upgrade in Render's dashboard.
+
 ## Copyright & usage note
 
 This app stores and displays **only**: headline, source name, publish

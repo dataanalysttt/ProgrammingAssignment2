@@ -15,7 +15,11 @@ VOLUME ["/app/data"]
 
 EXPOSE 8000
 
-HEALTHCHECK --interval=30s --timeout=5s --start-period=15s \
-  CMD curl -f http://localhost:8000/api/health || exit 1
+# $PORT is injected by most free hosts (Render, Railway, etc.); default to
+# 8000 for plain `docker run` / docker-compose where nothing sets it.
+ENV PORT=8000
 
-CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+HEALTHCHECK --interval=30s --timeout=5s --start-period=15s \
+  CMD curl -f "http://localhost:${PORT}/api/health" || exit 1
+
+CMD ["sh", "-c", "uvicorn app.main:app --host 0.0.0.0 --port ${PORT}"]
