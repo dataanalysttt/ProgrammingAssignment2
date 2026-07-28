@@ -59,10 +59,12 @@ cp backend/.env.example backend/.env   # optional — see "Environment variables
 docker compose up --build
 ```
 
-Open http://localhost:8000. The app polls all enabled feeds once on
-startup (so the feed isn't empty on first load) and then every
-`POLL_INTERVAL_MINUTES` (default 15). You can also hit **Refresh** in the
-UI, or `POST /api/ingest/run`, to poll immediately.
+Open http://localhost:8000. The server starts accepting requests
+immediately; a first poll of all enabled feeds kicks off in the background
+right away (so the feed fills in within moments, not on a blocking delay),
+then repeats every `POLL_INTERVAL_MINUTES` (default 15). The frontend also
+triggers a poll whenever you open the app. You can always hit **Refresh**
+in the UI, or `POST /api/ingest/run`, to poll immediately.
 
 ## Quickstart (local, no Docker)
 

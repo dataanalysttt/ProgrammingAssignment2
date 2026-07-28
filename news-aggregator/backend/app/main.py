@@ -5,8 +5,7 @@ from pathlib import Path
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 
-from app.db import SessionLocal, init_db
-from app.ingestion.pipeline import run_ingestion
+from app.db import init_db
 from app.ingestion.scheduler import shutdown_scheduler, start_scheduler
 from app.routers import ingest, items, meta, sources, translate
 
@@ -19,15 +18,13 @@ STATIC_DIR = Path(__file__).resolve().parent / "static"
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     init_db()
-    db = SessionLocal()
-    try:
-        stats = run_ingestion(db)
-        logger.info("Initial ingestion run: %s", stats)
-    except Exception:
-        logger.exception("Initial ingestion run failed; server will still start")
-    finally:
-        db.close()
-
+    # The first ingestion run happens in the background (via the scheduler,
+    # which fires immediately on start and then every POLL_INTERVAL_MINUTES)
+    # rather than blocking here — the server must start accepting requests
+    # right away, especially on hosts that spin the container down when
+    # idle (e.g. Render's free tier), where every second before the first
+    # response matters. The frontend also triggers its own ingestion run on
+    # load, so the feed still populates within moments either way.
     start_scheduler()
     yield
     shutdown_scheduler()

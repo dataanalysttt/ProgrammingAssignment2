@@ -32,7 +32,12 @@ def start_scheduler() -> BackgroundScheduler:
         "interval",
         minutes=settings.poll_interval_minutes,
         id="poll_feeds",
-        next_run_time=None,  # first run triggered explicitly at startup (see main.py)
+        # No next_run_time override -> APScheduler fires the first run
+        # immediately (in this background thread), then every interval
+        # after. Runs in the background so it never blocks the server from
+        # accepting requests — important on hosts like Render's free tier,
+        # where the whole container is cold and every second before the
+        # server responds matters.
     )
     _scheduler.start()
     return _scheduler
