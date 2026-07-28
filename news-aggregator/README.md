@@ -31,7 +31,7 @@ docker compose up --build
 
 Open http://localhost:8000. The app polls all enabled feeds once on
 startup (so the feed isn't empty on first load) and then every
-`POLL_INTERVAL_MINUTES` (default 20). You can also hit **Refresh** in the
+`POLL_INTERVAL_MINUTES` (default 15). You can also hit **Refresh** in the
 UI, or `POST /api/ingest/run`, to poll immediately.
 
 ## Quickstart (local, no Docker)

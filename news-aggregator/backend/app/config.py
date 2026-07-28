@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     macro_tags_config_path: Path = CONFIG_DIR / "macro_tags.yaml"
 
     # Ingestion
-    poll_interval_minutes: int = 20
+    poll_interval_minutes: int = 15
     http_timeout_seconds: float = 15.0
     fetch_concurrency: int = 8
 

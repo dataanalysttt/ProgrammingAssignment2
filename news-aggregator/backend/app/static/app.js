@@ -200,22 +200,44 @@ document.getElementById('bookmarkedOnly').addEventListener('change', (e) => {
 });
 
 // ---------- ingestion trigger ----------
-document.getElementById('refreshBtn').addEventListener('click', async () => {
+// Runs on: manual Refresh tap, every time the app is opened/foregrounded
+// (cold load or returning from the background), and every 15 min in the
+// background on the server regardless (see POLL_INTERVAL_MINUTES).
+let lastIngestAt = 0;
+let ingestInFlight = false;
+
+async function runIngest({ silent } = {}) {
+  if (ingestInFlight) return;
+  ingestInFlight = true;
   const icon = document.getElementById('refreshIcon');
   const btn = document.getElementById('refreshBtn');
   btn.disabled = true;
   icon.classList.add('spin');
-  setStatus('Polling feeds for the latest stories…');
+  if (!silent) setStatus('Polling feeds for the latest stories…');
   try {
     const stats = await api('/api/ingest/run', { method: 'POST' });
+    lastIngestAt = Date.now();
     setStatus(`Fetched ${stats.items_new} new items from ${stats.sources_polled - stats.sources_failed}/${stats.sources_polled} sources` +
       (stats.sources_failed ? ` (${stats.sources_failed} feed(s) unreachable)` : ''));
     await resetAndLoad();
   } catch (err) {
-    setStatus('Refresh failed: ' + err.message, true);
+    if (!silent) setStatus('Refresh failed: ' + err.message, true);
   } finally {
     btn.disabled = false;
     icon.classList.remove('spin');
+    ingestInFlight = false;
+  }
+}
+
+document.getElementById('refreshBtn').addEventListener('click', () => runIngest());
+
+// Opening the app (cold start, or bringing it back to the foreground from
+// the iPhone home screen / app switcher) counts as "manually opening" —
+// refresh right away, but don't hammer the server on rapid app-switching.
+const REOPEN_REFRESH_COOLDOWN_MS = 60 * 1000;
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible' && Date.now() - lastIngestAt > REOPEN_REFRESH_COOLDOWN_MS) {
+    runIngest({ silent: true });
   }
 });
 
@@ -400,7 +422,8 @@ document.getElementById('feed').addEventListener('click', async (e) => {
 (async function init() {
   try {
     await loadMeta();
-    await resetAndLoad();
+    await resetAndLoad(); // show whatever's already cached, instantly
+    runIngest({ silent: true }); // then check for anything new, in the background
   } catch (err) {
     setStatus('Failed to load app: ' + err.message, true);
   }
