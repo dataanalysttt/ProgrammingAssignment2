@@ -23,3 +23,19 @@ def test_multiple_categories_can_match():
     )
     assert "india_politics_policy" in tags["category"]
     assert "india_economy_markets" in tags["category"]
+
+
+def test_commodity_trading_headline_gets_tagged():
+    tags = tag_item(
+        "Gold futures rise on MCX as COMEX prices rally",
+        "Commodity traders tracked open interest and spot price moves in bullion markets.",
+    )
+    assert "commodity_trading" in tags["category"]
+    assert "metals" in tags["macro"]
+
+
+def test_keyword_matching_is_word_boundary_aware_not_substring():
+    # Regression test: "modi" (a keyword for PM Modi mentions) must not
+    # match inside unrelated words like "commodity" ("com-modi-ty").
+    tags = tag_item("Commodity prices rally across markets", "Traders eye commodity futures.")
+    assert "india_politics_policy" not in tags["category"]

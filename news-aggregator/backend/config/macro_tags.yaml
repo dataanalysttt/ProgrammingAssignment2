@@ -45,7 +45,7 @@ macro_tags:
     label: "INR / Rupee"
     keywords:
       - "rupee"
-      - " inr "
+      - "inr"
       - "forex reserves"
 
   fx:
