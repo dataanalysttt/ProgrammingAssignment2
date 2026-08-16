@@ -201,7 +201,7 @@ final class HealthKitManager: ObservableObject {
         }) ?? 0
     }
 
-    private static func hkUnit(for kind: HealthMetricKind) -> HKUnit {
+    private nonisolated static func hkUnit(for kind: HealthMetricKind) -> HKUnit {
         switch kind {
         case .steps: return .count()
         case .activeEnergy: return .kilocalorie()

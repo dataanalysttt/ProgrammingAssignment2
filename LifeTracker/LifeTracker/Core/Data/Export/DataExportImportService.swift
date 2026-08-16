@@ -35,25 +35,16 @@ enum DataExportImportService {
 
         let trackersByID = Dictionary(uniqueKeysWithValues: payload.trackers.map { ($0.id, $0) })
         for entry in payload.entries {
-            let tracker = trackersByID[entry.trackerID]
-            let value: String = {
-                if let numberValue = entry.numberValue { return String(numberValue) }
-                if let boolValue = entry.boolValue { return boolValue ? "yes" : "no" }
-                if let scaleValue = entry.scaleValue { return String(scaleValue) }
-                if let durationSeconds = entry.durationSeconds { return String(durationSeconds / 60) }
-                if let textValue = entry.textValue { return csvEscape(textValue) }
-                return ""
-            }()
-            csv += "tracker,\(iso8601.string(from: entry.date)),\(csvEscape(tracker?.name ?? "Unknown")),\(value),\(csvEscape(tracker?.unit ?? "")),\(csvEscape(entry.note ?? ""))\n"
+            csv += csvRow(for: entry, trackersByID: trackersByID)
         }
         for food in payload.foodEntries {
-            csv += "food,\(iso8601.string(from: food.date)),\(csvEscape(food.mealName)),\(food.calories.map(String.init) ?? ""),kcal,\(csvEscape(food.note ?? ""))\n"
+            csv += csvRow(for: food)
         }
         for goal in payload.goals {
-            csv += "goal,\(iso8601.string(from: goal.createdAt)),\(csvEscape(goal.title)),\(goal.manualProgressPercent.map(String.init) ?? ""),%,\(csvEscape(goal.status))\n"
+            csv += csvRow(for: goal)
         }
         for snapshot in payload.investmentSnapshots {
-            csv += "investment,\(iso8601.string(from: snapshot.capturedAt)),Portfolio,\(snapshot.totalValue),INR,pnl \(snapshot.totalPnL)\n"
+            csv += csvRow(for: snapshot)
         }
 
         let url = FileManager.default.temporaryDirectory
@@ -243,6 +234,48 @@ enum DataExportImportService {
             id: dto.id, symbol: dto.symbol, quantity: dto.quantity, averagePrice: dto.averagePrice,
             lastPrice: dto.lastPrice, currentValue: dto.currentValue, pnl: dto.pnl
         )
+    }
+
+    // MARK: - CSV rows
+
+    private static func csvLine(_ type: String, _ date: Date, _ name: String, _ value: String, _ unit: String, _ note: String) -> String {
+        let dateString = iso8601.string(from: date)
+        let nameField = csvEscape(name)
+        let noteField = csvEscape(note)
+        return "\(type),\(dateString),\(nameField),\(value),\(unit),\(noteField)\n"
+    }
+
+    private static func entryValue(_ entry: ExportPayload.TrackerEntryDTO) -> String {
+        if let numberValue = entry.numberValue { return String(numberValue) }
+        if let boolValue = entry.boolValue { return boolValue ? "yes" : "no" }
+        if let scaleValue = entry.scaleValue { return String(scaleValue) }
+        if let durationSeconds = entry.durationSeconds { return String(durationSeconds / 60) }
+        if let textValue = entry.textValue { return csvEscape(textValue) }
+        return ""
+    }
+
+    private static func csvRow(for entry: ExportPayload.TrackerEntryDTO, trackersByID: [UUID: ExportPayload.TrackerDTO]) -> String {
+        let tracker = trackersByID[entry.trackerID]
+        let name = tracker?.name ?? "Unknown"
+        let unit = tracker?.unit ?? ""
+        let value = entryValue(entry)
+        return csvLine("tracker", entry.date, name, value, unit, entry.note ?? "")
+    }
+
+    private static func csvRow(for food: ExportPayload.FoodEntryDTO) -> String {
+        let value = food.calories.map(String.init) ?? ""
+        return csvLine("food", food.date, food.mealName, value, "kcal", food.note ?? "")
+    }
+
+    private static func csvRow(for goal: ExportPayload.GoalDTO) -> String {
+        let value = goal.manualProgressPercent.map(String.init) ?? ""
+        return csvLine("goal", goal.createdAt, goal.title, value, "%", goal.status)
+    }
+
+    private static func csvRow(for snapshot: ExportPayload.InvestmentSnapshotDTO) -> String {
+        let value = String(snapshot.totalValue)
+        let note = "pnl \(snapshot.totalPnL)"
+        return csvLine("investment", snapshot.capturedAt, "Portfolio", value, "INR", note)
     }
 
     // MARK: - Helpers
