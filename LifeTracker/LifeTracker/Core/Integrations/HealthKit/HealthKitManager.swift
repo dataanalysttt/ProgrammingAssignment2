@@ -50,18 +50,20 @@ final class HealthKitManager: ObservableObject {
 
     /// Day-by-day values for `kind` between `start` and `end` (inclusive), one
     /// entry per calendar day. Missing days are simply absent from the array.
-    func dailySeries(for kind: HealthMetricKind, from start: Date, to end: Date) async throws -> [DateValue] {
+    /// Pass `source` (from `resolveWhoopSource()`) to restrict to samples written
+    /// by that one app; `nil` includes samples from every source, same as before.
+    func dailySeries(for kind: HealthMetricKind, from start: Date, to end: Date, source: HKSource? = nil) async throws -> [DateValue] {
         switch kind {
         case .sleepHours:
-            return try await dailySleepHours(from: start, to: end)
+            return try await dailySleepHours(from: start, to: end, source: source)
         case .workoutMinutes:
-            return try await dailyWorkoutMinutes(from: start, to: end)
+            return try await dailyWorkoutMinutes(from: start, to: end, source: source)
         default:
-            return try await dailyQuantitySeries(for: kind, from: start, to: end)
+            return try await dailyQuantitySeries(for: kind, from: start, to: end, source: source)
         }
     }
 
-    private func dailyQuantitySeries(for kind: HealthMetricKind, from start: Date, to end: Date) async throws -> [DateValue] {
+    private func dailyQuantitySeries(for kind: HealthMetricKind, from start: Date, to end: Date, source: HKSource?) async throws -> [DateValue] {
         guard let identifier = kind.quantityTypeIdentifier,
               let quantityType = HKObjectType.quantityType(forIdentifier: identifier) else { return [] }
 
@@ -70,7 +72,7 @@ final class HealthKitManager: ObservableObject {
         var interval = DateComponents()
         interval.day = 1
 
-        let predicate = HKQuery.predicateForSamples(withStart: start, end: end, options: .strictStartDate)
+        let predicate = datePredicate(from: start, to: end, source: source)
 
         return try await withCheckedThrowingContinuation { continuation in
             let query = HKStatisticsCollectionQuery(
@@ -99,9 +101,9 @@ final class HealthKitManager: ObservableObject {
         }
     }
 
-    private func dailySleepHours(from start: Date, to end: Date) async throws -> [DateValue] {
+    private func dailySleepHours(from start: Date, to end: Date, source: HKSource?) async throws -> [DateValue] {
         guard let sleepType = HKObjectType.categoryType(forIdentifier: .sleepAnalysis) else { return [] }
-        let predicate = HKQuery.predicateForSamples(withStart: start, end: end, options: .strictStartDate)
+        let predicate = datePredicate(from: start, to: end, source: source)
 
         let samples: [HKCategorySample] = try await withCheckedThrowingContinuation { continuation in
             let query = HKSampleQuery(sampleType: sleepType, predicate: predicate, limit: HKObjectQueryNoLimit, sortDescriptors: nil) { _, results, error in
@@ -130,8 +132,8 @@ final class HealthKitManager: ObservableObject {
         return hoursByDay.map { DateValue(date: $0.key, value: $0.value) }.sorted { $0.date < $1.date }
     }
 
-    private func dailyWorkoutMinutes(from start: Date, to end: Date) async throws -> [DateValue] {
-        let predicate = HKQuery.predicateForSamples(withStart: start, end: end, options: .strictStartDate)
+    private func dailyWorkoutMinutes(from start: Date, to end: Date, source: HKSource?) async throws -> [DateValue] {
+        let predicate = datePredicate(from: start, to: end, source: source)
         let workouts: [HKWorkout] = try await withCheckedThrowingContinuation { continuation in
             let query = HKSampleQuery(sampleType: .workoutType(), predicate: predicate, limit: HKObjectQueryNoLimit, sortDescriptors: nil) { _, results, error in
                 if let error {
@@ -154,9 +156,9 @@ final class HealthKitManager: ObservableObject {
 
     // MARK: - Today convenience
 
-    func todayTotal(for kind: HealthMetricKind) async -> Double {
+    func todayTotal(for kind: HealthMetricKind, source: HKSource? = nil) async -> Double {
         let start = Calendar.current.startOfDay(for: .now)
-        let series = try? await dailySeries(for: kind, from: start, to: .now)
+        let series = try? await dailySeries(for: kind, from: start, to: .now, source: source)
         return series?.first?.value ?? 0
     }
 
@@ -206,9 +208,47 @@ final class HealthKitManager: ObservableObject {
         case .steps: return .count()
         case .activeEnergy: return .kilocalorie()
         case .distanceWalkingRunning: return .meterUnit(with: .kilo)
-        case .heartRateAverage, .restingHeartRate: return HKUnit.count().unitDivided(by: .minute())
+        case .heartRateAverage, .restingHeartRate, .respiratoryRate: return HKUnit.count().unitDivided(by: .minute())
         case .heartRateVariability: return .secondUnit(with: .milli)
         case .workoutMinutes, .sleepHours: return .count()
         }
+    }
+
+    // MARK: - Whoop source filtering
+
+    /// The HKSource representing the Whoop app itself (identified by its bundle id
+    /// containing "whoop"), so Today's card can show numbers written specifically
+    /// by Whoop rather than whatever else is writing to Health (an Apple Watch,
+    /// the iPhone's own sensors, another app). Cached after the first lookup —
+    /// `whoopSourceLookupDone` distinguishes "found nothing" from "not looked up yet".
+    private var whoopSourceLookupDone = false
+    private var cachedWhoopSource: HKSource?
+
+    func resolveWhoopSource() async -> HKSource? {
+        if whoopSourceLookupDone { return cachedWhoopSource }
+        guard let heartRateType = HKObjectType.quantityType(forIdentifier: .heartRate) else { return nil }
+
+        let sources: Set<HKSource> = (try? await withCheckedThrowingContinuation { continuation in
+            let query = HKSourceQuery(sampleType: heartRateType, samplePredicate: nil) { _, sources, error in
+                if let error {
+                    continuation.resume(throwing: error)
+                } else {
+                    continuation.resume(returning: sources ?? [])
+                }
+            }
+            store.execute(query)
+        }) ?? []
+
+        let whoop = sources.first { $0.bundleIdentifier.lowercased().contains("whoop") }
+        cachedWhoopSource = whoop
+        whoopSourceLookupDone = true
+        return whoop
+    }
+
+    private func datePredicate(from start: Date, to end: Date, source: HKSource?) -> NSPredicate {
+        let datePredicate = HKQuery.predicateForSamples(withStart: start, end: end, options: .strictStartDate)
+        guard let source else { return datePredicate }
+        let sourcePredicate = HKQuery.predicateForObjects(from: [source])
+        return NSCompoundPredicate(andPredicateWithSubpredicates: [datePredicate, sourcePredicate])
     }
 }

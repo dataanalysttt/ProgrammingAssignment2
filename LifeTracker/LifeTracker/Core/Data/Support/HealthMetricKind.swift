@@ -14,6 +14,7 @@ enum HealthMetricKind: String, Codable, CaseIterable, Identifiable, Hashable {
     case heartRateAverage
     case restingHeartRate
     case heartRateVariability
+    case respiratoryRate
 
     var id: String { rawValue }
 
@@ -27,6 +28,7 @@ enum HealthMetricKind: String, Codable, CaseIterable, Identifiable, Hashable {
         case .heartRateAverage: return "Heart Rate (avg)"
         case .restingHeartRate: return "Resting Heart Rate"
         case .heartRateVariability: return "Heart Rate Variability"
+        case .respiratoryRate: return "Respiratory Rate"
         }
     }
 
@@ -39,6 +41,7 @@ enum HealthMetricKind: String, Codable, CaseIterable, Identifiable, Hashable {
         case .sleepHours: return "hr"
         case .heartRateAverage, .restingHeartRate: return "bpm"
         case .heartRateVariability: return "ms"
+        case .respiratoryRate: return "br/min"
         }
     }
 
@@ -51,6 +54,7 @@ enum HealthMetricKind: String, Codable, CaseIterable, Identifiable, Hashable {
         case .sleepHours: return "bed.double.fill"
         case .heartRateAverage, .restingHeartRate: return "heart.fill"
         case .heartRateVariability: return "waveform.path.ecg"
+        case .respiratoryRate: return "lungs.fill"
         }
     }
 
@@ -65,6 +69,7 @@ enum HealthMetricKind: String, Codable, CaseIterable, Identifiable, Hashable {
         case .heartRateAverage: return .heartRate
         case .restingHeartRate: return .restingHeartRate
         case .heartRateVariability: return .heartRateVariabilitySDNN
+        case .respiratoryRate: return .respiratoryRate
         case .workoutMinutes, .sleepHours: return nil
         }
     }
@@ -74,7 +79,7 @@ enum HealthMetricKind: String, Codable, CaseIterable, Identifiable, Hashable {
         switch self {
         case .steps, .activeEnergy, .distanceWalkingRunning:
             return .cumulativeSum
-        case .heartRateAverage, .restingHeartRate, .heartRateVariability:
+        case .heartRateAverage, .restingHeartRate, .heartRateVariability, .respiratoryRate:
             return .discreteAverage
         case .workoutMinutes, .sleepHours:
             return []
