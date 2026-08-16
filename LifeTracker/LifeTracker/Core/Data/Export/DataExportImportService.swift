@@ -263,12 +263,12 @@ enum DataExportImportService {
     }
 
     private static func csvRow(for food: ExportPayload.FoodEntryDTO) -> String {
-        let value = food.calories.map(String.init) ?? ""
+        let value = food.calories.map { String($0) } ?? ""
         return csvLine("food", food.date, food.mealName, value, "kcal", food.note ?? "")
     }
 
     private static func csvRow(for goal: ExportPayload.GoalDTO) -> String {
-        let value = goal.manualProgressPercent.map(String.init) ?? ""
+        let value = goal.manualProgressPercent.map { String($0) } ?? ""
         return csvLine("goal", goal.createdAt, goal.title, value, "%", goal.status)
     }
 
