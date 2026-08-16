@@ -34,8 +34,10 @@ struct ExportImportView: View {
                 }
             }
 
-            Section("Import") {
+            Section {
                 Button("Import from JSON Backup") { showingImporter = true }
+            } header: {
+                Text("Import")
             } footer: {
                 Text("Only Life Tracker's own JSON export format can be imported.")
             }
