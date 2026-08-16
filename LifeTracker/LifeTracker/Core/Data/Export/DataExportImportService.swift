@@ -85,54 +85,66 @@ enum DataExportImportService {
     // MARK: - Building the payload
 
     private static func buildPayload(context: ModelContext) throws -> ExportPayload {
-        let trackers = try context.fetch(FetchDescriptor<CustomTracker>()).map {
-            ExportPayload.TrackerDTO(
-                id: $0.id, name: $0.name, unit: $0.unit, valueType: $0.valueTypeRaw,
-                cadence: $0.cadenceRaw, goalTarget: $0.goalTarget, sortOrder: $0.sortOrder,
-                isArchived: $0.isArchived, isSystemSeeded: $0.isSystemSeeded, createdAt: $0.createdAt
-            )
-        }
-        let entries = try context.fetch(FetchDescriptor<TrackerEntry>()).map {
-            ExportPayload.TrackerEntryDTO(
-                id: $0.id, trackerID: $0.trackerID, date: $0.date, numberValue: $0.numberValue,
-                boolValue: $0.boolValue, scaleValue: $0.scaleValue, durationSeconds: $0.durationSeconds,
-                textValue: $0.textValue, note: $0.note, createdAt: $0.createdAt
-            )
-        }
-        let goals = try context.fetch(FetchDescriptor<Goal>()).map {
-            ExportPayload.GoalDTO(
-                id: $0.id, title: $0.title, goalDescription: $0.goalDescription, category: $0.categoryRaw,
-                targetDate: $0.targetDate, status: $0.statusRaw, createdAt: $0.createdAt,
-                completedAt: $0.completedAt, metricReference: $0.metricReference, targetValue: $0.targetValue,
-                aggregation: $0.aggregationRaw, manualProgressPercent: $0.manualProgressPercent,
-                linkedCalendarEventIdentifier: $0.linkedCalendarEventIdentifier
-            )
-        }
-        let foodEntries = try context.fetch(FetchDescriptor<FoodEntry>()).map {
-            ExportPayload.FoodEntryDTO(
-                id: $0.id, date: $0.date, mealName: $0.mealName, calories: $0.calories,
-                proteinGrams: $0.proteinGrams, carbsGrams: $0.carbsGrams, fatGrams: $0.fatGrams,
-                note: $0.note, createdAt: $0.createdAt
-            )
-        }
-        let snapshots = try context.fetch(FetchDescriptor<InvestmentSnapshot>()).map { snapshot in
-            ExportPayload.InvestmentSnapshotDTO(
-                id: snapshot.id, capturedAt: snapshot.capturedAt, totalValue: snapshot.totalValue,
-                totalInvested: snapshot.totalInvested, totalPnL: snapshot.totalPnL,
-                holdings: snapshot.holdings.map {
-                    ExportPayload.HoldingDTO(
-                        id: $0.id, symbol: $0.symbol, quantity: $0.quantity, averagePrice: $0.averagePrice,
-                        lastPrice: $0.lastPrice, currentValue: $0.currentValue, pnl: $0.pnl
-                    )
-                }
-            )
-        }
+        let trackers = try context.fetch(FetchDescriptor<CustomTracker>()).map(trackerDTO)
+        let entries = try context.fetch(FetchDescriptor<TrackerEntry>()).map(entryDTO)
+        let goals = try context.fetch(FetchDescriptor<Goal>()).map(goalDTO)
+        let foodEntries = try context.fetch(FetchDescriptor<FoodEntry>()).map(foodEntryDTO)
+        let snapshots = try context.fetch(FetchDescriptor<InvestmentSnapshot>()).map(snapshotDTO)
 
         return ExportPayload(
             exportedAt: .now,
             appVersion: (Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String) ?? "1.0",
             trackers: trackers, entries: entries, goals: goals,
             foodEntries: foodEntries, investmentSnapshots: snapshots
+        )
+    }
+
+    private static func trackerDTO(_ tracker: CustomTracker) -> ExportPayload.TrackerDTO {
+        ExportPayload.TrackerDTO(
+            id: tracker.id, name: tracker.name, unit: tracker.unit, valueType: tracker.valueTypeRaw,
+            cadence: tracker.cadenceRaw, goalTarget: tracker.goalTarget, sortOrder: tracker.sortOrder,
+            isArchived: tracker.isArchived, isSystemSeeded: tracker.isSystemSeeded, createdAt: tracker.createdAt
+        )
+    }
+
+    private static func entryDTO(_ entry: TrackerEntry) -> ExportPayload.TrackerEntryDTO {
+        ExportPayload.TrackerEntryDTO(
+            id: entry.id, trackerID: entry.trackerID, date: entry.date, numberValue: entry.numberValue,
+            boolValue: entry.boolValue, scaleValue: entry.scaleValue, durationSeconds: entry.durationSeconds,
+            textValue: entry.textValue, note: entry.note, createdAt: entry.createdAt
+        )
+    }
+
+    private static func goalDTO(_ goal: Goal) -> ExportPayload.GoalDTO {
+        ExportPayload.GoalDTO(
+            id: goal.id, title: goal.title, goalDescription: goal.goalDescription, category: goal.categoryRaw,
+            targetDate: goal.targetDate, status: goal.statusRaw, createdAt: goal.createdAt,
+            completedAt: goal.completedAt, metricReference: goal.metricReference, targetValue: goal.targetValue,
+            aggregation: goal.aggregationRaw, manualProgressPercent: goal.manualProgressPercent,
+            linkedCalendarEventIdentifier: goal.linkedCalendarEventIdentifier
+        )
+    }
+
+    private static func foodEntryDTO(_ entry: FoodEntry) -> ExportPayload.FoodEntryDTO {
+        ExportPayload.FoodEntryDTO(
+            id: entry.id, date: entry.date, mealName: entry.mealName, calories: entry.calories,
+            proteinGrams: entry.proteinGrams, carbsGrams: entry.carbsGrams, fatGrams: entry.fatGrams,
+            note: entry.note, createdAt: entry.createdAt
+        )
+    }
+
+    private static func snapshotDTO(_ snapshot: InvestmentSnapshot) -> ExportPayload.InvestmentSnapshotDTO {
+        ExportPayload.InvestmentSnapshotDTO(
+            id: snapshot.id, capturedAt: snapshot.capturedAt, totalValue: snapshot.totalValue,
+            totalInvested: snapshot.totalInvested, totalPnL: snapshot.totalPnL,
+            holdings: snapshot.holdings.map(holdingDTO)
+        )
+    }
+
+    private static func holdingDTO(_ holding: InvestmentHolding) -> ExportPayload.HoldingDTO {
+        ExportPayload.HoldingDTO(
+            id: holding.id, symbol: holding.symbol, quantity: holding.quantity, averagePrice: holding.averagePrice,
+            lastPrice: holding.lastPrice, currentValue: holding.currentValue, pnl: holding.pnl
         )
     }
 
@@ -221,14 +233,16 @@ enum DataExportImportService {
                 id: dto.id, capturedAt: dto.capturedAt, totalValue: dto.totalValue,
                 totalInvested: dto.totalInvested, totalPnL: dto.totalPnL
             )
-            snapshot.holdings = dto.holdings.map {
-                InvestmentHolding(
-                    id: $0.id, symbol: $0.symbol, quantity: $0.quantity, averagePrice: $0.averagePrice,
-                    lastPrice: $0.lastPrice, currentValue: $0.currentValue, pnl: $0.pnl
-                )
-            }
+            snapshot.holdings = dto.holdings.map(holdingModel)
             context.insert(snapshot)
         }
+    }
+
+    private static func holdingModel(_ dto: ExportPayload.HoldingDTO) -> InvestmentHolding {
+        InvestmentHolding(
+            id: dto.id, symbol: dto.symbol, quantity: dto.quantity, averagePrice: dto.averagePrice,
+            lastPrice: dto.lastPrice, currentValue: dto.currentValue, pnl: dto.pnl
+        )
     }
 
     // MARK: - Helpers
