@@ -6,7 +6,9 @@ struct InsightsView: View {
     @Query(filter: #Predicate<CustomTracker> { $0.isArchived == false }, sort: \CustomTracker.sortOrder)
     private var trackers: [CustomTracker]
 
-    private let featuredHealthMetrics: [HealthMetricKind] = [.steps, .sleepHours, .activeEnergy]
+    private let featuredHealthMetrics: [HealthMetricKind] = [
+        .steps, .sleepHours, .heartRateVariability, .restingHeartRate, .activeEnergy
+    ]
 
     var body: some View {
         ScrollView {

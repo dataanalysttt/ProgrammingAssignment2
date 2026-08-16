@@ -1,12 +1,10 @@
 import Foundation
 import SwiftData
 
-/// The definition of a trackable metric: either one you created yourself in
-/// Settings > Custom Trackers, or one of the small set of "seeded" trackers
-/// (Mood, Energy) that the Today module creates on first launch so the app
-/// isn't empty. Both are the exact same model — there is no special-casing
-/// for built-ins beyond `isSystemSeeded`, which only affects whether the
-/// delete button is offered.
+/// The definition of a trackable metric you create yourself from Settings >
+/// Custom Trackers. `isSystemSeeded` exists for any tracker the app itself
+/// might create in the future (none currently ship by default) — it just
+/// hides the delete affordance so a built-in can be archived but not deleted.
 ///
 /// Actual logged values live in `TrackerEntry`, one row per day (or week).
 @Model
