@@ -12,7 +12,8 @@ with your own free Apple ID and run it straight to your own iPhone.
 
 ## Requirements
 
-- A Mac with Xcode 15 or newer (Xcode 16 recommended).
+- A Mac with a recent Xcode (Xcode 26+, since the app targets iOS 26 for the
+  on-device Assistant module — see below).
 - [XcodeGen](https://github.com/yonaskolb/XcodeGen) — this repo ships a
   `project.yml` spec instead of a committed `.xcodeproj`, because a
   hand-written project file can't be verified without Xcode, while a
@@ -20,8 +21,10 @@ with your own free Apple ID and run it straight to your own iPhone.
   ```
   brew install xcodegen
   ```
-- An iPhone on iOS 17 or later, and a free (or paid) Apple ID signed into
-  Xcode.
+- An iPhone on iOS 26 or later, and a free (or paid) Apple ID signed into
+  Xcode. For the Assistant module specifically, the phone also needs to
+  support Apple Intelligence (iPhone 15 Pro/Pro Max or newer) with it turned
+  on in Settings — every other module works regardless.
 
 ## First-time setup
 
@@ -107,10 +110,30 @@ If you ever want to add a second broker, implement `BrokerAdapter`
 (`Core/Integrations/Zerodha/BrokerAdapter.swift`) with a new type — nothing
 in `Modules/Investments` needs to know or care which adapter it's using.
 
+## The Assistant module
+
+A chat tab that answers questions about your own data — "how's my sleep been
+this week," "what are my active goals" — using Apple's on-device Foundation
+Models framework (part of Apple Intelligence). It runs the model entirely on
+your phone; no network request is ever made, same as everything else in this
+app.
+
+Each time you open the tab (or tap the refresh button), `AssistantContextBuilder`
+(`Core/Assistant/AssistantContextBuilder.swift`) builds a plain-text summary
+of your recent trackers, goals, food, investments, and Whoop-sourced health
+metrics, and that summary — nothing else — is handed to the model as its only
+source of truth, with instructions not to answer from outside knowledge. It
+won't see anything you logged after the conversation started until you tap
+refresh.
+
+If Apple Intelligence isn't available or enabled on your phone, the tab
+explains why instead of crashing — check **Settings → Apple Intelligence &
+Siri** on the device itself if it says it's off.
+
 ## How the module system works
 
 Every optional feature — Goals, Insights, Custom Trackers, Calendar, Health,
-Food, Investments — is a **module**: a `ModuleID` case, a `ModuleDescriptor`
+Food, Investments, Assistant — is a **module**: a `ModuleID` case, a `ModuleDescriptor`
 in the registry, and a folder under `Modules/`. Settings → Modules toggles
 them on and off via `ModuleSettingsStore`; every screen that shows
 module-specific content checks
@@ -157,6 +180,7 @@ LifeTracker/
   LifeTracker/
     App/                    Entry point, tab bar, Face ID/passcode lock
     Core/
+      Assistant/              On-device context builder + Foundation Models session wrapper
       Data/                 SwiftData models, schema, export/import
       DesignSystem/          Shared visual building blocks
       Modules/               Module registry + on/off settings
@@ -188,9 +212,11 @@ and tracker-linked cases), and the export → import round trip.
 
 ## Known rough edges to expect on first run
 
-- **App icon**: `Assets.xcassets/AppIcon.appiconset` ships without an actual
-  1024×1024 image — Xcode will still build and run it to your device, just
-  with a blank icon slot. Drop a PNG in when you feel like it.
+- **Foundation Models is a very new API.** The Assistant module was written
+  against Apple's iOS 26 framework without access to a Mac to compile-check
+  it, so it's the single most likely spot to throw a build error on first
+  run — if it does, the fix is almost always a small signature mismatch in
+  `AssistantService.swift`, not a design problem.
 - **HealthKit/Calendar data isn't cached** — every screen queries live, on
   purpose, so this app never holds a stale copy of your health record. This
   means Insights can take a beat to load on a slow connection to Health;

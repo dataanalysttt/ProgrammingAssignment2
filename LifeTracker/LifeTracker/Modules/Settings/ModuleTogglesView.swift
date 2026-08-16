@@ -51,7 +51,7 @@ struct ModuleTogglesView: View {
             NavigationLink("View Food Log") { FoodLogView() }
         case .investments:
             NavigationLink("View Investments") { InvestmentsView() }
-        case .goals, .insights:
+        case .goals, .insights, .assistant:
             EmptyView()
         }
     }

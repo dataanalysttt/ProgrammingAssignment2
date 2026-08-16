@@ -57,6 +57,13 @@ enum ModuleRegistry {
             summary: "Zerodha Kite Connect holdings, positions, and funds. Off by default.",
             systemImage: "indianrupeesign.circle",
             defaultEnabled: false
+        ),
+        ModuleDescriptor(
+            id: .assistant,
+            name: "Assistant",
+            summary: "Ask questions about your own data, answered entirely on-device.",
+            systemImage: "bubble.left.and.bubble.right.fill",
+            defaultEnabled: true
         )
     ]
 

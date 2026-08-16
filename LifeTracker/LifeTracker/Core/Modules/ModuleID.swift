@@ -11,6 +11,7 @@ enum ModuleID: String, CaseIterable, Codable, Identifiable, Hashable {
     case food
     case investments
     case customTrackers
+    case assistant
 
     var id: String { rawValue }
 }
