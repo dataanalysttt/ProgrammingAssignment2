@@ -1,0 +1,210 @@
+{
+  "id": "level-3",
+  "n": 3,
+  "title": "Market Data & Visualisation",
+  "short": "Market data",
+  "summary": "Returns, volatility, rolling stats, forward curves, contango/backwardation, spreads and charts.",
+  "phase": 2,
+  "status": "planned",
+  "modules": [
+    {
+      "id": "l3-m1",
+      "title": "Returns",
+      "lessons": [
+        {
+          "id": "l3-m1-l1",
+          "title": "Simple vs log returns",
+          "objectives": [
+            "Compute both on LME cash",
+            "When each is appropriate"
+          ]
+        },
+        {
+          "id": "l3-m1-l2",
+          "title": "Cumulative performance",
+          "objectives": [
+            "Index series to 100",
+            "Compounding vs summing"
+          ]
+        },
+        {
+          "id": "l3-m1-l3",
+          "title": "Return distributions",
+          "objectives": [
+            "Histograms and fat tails",
+            "Skew and kurtosis on metals"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l3-m1-boss",
+        "title": "Boss battle: Returns"
+      }
+    },
+    {
+      "id": "l3-m2",
+      "title": "Volatility",
+      "lessons": [
+        {
+          "id": "l3-m2-l1",
+          "title": "Historical volatility",
+          "objectives": [
+            "Annualise daily vol",
+            "sqrt(252) and why"
+          ]
+        },
+        {
+          "id": "l3-m2-l2",
+          "title": "Rolling windows",
+          "objectives": [
+            "20d/60d rolling vol",
+            "Window choice trade-offs"
+          ]
+        },
+        {
+          "id": "l3-m2-l3",
+          "title": "EWMA volatility",
+          "objectives": [
+            "RiskMetrics lambda=0.94",
+            "Reactivity vs noise"
+          ]
+        },
+        {
+          "id": "l3-m2-l4",
+          "title": "Vol regimes",
+          "objectives": [
+            "Classify high/low vol periods",
+            "Regime-aware reporting"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l3-m2-boss",
+        "title": "Boss battle: Volatility"
+      }
+    },
+    {
+      "id": "l3-m3",
+      "title": "Forward curves",
+      "lessons": [
+        {
+          "id": "l3-m3-l1",
+          "title": "Reading a curve",
+          "objectives": [
+            "Plot price vs tenor",
+            "Prompt dates and tenors"
+          ]
+        },
+        {
+          "id": "l3-m3-l2",
+          "title": "Contango and backwardation",
+          "objectives": [
+            "Classify curve shape",
+            "Link to stocks and carry"
+          ]
+        },
+        {
+          "id": "l3-m3-l3",
+          "title": "Curve changes",
+          "objectives": [
+            "Parallel shift vs twist",
+            "Compare two as-of dates"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l3-m3-boss",
+        "title": "Boss battle: Forward curves"
+      }
+    },
+    {
+      "id": "l3-m4",
+      "title": "Spreads",
+      "lessons": [
+        {
+          "id": "l3-m4-l1",
+          "title": "Cash-3M spread",
+          "objectives": [
+            "Compute and chart the spread",
+            "Squeezes and tightness"
+          ]
+        },
+        {
+          "id": "l3-m4-l2",
+          "title": "Regional premiums",
+          "objectives": [
+            "Rotterdam vs SE Asia premium proxies",
+            "What drives premium gaps"
+          ]
+        },
+        {
+          "id": "l3-m4-l3",
+          "title": "Inter-metal ratios",
+          "objectives": [
+            "Copper/zinc ratio",
+            "Relative value framing"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l3-m4-boss",
+        "title": "Boss battle: Spreads"
+      }
+    },
+    {
+      "id": "l3-m5",
+      "title": "Charts",
+      "lessons": [
+        {
+          "id": "l3-m5-l1",
+          "title": "matplotlib fundamentals",
+          "objectives": [
+            "Line, bar and scatter for desk charts",
+            "Labels, units, sources"
+          ]
+        },
+        {
+          "id": "l3-m5-l2",
+          "title": "Multi-panel figures",
+          "objectives": [
+            "Price + spread + vol stacked",
+            "Shared axes"
+          ]
+        },
+        {
+          "id": "l3-m5-l3",
+          "title": "Interactive charts",
+          "objectives": [
+            "Plotly basics",
+            "When interactivity helps"
+          ]
+        },
+        {
+          "id": "l3-m5-l4",
+          "title": "Chart honesty",
+          "objectives": [
+            "Axes, scales and misleading charts",
+            "A desk-ready chart checklist"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l3-m5-boss",
+        "title": "Boss battle: Charts"
+      }
+    }
+  ],
+  "placement": {
+    "id": "l3-placement",
+    "title": "Level 3 placement test"
+  },
+  "levelBoss": {
+    "id": "l3-boss",
+    "title": "Level 3 boss battle"
+  },
+  "project": {
+    "id": "l3-project",
+    "title": "Base Metals Market Dashboard",
+    "pitch": "Curve shape, cash-3M and regional spreads, and the volatility regime in one page."
+  }
+}

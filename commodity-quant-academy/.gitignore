@@ -1,0 +1,5 @@
+.phone-token
+progress-sync/
+vendor/pyodide/
+__pycache__/
+.pytest_cache/

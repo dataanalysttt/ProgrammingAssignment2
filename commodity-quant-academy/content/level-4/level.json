@@ -1,0 +1,190 @@
+{
+  "id": "level-4",
+  "n": 4,
+  "title": "Physical Commodity Economics",
+  "short": "Physical",
+  "summary": "Landed cost and netback by Incoterm, freight, insurance, financing, regional arbitrage and FX on physical trades.",
+  "phase": 3,
+  "status": "planned",
+  "modules": [
+    {
+      "id": "l4-m1",
+      "title": "Incoterms as cash flows",
+      "lessons": [
+        {
+          "id": "l4-m1-l1",
+          "title": "Who pays what",
+          "objectives": [
+            "Map FCA/FOB/CFR/CIF/DAP/DDP to cost lines",
+            "Risk transfer vs cost transfer"
+          ]
+        },
+        {
+          "id": "l4-m1-l2",
+          "title": "Landed cost",
+          "objectives": [
+            "Build landed cost from FOB",
+            "Duties and port charges"
+          ]
+        },
+        {
+          "id": "l4-m1-l3",
+          "title": "Netback",
+          "objectives": [
+            "Work back from delivered price to FCA",
+            "Netback by destination"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l4-m1-boss",
+        "title": "Boss battle: Incoterms as cash flows"
+      }
+    },
+    {
+      "id": "l4-m2",
+      "title": "Freight and insurance",
+      "lessons": [
+        {
+          "id": "l4-m2-l1",
+          "title": "Container economics",
+          "objectives": [
+            "USD/t from per-container rates",
+            "Payload and lot sizes"
+          ]
+        },
+        {
+          "id": "l4-m2-l2",
+          "title": "Dry bulk and coal",
+          "objectives": [
+            "Richards Bay to India CFR build-up",
+            "Demurrage basics"
+          ]
+        },
+        {
+          "id": "l4-m2-l3",
+          "title": "Cargo insurance",
+          "objectives": [
+            "Premium on CIF value + 10%",
+            "When the seller insures"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l4-m2-boss",
+        "title": "Boss battle: Freight and insurance"
+      }
+    },
+    {
+      "id": "l4-m3",
+      "title": "Financing and carry",
+      "lessons": [
+        {
+          "id": "l4-m3-l1",
+          "title": "Cost of carry",
+          "objectives": [
+            "Interest, storage, insurance",
+            "Carry vs the cash-3M spread"
+          ]
+        },
+        {
+          "id": "l4-m3-l2",
+          "title": "Payment terms",
+          "objectives": [
+            "CAD, LC, open account as financing",
+            "Days sales outstanding cost"
+          ]
+        },
+        {
+          "id": "l4-m3-l3",
+          "title": "Cash-and-carry arbitrage",
+          "objectives": [
+            "When contango pays for storage",
+            "Limits to the trade"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l4-m3-boss",
+        "title": "Boss battle: Financing and carry"
+      }
+    },
+    {
+      "id": "l4-m4",
+      "title": "Arbitrage between regions",
+      "lessons": [
+        {
+          "id": "l4-m4-l1",
+          "title": "Destination choice",
+          "objectives": [
+            "Compare netbacks across regions",
+            "Optionality value"
+          ]
+        },
+        {
+          "id": "l4-m4-l2",
+          "title": "Premium analysis",
+          "objectives": [
+            "Premium vs freight vs demand",
+            "Spotting mispriced regions"
+          ]
+        },
+        {
+          "id": "l4-m4-l3",
+          "title": "Sensitivity tables",
+          "objectives": [
+            "What-if grids on freight and premium",
+            "Breakevens"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l4-m4-boss",
+        "title": "Boss battle: Arbitrage between regions"
+      }
+    },
+    {
+      "id": "l4-m5",
+      "title": "FX on physical trades",
+      "lessons": [
+        {
+          "id": "l4-m5-l1",
+          "title": "Invoice currency exposure",
+          "objectives": [
+            "EUR invoices, USD costs",
+            "Natural vs open exposure"
+          ]
+        },
+        {
+          "id": "l4-m5-l2",
+          "title": "Hedging FX",
+          "objectives": [
+            "Forwards for receivables",
+            "Matching hedge dates to payment terms"
+          ]
+        },
+        {
+          "id": "l4-m5-l3",
+          "title": "INR economics",
+          "objectives": [
+            "Domestic sales and USD/INR",
+            "Import parity pricing"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l4-m5-boss",
+        "title": "Boss battle: FX on physical trades"
+      }
+    }
+  ],
+  "levelBoss": {
+    "id": "l4-boss",
+    "title": "Level 4 boss battle"
+  },
+  "project": {
+    "id": "l4-project",
+    "title": "Arbitrage & Netback Engine",
+    "pitch": "Which destination maximises margin for a given cargo, after freight, finance and FX."
+  }
+}

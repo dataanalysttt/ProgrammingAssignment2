@@ -1,0 +1,2224 @@
+week_ending,route,mode,usd_per_t
+2022-01-07,Nhava Sheva-Rotterdam,container,62.0
+2022-01-14,Nhava Sheva-Rotterdam,container,66.94
+2022-01-21,Nhava Sheva-Rotterdam,container,57.05
+2022-01-28,Nhava Sheva-Rotterdam,container,54.01
+2022-02-04,Nhava Sheva-Rotterdam,container,50.95
+2022-02-11,Nhava Sheva-Rotterdam,container,54.02
+2022-02-18,Nhava Sheva-Rotterdam,container,51.37
+2022-02-25,Nhava Sheva-Rotterdam,container,55.41
+2022-03-04,Nhava Sheva-Rotterdam,container,53.53
+2022-03-11,Nhava Sheva-Rotterdam,container,58.44
+2022-03-18,Nhava Sheva-Rotterdam,container,60.96
+2022-03-25,Nhava Sheva-Rotterdam,container,57.68
+2022-04-01,Nhava Sheva-Rotterdam,container,56.78
+2022-04-08,Nhava Sheva-Rotterdam,container,65.47
+2022-04-15,Nhava Sheva-Rotterdam,container,71.65
+2022-04-22,Nhava Sheva-Rotterdam,container,75.4
+2022-04-29,Nhava Sheva-Rotterdam,container,75.09
+2022-05-06,Nhava Sheva-Rotterdam,container,77.07
+2022-05-13,Nhava Sheva-Rotterdam,container,74.92
+2022-05-20,Nhava Sheva-Rotterdam,container,72.82
+2022-05-27,Nhava Sheva-Rotterdam,container,73.89
+2022-06-03,Nhava Sheva-Rotterdam,container,79.66
+2022-06-10,Nhava Sheva-Rotterdam,container,77.02
+2022-06-17,Nhava Sheva-Rotterdam,container,80.16
+2022-06-24,Nhava Sheva-Rotterdam,container,75.96
+2022-07-01,Nhava Sheva-Rotterdam,container,64.26
+2022-07-08,Nhava Sheva-Rotterdam,container,57.89
+2022-07-15,Nhava Sheva-Rotterdam,container,55.97
+2022-07-22,Nhava Sheva-Rotterdam,container,60.42
+2022-07-29,Nhava Sheva-Rotterdam,container,63.98
+2022-08-05,Nhava Sheva-Rotterdam,container,63.07
+2022-08-12,Nhava Sheva-Rotterdam,container,62.85
+2022-08-19,Nhava Sheva-Rotterdam,container,67.25
+2022-08-26,Nhava Sheva-Rotterdam,container,62.35
+2022-09-02,Nhava Sheva-Rotterdam,container,61.17
+2022-09-09,Nhava Sheva-Rotterdam,container,60.27
+2022-09-16,Nhava Sheva-Rotterdam,container,52.13
+2022-09-23,Nhava Sheva-Rotterdam,container,57.43
+2022-09-30,Nhava Sheva-Rotterdam,container,64.41
+2022-10-07,Nhava Sheva-Rotterdam,container,67.11
+2022-10-14,Nhava Sheva-Rotterdam,container,72.58
+2022-10-21,Nhava Sheva-Rotterdam,container,78.09
+2022-10-28,Nhava Sheva-Rotterdam,container,84.15
+2022-11-04,Nhava Sheva-Rotterdam,container,83.54
+2022-11-11,Nhava Sheva-Rotterdam,container,82.71
+2022-11-18,Nhava Sheva-Rotterdam,container,68.51
+2022-11-25,Nhava Sheva-Rotterdam,container,73.01
+2022-12-02,Nhava Sheva-Rotterdam,container,69.09
+2022-12-09,Nhava Sheva-Rotterdam,container,59.36
+2022-12-16,Nhava Sheva-Rotterdam,container,57.24
+2022-12-23,Nhava Sheva-Rotterdam,container,59.54
+2022-12-30,Nhava Sheva-Rotterdam,container,61.55
+2023-01-06,Nhava Sheva-Rotterdam,container,60.64
+2023-01-13,Nhava Sheva-Rotterdam,container,60.93
+2023-01-20,Nhava Sheva-Rotterdam,container,49.88
+2023-01-27,Nhava Sheva-Rotterdam,container,57.61
+2023-02-03,Nhava Sheva-Rotterdam,container,45.12
+2023-02-10,Nhava Sheva-Rotterdam,container,43.37
+2023-02-17,Nhava Sheva-Rotterdam,container,50.36
+2023-02-24,Nhava Sheva-Rotterdam,container,51.29
+2023-03-03,Nhava Sheva-Rotterdam,container,48.88
+2023-03-10,Nhava Sheva-Rotterdam,container,50.73
+2023-03-17,Nhava Sheva-Rotterdam,container,48.82
+2023-03-24,Nhava Sheva-Rotterdam,container,54.2
+2023-03-31,Nhava Sheva-Rotterdam,container,52.64
+2023-04-07,Nhava Sheva-Rotterdam,container,54.43
+2023-04-14,Nhava Sheva-Rotterdam,container,55.88
+2023-04-21,Nhava Sheva-Rotterdam,container,49.75
+2023-04-28,Nhava Sheva-Rotterdam,container,45.82
+2023-05-05,Nhava Sheva-Rotterdam,container,46.75
+2023-05-12,Nhava Sheva-Rotterdam,container,42.05
+2023-05-19,Nhava Sheva-Rotterdam,container,43.91
+2023-05-26,Nhava Sheva-Rotterdam,container,38.94
+2023-06-02,Nhava Sheva-Rotterdam,container,38.35
+2023-06-09,Nhava Sheva-Rotterdam,container,35.24
+2023-06-16,Nhava Sheva-Rotterdam,container,30.04
+2023-06-23,Nhava Sheva-Rotterdam,container,35.01
+2023-06-30,Nhava Sheva-Rotterdam,container,31.44
+2023-07-07,Nhava Sheva-Rotterdam,container,29.8
+2023-07-14,Nhava Sheva-Rotterdam,container,31.59
+2023-07-21,Nhava Sheva-Rotterdam,container,36.93
+2023-07-28,Nhava Sheva-Rotterdam,container,35.56
+2023-08-04,Nhava Sheva-Rotterdam,container,40.6
+2023-08-11,Nhava Sheva-Rotterdam,container,37.44
+2023-08-18,Nhava Sheva-Rotterdam,container,41.72
+2023-08-25,Nhava Sheva-Rotterdam,container,45.77
+2023-09-01,Nhava Sheva-Rotterdam,container,43.78
+2023-09-08,Nhava Sheva-Rotterdam,container,45.62
+2023-09-15,Nhava Sheva-Rotterdam,container,43.08
+2023-09-22,Nhava Sheva-Rotterdam,container,40.05
+2023-09-29,Nhava Sheva-Rotterdam,container,38.87
+2023-10-06,Nhava Sheva-Rotterdam,container,39.77
+2023-10-13,Nhava Sheva-Rotterdam,container,41.24
+2023-10-20,Nhava Sheva-Rotterdam,container,35.52
+2023-10-27,Nhava Sheva-Rotterdam,container,35.16
+2023-11-03,Nhava Sheva-Rotterdam,container,36.49
+2023-11-10,Nhava Sheva-Rotterdam,container,46.28
+2023-11-17,Nhava Sheva-Rotterdam,container,50.74
+2023-11-24,Nhava Sheva-Rotterdam,container,51.98
+2023-12-01,Nhava Sheva-Rotterdam,container,51.66
+2023-12-08,Nhava Sheva-Rotterdam,container,47.17
+2023-12-15,Nhava Sheva-Rotterdam,container,43.04
+2023-12-22,Nhava Sheva-Rotterdam,container,47.73
+2023-12-29,Nhava Sheva-Rotterdam,container,52.37
+2024-01-05,Nhava Sheva-Rotterdam,container,131.7
+2024-01-12,Nhava Sheva-Rotterdam,container,127.22
+2024-01-19,Nhava Sheva-Rotterdam,container,142.61
+2024-01-26,Nhava Sheva-Rotterdam,container,141.54
+2024-02-02,Nhava Sheva-Rotterdam,container,135.38
+2024-02-09,Nhava Sheva-Rotterdam,container,146.87
+2024-02-16,Nhava Sheva-Rotterdam,container,144.85
+2024-02-23,Nhava Sheva-Rotterdam,container,138.17
+2024-03-01,Nhava Sheva-Rotterdam,container,158.18
+2024-03-08,Nhava Sheva-Rotterdam,container,149.49
+2024-03-15,Nhava Sheva-Rotterdam,container,163.44
+2024-03-22,Nhava Sheva-Rotterdam,container,181.43
+2024-03-29,Nhava Sheva-Rotterdam,container,183.0
+2024-04-05,Nhava Sheva-Rotterdam,container,167.9
+2024-04-12,Nhava Sheva-Rotterdam,container,152.13
+2024-04-19,Nhava Sheva-Rotterdam,container,131.29
+2024-04-26,Nhava Sheva-Rotterdam,container,144.96
+2024-05-03,Nhava Sheva-Rotterdam,container,137.13
+2024-05-10,Nhava Sheva-Rotterdam,container,128.83
+2024-05-17,Nhava Sheva-Rotterdam,container,131.53
+2024-05-24,Nhava Sheva-Rotterdam,container,133.31
+2024-05-31,Nhava Sheva-Rotterdam,container,125.14
+2024-06-07,Nhava Sheva-Rotterdam,container,124.54
+2024-06-14,Nhava Sheva-Rotterdam,container,131.26
+2024-06-21,Nhava Sheva-Rotterdam,container,161.95
+2024-06-28,Nhava Sheva-Rotterdam,container,153.02
+2024-07-05,Nhava Sheva-Rotterdam,container,73.64
+2024-07-12,Nhava Sheva-Rotterdam,container,73.6
+2024-07-19,Nhava Sheva-Rotterdam,container,79.22
+2024-07-26,Nhava Sheva-Rotterdam,container,89.25
+2024-08-02,Nhava Sheva-Rotterdam,container,82.67
+2024-08-09,Nhava Sheva-Rotterdam,container,71.39
+2024-08-16,Nhava Sheva-Rotterdam,container,78.04
+2024-08-23,Nhava Sheva-Rotterdam,container,88.08
+2024-08-30,Nhava Sheva-Rotterdam,container,87.42
+2024-09-06,Nhava Sheva-Rotterdam,container,81.61
+2024-09-13,Nhava Sheva-Rotterdam,container,71.74
+2024-09-20,Nhava Sheva-Rotterdam,container,68.22
+2024-09-27,Nhava Sheva-Rotterdam,container,65.67
+2024-10-04,Nhava Sheva-Rotterdam,container,59.0
+2024-10-11,Nhava Sheva-Rotterdam,container,55.39
+2024-10-18,Nhava Sheva-Rotterdam,container,48.98
+2024-10-25,Nhava Sheva-Rotterdam,container,43.93
+2024-11-01,Nhava Sheva-Rotterdam,container,43.24
+2024-11-08,Nhava Sheva-Rotterdam,container,43.48
+2024-11-15,Nhava Sheva-Rotterdam,container,48.84
+2024-11-22,Nhava Sheva-Rotterdam,container,51.52
+2024-11-29,Nhava Sheva-Rotterdam,container,57.28
+2024-12-06,Nhava Sheva-Rotterdam,container,58.6
+2024-12-13,Nhava Sheva-Rotterdam,container,62.34
+2024-12-20,Nhava Sheva-Rotterdam,container,66.32
+2024-12-27,Nhava Sheva-Rotterdam,container,69.12
+2025-01-03,Nhava Sheva-Rotterdam,container,61.28
+2025-01-10,Nhava Sheva-Rotterdam,container,67.54
+2025-01-17,Nhava Sheva-Rotterdam,container,69.14
+2025-01-24,Nhava Sheva-Rotterdam,container,62.59
+2025-01-31,Nhava Sheva-Rotterdam,container,57.33
+2025-02-07,Nhava Sheva-Rotterdam,container,61.46
+2025-02-14,Nhava Sheva-Rotterdam,container,64.81
+2025-02-21,Nhava Sheva-Rotterdam,container,66.39
+2025-02-28,Nhava Sheva-Rotterdam,container,58.92
+2025-03-07,Nhava Sheva-Rotterdam,container,60.87
+2025-03-14,Nhava Sheva-Rotterdam,container,74.24
+2025-03-21,Nhava Sheva-Rotterdam,container,77.6
+2025-03-28,Nhava Sheva-Rotterdam,container,89.19
+2025-04-04,Nhava Sheva-Rotterdam,container,78.75
+2025-04-11,Nhava Sheva-Rotterdam,container,62.14
+2025-04-18,Nhava Sheva-Rotterdam,container,54.5
+2025-04-25,Nhava Sheva-Rotterdam,container,61.15
+2025-05-02,Nhava Sheva-Rotterdam,container,71.69
+2025-05-09,Nhava Sheva-Rotterdam,container,66.05
+2025-05-16,Nhava Sheva-Rotterdam,container,65.37
+2025-05-23,Nhava Sheva-Rotterdam,container,66.89
+2025-05-30,Nhava Sheva-Rotterdam,container,65.43
+2025-06-06,Nhava Sheva-Rotterdam,container,66.64
+2025-06-13,Nhava Sheva-Rotterdam,container,67.86
+2025-06-20,Nhava Sheva-Rotterdam,container,68.16
+2025-06-27,Nhava Sheva-Rotterdam,container,65.18
+2025-07-04,Nhava Sheva-Rotterdam,container,71.46
+2025-07-11,Nhava Sheva-Rotterdam,container,77.86
+2025-07-18,Nhava Sheva-Rotterdam,container,73.05
+2025-07-25,Nhava Sheva-Rotterdam,container,75.6
+2025-08-01,Nhava Sheva-Rotterdam,container,80.44
+2025-08-08,Nhava Sheva-Rotterdam,container,80.99
+2025-08-15,Nhava Sheva-Rotterdam,container,79.53
+2025-08-22,Nhava Sheva-Rotterdam,container,85.41
+2025-08-29,Nhava Sheva-Rotterdam,container,82.86
+2025-09-05,Nhava Sheva-Rotterdam,container,79.43
+2025-09-12,Nhava Sheva-Rotterdam,container,88.58
+2025-09-19,Nhava Sheva-Rotterdam,container,88.88
+2025-09-26,Nhava Sheva-Rotterdam,container,89.16
+2025-10-03,Nhava Sheva-Rotterdam,container,78.86
+2025-10-10,Nhava Sheva-Rotterdam,container,78.37
+2025-10-17,Nhava Sheva-Rotterdam,container,86.48
+2025-10-24,Nhava Sheva-Rotterdam,container,94.25
+2025-10-31,Nhava Sheva-Rotterdam,container,96.13
+2025-11-07,Nhava Sheva-Rotterdam,container,85.26
+2025-11-14,Nhava Sheva-Rotterdam,container,103.54
+2025-11-21,Nhava Sheva-Rotterdam,container,103.67
+2025-11-28,Nhava Sheva-Rotterdam,container,106.06
+2025-12-05,Nhava Sheva-Rotterdam,container,92.89
+2025-12-12,Nhava Sheva-Rotterdam,container,89.27
+2025-12-19,Nhava Sheva-Rotterdam,container,90.45
+2025-12-26,Nhava Sheva-Rotterdam,container,80.6
+2026-01-02,Nhava Sheva-Rotterdam,container,81.03
+2026-01-09,Nhava Sheva-Rotterdam,container,74.6
+2026-01-16,Nhava Sheva-Rotterdam,container,88.17
+2026-01-23,Nhava Sheva-Rotterdam,container,79.93
+2026-01-30,Nhava Sheva-Rotterdam,container,82.4
+2026-02-06,Nhava Sheva-Rotterdam,container,91.56
+2026-02-13,Nhava Sheva-Rotterdam,container,84.54
+2026-02-20,Nhava Sheva-Rotterdam,container,77.44
+2026-02-27,Nhava Sheva-Rotterdam,container,73.17
+2026-03-06,Nhava Sheva-Rotterdam,container,81.31
+2026-03-13,Nhava Sheva-Rotterdam,container,78.93
+2026-03-20,Nhava Sheva-Rotterdam,container,81.11
+2026-03-27,Nhava Sheva-Rotterdam,container,90.64
+2026-04-03,Nhava Sheva-Rotterdam,container,91.25
+2026-04-10,Nhava Sheva-Rotterdam,container,83.25
+2026-04-17,Nhava Sheva-Rotterdam,container,70.53
+2026-04-24,Nhava Sheva-Rotterdam,container,68.73
+2026-05-01,Nhava Sheva-Rotterdam,container,70.69
+2026-05-08,Nhava Sheva-Rotterdam,container,74.63
+2026-05-15,Nhava Sheva-Rotterdam,container,63.47
+2026-05-22,Nhava Sheva-Rotterdam,container,57.12
+2026-05-29,Nhava Sheva-Rotterdam,container,56.92
+2026-06-05,Nhava Sheva-Rotterdam,container,67.47
+2026-06-12,Nhava Sheva-Rotterdam,container,64.43
+2026-06-19,Nhava Sheva-Rotterdam,container,71.17
+2026-06-26,Nhava Sheva-Rotterdam,container,80.89
+2026-07-03,Nhava Sheva-Rotterdam,container,83.43
+2026-07-10,Nhava Sheva-Rotterdam,container,92.14
+2026-07-17,Nhava Sheva-Rotterdam,container,78.2
+2026-07-24,Nhava Sheva-Rotterdam,container,92.88
+2026-07-31,Nhava Sheva-Rotterdam,container,85.55
+2026-08-07,Nhava Sheva-Rotterdam,container,84.34
+2026-08-14,Nhava Sheva-Rotterdam,container,86.0
+2026-08-21,Nhava Sheva-Rotterdam,container,103.35
+2026-08-28,Nhava Sheva-Rotterdam,container,122.82
+2026-09-04,Nhava Sheva-Rotterdam,container,121.37
+2026-09-11,Nhava Sheva-Rotterdam,container,122.53
+2026-09-18,Nhava Sheva-Rotterdam,container,122.61
+2026-09-25,Nhava Sheva-Rotterdam,container,127.86
+2022-01-07,Nhava Sheva-Antwerp,container,64.0
+2022-01-14,Nhava Sheva-Antwerp,container,64.62
+2022-01-21,Nhava Sheva-Antwerp,container,62.62
+2022-01-28,Nhava Sheva-Antwerp,container,59.12
+2022-02-04,Nhava Sheva-Antwerp,container,58.89
+2022-02-11,Nhava Sheva-Antwerp,container,54.38
+2022-02-18,Nhava Sheva-Antwerp,container,47.8
+2022-02-25,Nhava Sheva-Antwerp,container,45.92
+2022-03-04,Nhava Sheva-Antwerp,container,50.23
+2022-03-11,Nhava Sheva-Antwerp,container,55.31
+2022-03-18,Nhava Sheva-Antwerp,container,61.95
+2022-03-25,Nhava Sheva-Antwerp,container,57.68
+2022-04-01,Nhava Sheva-Antwerp,container,62.09
+2022-04-08,Nhava Sheva-Antwerp,container,64.87
+2022-04-15,Nhava Sheva-Antwerp,container,55.43
+2022-04-22,Nhava Sheva-Antwerp,container,63.12
+2022-04-29,Nhava Sheva-Antwerp,container,64.27
+2022-05-06,Nhava Sheva-Antwerp,container,74.93
+2022-05-13,Nhava Sheva-Antwerp,container,71.89
+2022-05-20,Nhava Sheva-Antwerp,container,71.78
+2022-05-27,Nhava Sheva-Antwerp,container,75.24
+2022-06-03,Nhava Sheva-Antwerp,container,71.53
+2022-06-10,Nhava Sheva-Antwerp,container,63.36
+2022-06-17,Nhava Sheva-Antwerp,container,63.38
+2022-06-24,Nhava Sheva-Antwerp,container,63.33
+2022-07-01,Nhava Sheva-Antwerp,container,75.43
+2022-07-08,Nhava Sheva-Antwerp,container,81.83
+2022-07-15,Nhava Sheva-Antwerp,container,78.84
+2022-07-22,Nhava Sheva-Antwerp,container,67.9
+2022-07-29,Nhava Sheva-Antwerp,container,65.83
+2022-08-05,Nhava Sheva-Antwerp,container,62.0
+2022-08-12,Nhava Sheva-Antwerp,container,54.97
+2022-08-19,Nhava Sheva-Antwerp,container,56.62
+2022-08-26,Nhava Sheva-Antwerp,container,52.18
+2022-09-02,Nhava Sheva-Antwerp,container,48.43
+2022-09-09,Nhava Sheva-Antwerp,container,48.64
+2022-09-16,Nhava Sheva-Antwerp,container,43.13
+2022-09-23,Nhava Sheva-Antwerp,container,46.87
+2022-09-30,Nhava Sheva-Antwerp,container,51.94
+2022-10-07,Nhava Sheva-Antwerp,container,52.38
+2022-10-14,Nhava Sheva-Antwerp,container,59.41
+2022-10-21,Nhava Sheva-Antwerp,container,61.41
+2022-10-28,Nhava Sheva-Antwerp,container,59.5
+2022-11-04,Nhava Sheva-Antwerp,container,57.54
+2022-11-11,Nhava Sheva-Antwerp,container,70.94
+2022-11-18,Nhava Sheva-Antwerp,container,64.2
+2022-11-25,Nhava Sheva-Antwerp,container,54.64
+2022-12-02,Nhava Sheva-Antwerp,container,52.14
+2022-12-09,Nhava Sheva-Antwerp,container,56.57
+2022-12-16,Nhava Sheva-Antwerp,container,54.78
+2022-12-23,Nhava Sheva-Antwerp,container,54.63
+2022-12-30,Nhava Sheva-Antwerp,container,49.8
+2023-01-06,Nhava Sheva-Antwerp,container,46.53
+2023-01-13,Nhava Sheva-Antwerp,container,47.62
+2023-01-20,Nhava Sheva-Antwerp,container,39.26
+2023-01-27,Nhava Sheva-Antwerp,container,33.55
+2023-02-03,Nhava Sheva-Antwerp,container,36.87
+2023-02-10,Nhava Sheva-Antwerp,container,40.41
+2023-02-17,Nhava Sheva-Antwerp,container,42.15
+2023-02-24,Nhava Sheva-Antwerp,container,53.02
+2023-03-03,Nhava Sheva-Antwerp,container,54.22
+2023-03-10,Nhava Sheva-Antwerp,container,57.37
+2023-03-17,Nhava Sheva-Antwerp,container,62.7
+2023-03-24,Nhava Sheva-Antwerp,container,54.26
+2023-03-31,Nhava Sheva-Antwerp,container,53.69
+2023-04-07,Nhava Sheva-Antwerp,container,53.25
+2023-04-14,Nhava Sheva-Antwerp,container,55.33
+2023-04-21,Nhava Sheva-Antwerp,container,49.21
+2023-04-28,Nhava Sheva-Antwerp,container,51.03
+2023-05-05,Nhava Sheva-Antwerp,container,50.95
+2023-05-12,Nhava Sheva-Antwerp,container,55.5
+2023-05-19,Nhava Sheva-Antwerp,container,57.75
+2023-05-26,Nhava Sheva-Antwerp,container,59.59
+2023-06-02,Nhava Sheva-Antwerp,container,78.51
+2023-06-09,Nhava Sheva-Antwerp,container,91.27
+2023-06-16,Nhava Sheva-Antwerp,container,92.19
+2023-06-23,Nhava Sheva-Antwerp,container,97.74
+2023-06-30,Nhava Sheva-Antwerp,container,94.96
+2023-07-07,Nhava Sheva-Antwerp,container,96.86
+2023-07-14,Nhava Sheva-Antwerp,container,91.93
+2023-07-21,Nhava Sheva-Antwerp,container,101.43
+2023-07-28,Nhava Sheva-Antwerp,container,108.05
+2023-08-04,Nhava Sheva-Antwerp,container,92.92
+2023-08-11,Nhava Sheva-Antwerp,container,78.31
+2023-08-18,Nhava Sheva-Antwerp,container,74.89
+2023-08-25,Nhava Sheva-Antwerp,container,79.63
+2023-09-01,Nhava Sheva-Antwerp,container,76.4
+2023-09-08,Nhava Sheva-Antwerp,container,73.95
+2023-09-15,Nhava Sheva-Antwerp,container,70.47
+2023-09-22,Nhava Sheva-Antwerp,container,73.81
+2023-09-29,Nhava Sheva-Antwerp,container,78.0
+2023-10-06,Nhava Sheva-Antwerp,container,69.08
+2023-10-13,Nhava Sheva-Antwerp,container,74.96
+2023-10-20,Nhava Sheva-Antwerp,container,63.22
+2023-10-27,Nhava Sheva-Antwerp,container,72.12
+2023-11-03,Nhava Sheva-Antwerp,container,71.56
+2023-11-10,Nhava Sheva-Antwerp,container,62.75
+2023-11-17,Nhava Sheva-Antwerp,container,71.7
+2023-11-24,Nhava Sheva-Antwerp,container,78.49
+2023-12-01,Nhava Sheva-Antwerp,container,78.03
+2023-12-08,Nhava Sheva-Antwerp,container,82.37
+2023-12-15,Nhava Sheva-Antwerp,container,91.0
+2023-12-22,Nhava Sheva-Antwerp,container,103.35
+2023-12-29,Nhava Sheva-Antwerp,container,106.67
+2024-01-05,Nhava Sheva-Antwerp,container,209.86
+2024-01-12,Nhava Sheva-Antwerp,container,188.38
+2024-01-19,Nhava Sheva-Antwerp,container,179.16
+2024-01-26,Nhava Sheva-Antwerp,container,177.38
+2024-02-02,Nhava Sheva-Antwerp,container,227.49
+2024-02-09,Nhava Sheva-Antwerp,container,199.45
+2024-02-16,Nhava Sheva-Antwerp,container,213.15
+2024-02-23,Nhava Sheva-Antwerp,container,188.59
+2024-03-01,Nhava Sheva-Antwerp,container,164.0
+2024-03-08,Nhava Sheva-Antwerp,container,162.75
+2024-03-15,Nhava Sheva-Antwerp,container,165.17
+2024-03-22,Nhava Sheva-Antwerp,container,166.76
+2024-03-29,Nhava Sheva-Antwerp,container,175.23
+2024-04-05,Nhava Sheva-Antwerp,container,189.29
+2024-04-12,Nhava Sheva-Antwerp,container,154.13
+2024-04-19,Nhava Sheva-Antwerp,container,177.99
+2024-04-26,Nhava Sheva-Antwerp,container,205.79
+2024-05-03,Nhava Sheva-Antwerp,container,207.01
+2024-05-10,Nhava Sheva-Antwerp,container,222.59
+2024-05-17,Nhava Sheva-Antwerp,container,223.6
+2024-05-24,Nhava Sheva-Antwerp,container,202.78
+2024-05-31,Nhava Sheva-Antwerp,container,200.51
+2024-06-07,Nhava Sheva-Antwerp,container,172.02
+2024-06-14,Nhava Sheva-Antwerp,container,189.86
+2024-06-21,Nhava Sheva-Antwerp,container,191.95
+2024-06-28,Nhava Sheva-Antwerp,container,171.51
+2024-07-05,Nhava Sheva-Antwerp,container,78.78
+2024-07-12,Nhava Sheva-Antwerp,container,76.7
+2024-07-19,Nhava Sheva-Antwerp,container,74.99
+2024-07-26,Nhava Sheva-Antwerp,container,70.94
+2024-08-02,Nhava Sheva-Antwerp,container,70.07
+2024-08-09,Nhava Sheva-Antwerp,container,65.13
+2024-08-16,Nhava Sheva-Antwerp,container,57.32
+2024-08-23,Nhava Sheva-Antwerp,container,55.23
+2024-08-30,Nhava Sheva-Antwerp,container,54.63
+2024-09-06,Nhava Sheva-Antwerp,container,52.95
+2024-09-13,Nhava Sheva-Antwerp,container,57.84
+2024-09-20,Nhava Sheva-Antwerp,container,55.8
+2024-09-27,Nhava Sheva-Antwerp,container,60.61
+2024-10-04,Nhava Sheva-Antwerp,container,69.68
+2024-10-11,Nhava Sheva-Antwerp,container,78.45
+2024-10-18,Nhava Sheva-Antwerp,container,71.55
+2024-10-25,Nhava Sheva-Antwerp,container,78.92
+2024-11-01,Nhava Sheva-Antwerp,container,78.96
+2024-11-08,Nhava Sheva-Antwerp,container,90.07
+2024-11-15,Nhava Sheva-Antwerp,container,84.39
+2024-11-22,Nhava Sheva-Antwerp,container,82.12
+2024-11-29,Nhava Sheva-Antwerp,container,74.38
+2024-12-06,Nhava Sheva-Antwerp,container,81.01
+2024-12-13,Nhava Sheva-Antwerp,container,85.83
+2024-12-20,Nhava Sheva-Antwerp,container,94.06
+2024-12-27,Nhava Sheva-Antwerp,container,89.08
+2025-01-03,Nhava Sheva-Antwerp,container,93.15
+2025-01-10,Nhava Sheva-Antwerp,container,107.64
+2025-01-17,Nhava Sheva-Antwerp,container,92.0
+2025-01-24,Nhava Sheva-Antwerp,container,118.29
+2025-01-31,Nhava Sheva-Antwerp,container,115.43
+2025-02-07,Nhava Sheva-Antwerp,container,114.21
+2025-02-14,Nhava Sheva-Antwerp,container,123.11
+2025-02-21,Nhava Sheva-Antwerp,container,141.92
+2025-02-28,Nhava Sheva-Antwerp,container,119.69
+2025-03-07,Nhava Sheva-Antwerp,container,107.3
+2025-03-14,Nhava Sheva-Antwerp,container,99.31
+2025-03-21,Nhava Sheva-Antwerp,container,96.7
+2025-03-28,Nhava Sheva-Antwerp,container,106.55
+2025-04-04,Nhava Sheva-Antwerp,container,131.43
+2025-04-11,Nhava Sheva-Antwerp,container,120.68
+2025-04-18,Nhava Sheva-Antwerp,container,116.86
+2025-04-25,Nhava Sheva-Antwerp,container,110.46
+2025-05-02,Nhava Sheva-Antwerp,container,103.62
+2025-05-09,Nhava Sheva-Antwerp,container,89.47
+2025-05-16,Nhava Sheva-Antwerp,container,80.35
+2025-05-23,Nhava Sheva-Antwerp,container,75.84
+2025-05-30,Nhava Sheva-Antwerp,container,60.18
+2025-06-06,Nhava Sheva-Antwerp,container,68.0
+2025-06-13,Nhava Sheva-Antwerp,container,67.98
+2025-06-20,Nhava Sheva-Antwerp,container,66.52
+2025-06-27,Nhava Sheva-Antwerp,container,68.2
+2025-07-04,Nhava Sheva-Antwerp,container,63.72
+2025-07-11,Nhava Sheva-Antwerp,container,76.09
+2025-07-18,Nhava Sheva-Antwerp,container,74.64
+2025-07-25,Nhava Sheva-Antwerp,container,74.67
+2025-08-01,Nhava Sheva-Antwerp,container,90.88
+2025-08-08,Nhava Sheva-Antwerp,container,68.78
+2025-08-15,Nhava Sheva-Antwerp,container,64.08
+2025-08-22,Nhava Sheva-Antwerp,container,61.34
+2025-08-29,Nhava Sheva-Antwerp,container,54.76
+2025-09-05,Nhava Sheva-Antwerp,container,52.24
+2025-09-12,Nhava Sheva-Antwerp,container,55.28
+2025-09-19,Nhava Sheva-Antwerp,container,56.99
+2025-09-26,Nhava Sheva-Antwerp,container,52.21
+2025-10-03,Nhava Sheva-Antwerp,container,53.0
+2025-10-10,Nhava Sheva-Antwerp,container,57.76
+2025-10-17,Nhava Sheva-Antwerp,container,49.65
+2025-10-24,Nhava Sheva-Antwerp,container,51.75
+2025-10-31,Nhava Sheva-Antwerp,container,52.15
+2025-11-07,Nhava Sheva-Antwerp,container,51.14
+2025-11-14,Nhava Sheva-Antwerp,container,58.54
+2025-11-21,Nhava Sheva-Antwerp,container,58.18
+2025-11-28,Nhava Sheva-Antwerp,container,61.16
+2025-12-05,Nhava Sheva-Antwerp,container,52.44
+2025-12-12,Nhava Sheva-Antwerp,container,54.72
+2025-12-19,Nhava Sheva-Antwerp,container,63.03
+2025-12-26,Nhava Sheva-Antwerp,container,68.32
+2026-01-02,Nhava Sheva-Antwerp,container,84.92
+2026-01-09,Nhava Sheva-Antwerp,container,104.29
+2026-01-16,Nhava Sheva-Antwerp,container,98.68
+2026-01-23,Nhava Sheva-Antwerp,container,94.77
+2026-01-30,Nhava Sheva-Antwerp,container,95.03
+2026-02-06,Nhava Sheva-Antwerp,container,103.26
+2026-02-13,Nhava Sheva-Antwerp,container,103.53
+2026-02-20,Nhava Sheva-Antwerp,container,119.16
+2026-02-27,Nhava Sheva-Antwerp,container,118.39
+2026-03-06,Nhava Sheva-Antwerp,container,111.49
+2026-03-13,Nhava Sheva-Antwerp,container,93.03
+2026-03-20,Nhava Sheva-Antwerp,container,77.47
+2026-03-27,Nhava Sheva-Antwerp,container,85.44
+2026-04-03,Nhava Sheva-Antwerp,container,77.4
+2026-04-10,Nhava Sheva-Antwerp,container,68.47
+2026-04-17,Nhava Sheva-Antwerp,container,73.76
+2026-04-24,Nhava Sheva-Antwerp,container,72.74
+2026-05-01,Nhava Sheva-Antwerp,container,84.04
+2026-05-08,Nhava Sheva-Antwerp,container,69.32
+2026-05-15,Nhava Sheva-Antwerp,container,63.51
+2026-05-22,Nhava Sheva-Antwerp,container,69.33
+2026-05-29,Nhava Sheva-Antwerp,container,71.64
+2026-06-05,Nhava Sheva-Antwerp,container,75.98
+2026-06-12,Nhava Sheva-Antwerp,container,74.17
+2026-06-19,Nhava Sheva-Antwerp,container,71.72
+2026-06-26,Nhava Sheva-Antwerp,container,63.78
+2026-07-03,Nhava Sheva-Antwerp,container,72.91
+2026-07-10,Nhava Sheva-Antwerp,container,77.95
+2026-07-17,Nhava Sheva-Antwerp,container,83.76
+2026-07-24,Nhava Sheva-Antwerp,container,79.13
+2026-07-31,Nhava Sheva-Antwerp,container,73.55
+2026-08-07,Nhava Sheva-Antwerp,container,72.56
+2026-08-14,Nhava Sheva-Antwerp,container,67.01
+2026-08-21,Nhava Sheva-Antwerp,container,75.36
+2026-08-28,Nhava Sheva-Antwerp,container,72.4
+2026-09-04,Nhava Sheva-Antwerp,container,76.42
+2026-09-11,Nhava Sheva-Antwerp,container,71.39
+2026-09-18,Nhava Sheva-Antwerp,container,76.27
+2026-09-25,Nhava Sheva-Antwerp,container,73.37
+2022-01-07,Nhava Sheva-Genoa,container,58.0
+2022-01-14,Nhava Sheva-Genoa,container,57.79
+2022-01-21,Nhava Sheva-Genoa,container,53.06
+2022-01-28,Nhava Sheva-Genoa,container,56.66
+2022-02-04,Nhava Sheva-Genoa,container,59.56
+2022-02-11,Nhava Sheva-Genoa,container,61.25
+2022-02-18,Nhava Sheva-Genoa,container,69.14
+2022-02-25,Nhava Sheva-Genoa,container,61.71
+2022-03-04,Nhava Sheva-Genoa,container,56.86
+2022-03-11,Nhava Sheva-Genoa,container,55.32
+2022-03-18,Nhava Sheva-Genoa,container,61.74
+2022-03-25,Nhava Sheva-Genoa,container,54.51
+2022-04-01,Nhava Sheva-Genoa,container,47.16
+2022-04-08,Nhava Sheva-Genoa,container,48.59
+2022-04-15,Nhava Sheva-Genoa,container,54.42
+2022-04-22,Nhava Sheva-Genoa,container,52.06
+2022-04-29,Nhava Sheva-Genoa,container,55.81
+2022-05-06,Nhava Sheva-Genoa,container,56.25
+2022-05-13,Nhava Sheva-Genoa,container,49.07
+2022-05-20,Nhava Sheva-Genoa,container,51.96
+2022-05-27,Nhava Sheva-Genoa,container,53.75
+2022-06-03,Nhava Sheva-Genoa,container,49.12
+2022-06-10,Nhava Sheva-Genoa,container,47.39
+2022-06-17,Nhava Sheva-Genoa,container,42.21
+2022-06-24,Nhava Sheva-Genoa,container,45.62
+2022-07-01,Nhava Sheva-Genoa,container,46.83
+2022-07-08,Nhava Sheva-Genoa,container,43.1
+2022-07-15,Nhava Sheva-Genoa,container,42.14
+2022-07-22,Nhava Sheva-Genoa,container,42.71
+2022-07-29,Nhava Sheva-Genoa,container,49.31
+2022-08-05,Nhava Sheva-Genoa,container,44.84
+2022-08-12,Nhava Sheva-Genoa,container,49.99
+2022-08-19,Nhava Sheva-Genoa,container,45.7
+2022-08-26,Nhava Sheva-Genoa,container,50.75
+2022-09-02,Nhava Sheva-Genoa,container,46.01
+2022-09-09,Nhava Sheva-Genoa,container,44.91
+2022-09-16,Nhava Sheva-Genoa,container,43.33
+2022-09-23,Nhava Sheva-Genoa,container,42.26
+2022-09-30,Nhava Sheva-Genoa,container,45.14
+2022-10-07,Nhava Sheva-Genoa,container,47.69
+2022-10-14,Nhava Sheva-Genoa,container,45.73
+2022-10-21,Nhava Sheva-Genoa,container,45.64
+2022-10-28,Nhava Sheva-Genoa,container,49.58
+2022-11-04,Nhava Sheva-Genoa,container,52.27
+2022-11-11,Nhava Sheva-Genoa,container,52.54
+2022-11-18,Nhava Sheva-Genoa,container,58.5
+2022-11-25,Nhava Sheva-Genoa,container,67.54
+2022-12-02,Nhava Sheva-Genoa,container,60.67
+2022-12-09,Nhava Sheva-Genoa,container,57.61
+2022-12-16,Nhava Sheva-Genoa,container,58.34
+2022-12-23,Nhava Sheva-Genoa,container,62.0
+2022-12-30,Nhava Sheva-Genoa,container,61.81
+2023-01-06,Nhava Sheva-Genoa,container,71.61
+2023-01-13,Nhava Sheva-Genoa,container,77.19
+2023-01-20,Nhava Sheva-Genoa,container,81.06
+2023-01-27,Nhava Sheva-Genoa,container,79.74
+2023-02-03,Nhava Sheva-Genoa,container,88.4
+2023-02-10,Nhava Sheva-Genoa,container,90.07
+2023-02-17,Nhava Sheva-Genoa,container,101.16
+2023-02-24,Nhava Sheva-Genoa,container,99.8
+2023-03-03,Nhava Sheva-Genoa,container,96.39
+2023-03-10,Nhava Sheva-Genoa,container,96.85
+2023-03-17,Nhava Sheva-Genoa,container,94.99
+2023-03-24,Nhava Sheva-Genoa,container,87.44
+2023-03-31,Nhava Sheva-Genoa,container,92.97
+2023-04-07,Nhava Sheva-Genoa,container,94.32
+2023-04-14,Nhava Sheva-Genoa,container,102.35
+2023-04-21,Nhava Sheva-Genoa,container,97.16
+2023-04-28,Nhava Sheva-Genoa,container,83.13
+2023-05-05,Nhava Sheva-Genoa,container,86.79
+2023-05-12,Nhava Sheva-Genoa,container,74.31
+2023-05-19,Nhava Sheva-Genoa,container,63.63
+2023-05-26,Nhava Sheva-Genoa,container,61.52
+2023-06-02,Nhava Sheva-Genoa,container,58.49
+2023-06-09,Nhava Sheva-Genoa,container,58.28
+2023-06-16,Nhava Sheva-Genoa,container,60.76
+2023-06-23,Nhava Sheva-Genoa,container,54.18
+2023-06-30,Nhava Sheva-Genoa,container,50.19
+2023-07-07,Nhava Sheva-Genoa,container,46.14
+2023-07-14,Nhava Sheva-Genoa,container,45.54
+2023-07-21,Nhava Sheva-Genoa,container,50.17
+2023-07-28,Nhava Sheva-Genoa,container,56.67
+2023-08-04,Nhava Sheva-Genoa,container,66.66
+2023-08-11,Nhava Sheva-Genoa,container,68.11
+2023-08-18,Nhava Sheva-Genoa,container,69.16
+2023-08-25,Nhava Sheva-Genoa,container,72.68
+2023-09-01,Nhava Sheva-Genoa,container,66.97
+2023-09-08,Nhava Sheva-Genoa,container,69.96
+2023-09-15,Nhava Sheva-Genoa,container,83.3
+2023-09-22,Nhava Sheva-Genoa,container,86.79
+2023-09-29,Nhava Sheva-Genoa,container,84.15
+2023-10-06,Nhava Sheva-Genoa,container,83.0
+2023-10-13,Nhava Sheva-Genoa,container,84.6
+2023-10-20,Nhava Sheva-Genoa,container,86.6
+2023-10-27,Nhava Sheva-Genoa,container,89.52
+2023-11-03,Nhava Sheva-Genoa,container,76.89
+2023-11-10,Nhava Sheva-Genoa,container,84.53
+2023-11-17,Nhava Sheva-Genoa,container,76.9
+2023-11-24,Nhava Sheva-Genoa,container,103.8
+2023-12-01,Nhava Sheva-Genoa,container,99.61
+2023-12-08,Nhava Sheva-Genoa,container,100.98
+2023-12-15,Nhava Sheva-Genoa,container,104.74
+2023-12-22,Nhava Sheva-Genoa,container,94.21
+2023-12-29,Nhava Sheva-Genoa,container,86.46
+2024-01-05,Nhava Sheva-Genoa,container,172.96
+2024-01-12,Nhava Sheva-Genoa,container,150.36
+2024-01-19,Nhava Sheva-Genoa,container,160.16
+2024-01-26,Nhava Sheva-Genoa,container,158.93
+2024-02-02,Nhava Sheva-Genoa,container,157.44
+2024-02-09,Nhava Sheva-Genoa,container,151.1
+2024-02-16,Nhava Sheva-Genoa,container,166.75
+2024-02-23,Nhava Sheva-Genoa,container,186.07
+2024-03-01,Nhava Sheva-Genoa,container,194.95
+2024-03-08,Nhava Sheva-Genoa,container,170.49
+2024-03-15,Nhava Sheva-Genoa,container,186.73
+2024-03-22,Nhava Sheva-Genoa,container,154.0
+2024-03-29,Nhava Sheva-Genoa,container,130.06
+2024-04-05,Nhava Sheva-Genoa,container,134.53
+2024-04-12,Nhava Sheva-Genoa,container,116.28
+2024-04-19,Nhava Sheva-Genoa,container,116.6
+2024-04-26,Nhava Sheva-Genoa,container,116.6
+2024-05-03,Nhava Sheva-Genoa,container,126.33
+2024-05-10,Nhava Sheva-Genoa,container,112.42
+2024-05-17,Nhava Sheva-Genoa,container,116.2
+2024-05-24,Nhava Sheva-Genoa,container,130.11
+2024-05-31,Nhava Sheva-Genoa,container,127.01
+2024-06-07,Nhava Sheva-Genoa,container,137.43
+2024-06-14,Nhava Sheva-Genoa,container,121.44
+2024-06-21,Nhava Sheva-Genoa,container,119.68
+2024-06-28,Nhava Sheva-Genoa,container,144.56
+2024-07-05,Nhava Sheva-Genoa,container,72.71
+2024-07-12,Nhava Sheva-Genoa,container,82.09
+2024-07-19,Nhava Sheva-Genoa,container,83.36
+2024-07-26,Nhava Sheva-Genoa,container,80.44
+2024-08-02,Nhava Sheva-Genoa,container,78.29
+2024-08-09,Nhava Sheva-Genoa,container,71.82
+2024-08-16,Nhava Sheva-Genoa,container,57.95
+2024-08-23,Nhava Sheva-Genoa,container,58.56
+2024-08-30,Nhava Sheva-Genoa,container,57.12
+2024-09-06,Nhava Sheva-Genoa,container,55.9
+2024-09-13,Nhava Sheva-Genoa,container,56.76
+2024-09-20,Nhava Sheva-Genoa,container,63.22
+2024-09-27,Nhava Sheva-Genoa,container,67.43
+2024-10-04,Nhava Sheva-Genoa,container,59.79
+2024-10-11,Nhava Sheva-Genoa,container,62.44
+2024-10-18,Nhava Sheva-Genoa,container,53.38
+2024-10-25,Nhava Sheva-Genoa,container,45.83
+2024-11-01,Nhava Sheva-Genoa,container,41.41
+2024-11-08,Nhava Sheva-Genoa,container,46.05
+2024-11-15,Nhava Sheva-Genoa,container,44.27
+2024-11-22,Nhava Sheva-Genoa,container,44.71
+2024-11-29,Nhava Sheva-Genoa,container,47.45
+2024-12-06,Nhava Sheva-Genoa,container,52.0
+2024-12-13,Nhava Sheva-Genoa,container,59.75
+2024-12-20,Nhava Sheva-Genoa,container,56.38
+2024-12-27,Nhava Sheva-Genoa,container,59.11
+2025-01-03,Nhava Sheva-Genoa,container,54.7
+2025-01-10,Nhava Sheva-Genoa,container,52.61
+2025-01-17,Nhava Sheva-Genoa,container,54.6
+2025-01-24,Nhava Sheva-Genoa,container,54.68
+2025-01-31,Nhava Sheva-Genoa,container,50.82
+2025-02-07,Nhava Sheva-Genoa,container,49.22
+2025-02-14,Nhava Sheva-Genoa,container,59.92
+2025-02-21,Nhava Sheva-Genoa,container,62.74
+2025-02-28,Nhava Sheva-Genoa,container,70.29
+2025-03-07,Nhava Sheva-Genoa,container,77.62
+2025-03-14,Nhava Sheva-Genoa,container,83.24
+2025-03-21,Nhava Sheva-Genoa,container,72.09
+2025-03-28,Nhava Sheva-Genoa,container,65.63
+2025-04-04,Nhava Sheva-Genoa,container,65.82
+2025-04-11,Nhava Sheva-Genoa,container,73.72
+2025-04-18,Nhava Sheva-Genoa,container,79.27
+2025-04-25,Nhava Sheva-Genoa,container,80.31
+2025-05-02,Nhava Sheva-Genoa,container,87.66
+2025-05-09,Nhava Sheva-Genoa,container,87.92
+2025-05-16,Nhava Sheva-Genoa,container,96.15
+2025-05-23,Nhava Sheva-Genoa,container,91.18
+2025-05-30,Nhava Sheva-Genoa,container,79.86
+2025-06-06,Nhava Sheva-Genoa,container,68.54
+2025-06-13,Nhava Sheva-Genoa,container,60.27
+2025-06-20,Nhava Sheva-Genoa,container,57.07
+2025-06-27,Nhava Sheva-Genoa,container,54.57
+2025-07-04,Nhava Sheva-Genoa,container,57.88
+2025-07-11,Nhava Sheva-Genoa,container,49.77
+2025-07-18,Nhava Sheva-Genoa,container,48.17
+2025-07-25,Nhava Sheva-Genoa,container,46.01
+2025-08-01,Nhava Sheva-Genoa,container,41.1
+2025-08-08,Nhava Sheva-Genoa,container,38.46
+2025-08-15,Nhava Sheva-Genoa,container,39.06
+2025-08-22,Nhava Sheva-Genoa,container,38.14
+2025-08-29,Nhava Sheva-Genoa,container,45.56
+2025-09-05,Nhava Sheva-Genoa,container,51.69
+2025-09-12,Nhava Sheva-Genoa,container,53.59
+2025-09-19,Nhava Sheva-Genoa,container,60.29
+2025-09-26,Nhava Sheva-Genoa,container,56.74
+2025-10-03,Nhava Sheva-Genoa,container,56.86
+2025-10-10,Nhava Sheva-Genoa,container,62.03
+2025-10-17,Nhava Sheva-Genoa,container,62.23
+2025-10-24,Nhava Sheva-Genoa,container,70.8
+2025-10-31,Nhava Sheva-Genoa,container,74.7
+2025-11-07,Nhava Sheva-Genoa,container,62.49
+2025-11-14,Nhava Sheva-Genoa,container,65.36
+2025-11-21,Nhava Sheva-Genoa,container,60.51
+2025-11-28,Nhava Sheva-Genoa,container,56.73
+2025-12-05,Nhava Sheva-Genoa,container,58.91
+2025-12-12,Nhava Sheva-Genoa,container,70.87
+2025-12-19,Nhava Sheva-Genoa,container,87.98
+2025-12-26,Nhava Sheva-Genoa,container,82.63
+2026-01-02,Nhava Sheva-Genoa,container,78.15
+2026-01-09,Nhava Sheva-Genoa,container,68.71
+2026-01-16,Nhava Sheva-Genoa,container,61.09
+2026-01-23,Nhava Sheva-Genoa,container,59.19
+2026-01-30,Nhava Sheva-Genoa,container,63.01
+2026-02-06,Nhava Sheva-Genoa,container,60.97
+2026-02-13,Nhava Sheva-Genoa,container,67.62
+2026-02-20,Nhava Sheva-Genoa,container,68.51
+2026-02-27,Nhava Sheva-Genoa,container,74.37
+2026-03-06,Nhava Sheva-Genoa,container,68.49
+2026-03-13,Nhava Sheva-Genoa,container,63.28
+2026-03-20,Nhava Sheva-Genoa,container,58.45
+2026-03-27,Nhava Sheva-Genoa,container,63.23
+2026-04-03,Nhava Sheva-Genoa,container,65.08
+2026-04-10,Nhava Sheva-Genoa,container,53.27
+2026-04-17,Nhava Sheva-Genoa,container,51.78
+2026-04-24,Nhava Sheva-Genoa,container,53.08
+2026-05-01,Nhava Sheva-Genoa,container,57.73
+2026-05-08,Nhava Sheva-Genoa,container,52.79
+2026-05-15,Nhava Sheva-Genoa,container,56.27
+2026-05-22,Nhava Sheva-Genoa,container,57.1
+2026-05-29,Nhava Sheva-Genoa,container,59.3
+2026-06-05,Nhava Sheva-Genoa,container,53.85
+2026-06-12,Nhava Sheva-Genoa,container,51.93
+2026-06-19,Nhava Sheva-Genoa,container,51.88
+2026-06-26,Nhava Sheva-Genoa,container,54.45
+2026-07-03,Nhava Sheva-Genoa,container,63.24
+2026-07-10,Nhava Sheva-Genoa,container,64.63
+2026-07-17,Nhava Sheva-Genoa,container,68.27
+2026-07-24,Nhava Sheva-Genoa,container,65.21
+2026-07-31,Nhava Sheva-Genoa,container,64.39
+2026-08-07,Nhava Sheva-Genoa,container,63.71
+2026-08-14,Nhava Sheva-Genoa,container,67.69
+2026-08-21,Nhava Sheva-Genoa,container,64.61
+2026-08-28,Nhava Sheva-Genoa,container,57.87
+2026-09-04,Nhava Sheva-Genoa,container,57.69
+2026-09-11,Nhava Sheva-Genoa,container,55.34
+2026-09-18,Nhava Sheva-Genoa,container,55.19
+2026-09-25,Nhava Sheva-Genoa,container,58.87
+2022-01-07,Nhava Sheva-Jebel Ali,container,22.0
+2022-01-14,Nhava Sheva-Jebel Ali,container,20.37
+2022-01-21,Nhava Sheva-Jebel Ali,container,19.31
+2022-01-28,Nhava Sheva-Jebel Ali,container,18.82
+2022-02-04,Nhava Sheva-Jebel Ali,container,20.73
+2022-02-11,Nhava Sheva-Jebel Ali,container,20.39
+2022-02-18,Nhava Sheva-Jebel Ali,container,20.24
+2022-02-25,Nhava Sheva-Jebel Ali,container,20.41
+2022-03-04,Nhava Sheva-Jebel Ali,container,22.75
+2022-03-11,Nhava Sheva-Jebel Ali,container,22.18
+2022-03-18,Nhava Sheva-Jebel Ali,container,24.88
+2022-03-25,Nhava Sheva-Jebel Ali,container,25.27
+2022-04-01,Nhava Sheva-Jebel Ali,container,24.21
+2022-04-08,Nhava Sheva-Jebel Ali,container,23.84
+2022-04-15,Nhava Sheva-Jebel Ali,container,23.34
+2022-04-22,Nhava Sheva-Jebel Ali,container,22.13
+2022-04-29,Nhava Sheva-Jebel Ali,container,20.31
+2022-05-06,Nhava Sheva-Jebel Ali,container,19.57
+2022-05-13,Nhava Sheva-Jebel Ali,container,19.3
+2022-05-20,Nhava Sheva-Jebel Ali,container,21.9
+2022-05-27,Nhava Sheva-Jebel Ali,container,24.08
+2022-06-03,Nhava Sheva-Jebel Ali,container,24.35
+2022-06-10,Nhava Sheva-Jebel Ali,container,24.74
+2022-06-17,Nhava Sheva-Jebel Ali,container,23.89
+2022-06-24,Nhava Sheva-Jebel Ali,container,25.26
+2022-07-01,Nhava Sheva-Jebel Ali,container,26.66
+2022-07-08,Nhava Sheva-Jebel Ali,container,26.76
+2022-07-15,Nhava Sheva-Jebel Ali,container,24.94
+2022-07-22,Nhava Sheva-Jebel Ali,container,25.39
+2022-07-29,Nhava Sheva-Jebel Ali,container,26.3
+2022-08-05,Nhava Sheva-Jebel Ali,container,23.01
+2022-08-12,Nhava Sheva-Jebel Ali,container,22.43
+2022-08-19,Nhava Sheva-Jebel Ali,container,22.12
+2022-08-26,Nhava Sheva-Jebel Ali,container,22.63
+2022-09-02,Nhava Sheva-Jebel Ali,container,20.95
+2022-09-09,Nhava Sheva-Jebel Ali,container,18.99
+2022-09-16,Nhava Sheva-Jebel Ali,container,19.87
+2022-09-23,Nhava Sheva-Jebel Ali,container,21.2
+2022-09-30,Nhava Sheva-Jebel Ali,container,24.17
+2022-10-07,Nhava Sheva-Jebel Ali,container,24.17
+2022-10-14,Nhava Sheva-Jebel Ali,container,24.03
+2022-10-21,Nhava Sheva-Jebel Ali,container,27.48
+2022-10-28,Nhava Sheva-Jebel Ali,container,26.87
+2022-11-04,Nhava Sheva-Jebel Ali,container,26.77
+2022-11-11,Nhava Sheva-Jebel Ali,container,31.04
+2022-11-18,Nhava Sheva-Jebel Ali,container,28.77
+2022-11-25,Nhava Sheva-Jebel Ali,container,24.48
+2022-12-02,Nhava Sheva-Jebel Ali,container,25.28
+2022-12-09,Nhava Sheva-Jebel Ali,container,23.48
+2022-12-16,Nhava Sheva-Jebel Ali,container,24.58
+2022-12-23,Nhava Sheva-Jebel Ali,container,24.1
+2022-12-30,Nhava Sheva-Jebel Ali,container,24.22
+2023-01-06,Nhava Sheva-Jebel Ali,container,22.64
+2023-01-13,Nhava Sheva-Jebel Ali,container,20.76
+2023-01-20,Nhava Sheva-Jebel Ali,container,20.79
+2023-01-27,Nhava Sheva-Jebel Ali,container,20.09
+2023-02-03,Nhava Sheva-Jebel Ali,container,18.73
+2023-02-10,Nhava Sheva-Jebel Ali,container,18.61
+2023-02-17,Nhava Sheva-Jebel Ali,container,18.47
+2023-02-24,Nhava Sheva-Jebel Ali,container,19.71
+2023-03-03,Nhava Sheva-Jebel Ali,container,21.35
+2023-03-10,Nhava Sheva-Jebel Ali,container,20.89
+2023-03-17,Nhava Sheva-Jebel Ali,container,20.59
+2023-03-24,Nhava Sheva-Jebel Ali,container,19.45
+2023-03-31,Nhava Sheva-Jebel Ali,container,18.26
+2023-04-07,Nhava Sheva-Jebel Ali,container,18.9
+2023-04-14,Nhava Sheva-Jebel Ali,container,19.15
+2023-04-21,Nhava Sheva-Jebel Ali,container,19.7
+2023-04-28,Nhava Sheva-Jebel Ali,container,20.94
+2023-05-05,Nhava Sheva-Jebel Ali,container,22.5
+2023-05-12,Nhava Sheva-Jebel Ali,container,22.38
+2023-05-19,Nhava Sheva-Jebel Ali,container,23.49
+2023-05-26,Nhava Sheva-Jebel Ali,container,21.72
+2023-06-02,Nhava Sheva-Jebel Ali,container,24.63
+2023-06-09,Nhava Sheva-Jebel Ali,container,25.37
+2023-06-16,Nhava Sheva-Jebel Ali,container,22.46
+2023-06-23,Nhava Sheva-Jebel Ali,container,22.2
+2023-06-30,Nhava Sheva-Jebel Ali,container,20.48
+2023-07-07,Nhava Sheva-Jebel Ali,container,20.27
+2023-07-14,Nhava Sheva-Jebel Ali,container,18.8
+2023-07-21,Nhava Sheva-Jebel Ali,container,19.72
+2023-07-28,Nhava Sheva-Jebel Ali,container,19.39
+2023-08-04,Nhava Sheva-Jebel Ali,container,19.35
+2023-08-11,Nhava Sheva-Jebel Ali,container,19.32
+2023-08-18,Nhava Sheva-Jebel Ali,container,19.11
+2023-08-25,Nhava Sheva-Jebel Ali,container,17.74
+2023-09-01,Nhava Sheva-Jebel Ali,container,20.28
+2023-09-08,Nhava Sheva-Jebel Ali,container,18.85
+2023-09-15,Nhava Sheva-Jebel Ali,container,18.77
+2023-09-22,Nhava Sheva-Jebel Ali,container,20.83
+2023-09-29,Nhava Sheva-Jebel Ali,container,19.05
+2023-10-06,Nhava Sheva-Jebel Ali,container,18.84
+2023-10-13,Nhava Sheva-Jebel Ali,container,19.36
+2023-10-20,Nhava Sheva-Jebel Ali,container,19.47
+2023-10-27,Nhava Sheva-Jebel Ali,container,20.32
+2023-11-03,Nhava Sheva-Jebel Ali,container,21.41
+2023-11-10,Nhava Sheva-Jebel Ali,container,22.78
+2023-11-17,Nhava Sheva-Jebel Ali,container,22.2
+2023-11-24,Nhava Sheva-Jebel Ali,container,21.34
+2023-12-01,Nhava Sheva-Jebel Ali,container,23.96
+2023-12-08,Nhava Sheva-Jebel Ali,container,23.64
+2023-12-15,Nhava Sheva-Jebel Ali,container,23.93
+2023-12-22,Nhava Sheva-Jebel Ali,container,26.99
+2023-12-29,Nhava Sheva-Jebel Ali,container,30.14
+2024-01-05,Nhava Sheva-Jebel Ali,container,29.64
+2024-01-12,Nhava Sheva-Jebel Ali,container,27.97
+2024-01-19,Nhava Sheva-Jebel Ali,container,27.1
+2024-01-26,Nhava Sheva-Jebel Ali,container,23.86
+2024-02-02,Nhava Sheva-Jebel Ali,container,25.67
+2024-02-09,Nhava Sheva-Jebel Ali,container,26.33
+2024-02-16,Nhava Sheva-Jebel Ali,container,24.05
+2024-02-23,Nhava Sheva-Jebel Ali,container,22.27
+2024-03-01,Nhava Sheva-Jebel Ali,container,21.88
+2024-03-08,Nhava Sheva-Jebel Ali,container,22.11
+2024-03-15,Nhava Sheva-Jebel Ali,container,23.25
+2024-03-22,Nhava Sheva-Jebel Ali,container,21.98
+2024-03-29,Nhava Sheva-Jebel Ali,container,22.12
+2024-04-05,Nhava Sheva-Jebel Ali,container,22.57
+2024-04-12,Nhava Sheva-Jebel Ali,container,24.23
+2024-04-19,Nhava Sheva-Jebel Ali,container,22.4
+2024-04-26,Nhava Sheva-Jebel Ali,container,22.37
+2024-05-03,Nhava Sheva-Jebel Ali,container,23.76
+2024-05-10,Nhava Sheva-Jebel Ali,container,20.67
+2024-05-17,Nhava Sheva-Jebel Ali,container,20.89
+2024-05-24,Nhava Sheva-Jebel Ali,container,21.43
+2024-05-31,Nhava Sheva-Jebel Ali,container,19.97
+2024-06-07,Nhava Sheva-Jebel Ali,container,19.51
+2024-06-14,Nhava Sheva-Jebel Ali,container,20.13
+2024-06-21,Nhava Sheva-Jebel Ali,container,20.65
+2024-06-28,Nhava Sheva-Jebel Ali,container,18.97
+2024-07-05,Nhava Sheva-Jebel Ali,container,18.91
+2024-07-12,Nhava Sheva-Jebel Ali,container,19.03
+2024-07-19,Nhava Sheva-Jebel Ali,container,18.01
+2024-07-26,Nhava Sheva-Jebel Ali,container,16.93
+2024-08-02,Nhava Sheva-Jebel Ali,container,19.43
+2024-08-09,Nhava Sheva-Jebel Ali,container,19.91
+2024-08-16,Nhava Sheva-Jebel Ali,container,21.45
+2024-08-23,Nhava Sheva-Jebel Ali,container,22.27
+2024-08-30,Nhava Sheva-Jebel Ali,container,25.07
+2024-09-06,Nhava Sheva-Jebel Ali,container,23.29
+2024-09-13,Nhava Sheva-Jebel Ali,container,21.19
+2024-09-20,Nhava Sheva-Jebel Ali,container,21.57
+2024-09-27,Nhava Sheva-Jebel Ali,container,22.04
+2024-10-04,Nhava Sheva-Jebel Ali,container,20.12
+2024-10-11,Nhava Sheva-Jebel Ali,container,17.13
+2024-10-18,Nhava Sheva-Jebel Ali,container,18.07
+2024-10-25,Nhava Sheva-Jebel Ali,container,18.27
+2024-11-01,Nhava Sheva-Jebel Ali,container,18.96
+2024-11-08,Nhava Sheva-Jebel Ali,container,17.49
+2024-11-15,Nhava Sheva-Jebel Ali,container,19.22
+2024-11-22,Nhava Sheva-Jebel Ali,container,20.75
+2024-11-29,Nhava Sheva-Jebel Ali,container,21.86
+2024-12-06,Nhava Sheva-Jebel Ali,container,22.67
+2024-12-13,Nhava Sheva-Jebel Ali,container,23.97
+2024-12-20,Nhava Sheva-Jebel Ali,container,23.35
+2024-12-27,Nhava Sheva-Jebel Ali,container,21.62
+2025-01-03,Nhava Sheva-Jebel Ali,container,19.17
+2025-01-10,Nhava Sheva-Jebel Ali,container,20.01
+2025-01-17,Nhava Sheva-Jebel Ali,container,20.94
+2025-01-24,Nhava Sheva-Jebel Ali,container,22.9
+2025-01-31,Nhava Sheva-Jebel Ali,container,22.8
+2025-02-07,Nhava Sheva-Jebel Ali,container,20.68
+2025-02-14,Nhava Sheva-Jebel Ali,container,22.25
+2025-02-21,Nhava Sheva-Jebel Ali,container,21.26
+2025-02-28,Nhava Sheva-Jebel Ali,container,22.58
+2025-03-07,Nhava Sheva-Jebel Ali,container,22.63
+2025-03-14,Nhava Sheva-Jebel Ali,container,20.64
+2025-03-21,Nhava Sheva-Jebel Ali,container,20.14
+2025-03-28,Nhava Sheva-Jebel Ali,container,22.75
+2025-04-04,Nhava Sheva-Jebel Ali,container,23.11
+2025-04-11,Nhava Sheva-Jebel Ali,container,22.98
+2025-04-18,Nhava Sheva-Jebel Ali,container,24.97
+2025-04-25,Nhava Sheva-Jebel Ali,container,25.32
+2025-05-02,Nhava Sheva-Jebel Ali,container,26.18
+2025-05-09,Nhava Sheva-Jebel Ali,container,24.55
+2025-05-16,Nhava Sheva-Jebel Ali,container,26.52
+2025-05-23,Nhava Sheva-Jebel Ali,container,25.65
+2025-05-30,Nhava Sheva-Jebel Ali,container,23.58
+2025-06-06,Nhava Sheva-Jebel Ali,container,23.38
+2025-06-13,Nhava Sheva-Jebel Ali,container,23.44
+2025-06-20,Nhava Sheva-Jebel Ali,container,23.99
+2025-06-27,Nhava Sheva-Jebel Ali,container,22.56
+2025-07-04,Nhava Sheva-Jebel Ali,container,24.0
+2025-07-11,Nhava Sheva-Jebel Ali,container,22.11
+2025-07-18,Nhava Sheva-Jebel Ali,container,21.97
+2025-07-25,Nhava Sheva-Jebel Ali,container,19.77
+2025-08-01,Nhava Sheva-Jebel Ali,container,20.15
+2025-08-08,Nhava Sheva-Jebel Ali,container,18.97
+2025-08-15,Nhava Sheva-Jebel Ali,container,20.69
+2025-08-22,Nhava Sheva-Jebel Ali,container,19.24
+2025-08-29,Nhava Sheva-Jebel Ali,container,19.64
+2025-09-05,Nhava Sheva-Jebel Ali,container,20.46
+2025-09-12,Nhava Sheva-Jebel Ali,container,21.34
+2025-09-19,Nhava Sheva-Jebel Ali,container,20.38
+2025-09-26,Nhava Sheva-Jebel Ali,container,19.22
+2025-10-03,Nhava Sheva-Jebel Ali,container,19.12
+2025-10-10,Nhava Sheva-Jebel Ali,container,20.96
+2025-10-17,Nhava Sheva-Jebel Ali,container,19.23
+2025-10-24,Nhava Sheva-Jebel Ali,container,20.24
+2025-10-31,Nhava Sheva-Jebel Ali,container,21.81
+2025-11-07,Nhava Sheva-Jebel Ali,container,21.01
+2025-11-14,Nhava Sheva-Jebel Ali,container,23.1
+2025-11-21,Nhava Sheva-Jebel Ali,container,21.31
+2025-11-28,Nhava Sheva-Jebel Ali,container,20.97
+2025-12-05,Nhava Sheva-Jebel Ali,container,21.06
+2025-12-12,Nhava Sheva-Jebel Ali,container,19.83
+2025-12-19,Nhava Sheva-Jebel Ali,container,21.1
+2025-12-26,Nhava Sheva-Jebel Ali,container,21.85
+2026-01-02,Nhava Sheva-Jebel Ali,container,22.3
+2026-01-09,Nhava Sheva-Jebel Ali,container,21.47
+2026-01-16,Nhava Sheva-Jebel Ali,container,20.49
+2026-01-23,Nhava Sheva-Jebel Ali,container,19.91
+2026-01-30,Nhava Sheva-Jebel Ali,container,21.48
+2026-02-06,Nhava Sheva-Jebel Ali,container,20.79
+2026-02-13,Nhava Sheva-Jebel Ali,container,18.66
+2026-02-20,Nhava Sheva-Jebel Ali,container,20.88
+2026-02-27,Nhava Sheva-Jebel Ali,container,21.85
+2026-03-06,Nhava Sheva-Jebel Ali,container,23.85
+2026-03-13,Nhava Sheva-Jebel Ali,container,26.01
+2026-03-20,Nhava Sheva-Jebel Ali,container,22.3
+2026-03-27,Nhava Sheva-Jebel Ali,container,21.51
+2026-04-03,Nhava Sheva-Jebel Ali,container,21.75
+2026-04-10,Nhava Sheva-Jebel Ali,container,21.09
+2026-04-17,Nhava Sheva-Jebel Ali,container,19.57
+2026-04-24,Nhava Sheva-Jebel Ali,container,18.33
+2026-05-01,Nhava Sheva-Jebel Ali,container,16.08
+2026-05-08,Nhava Sheva-Jebel Ali,container,17.19
+2026-05-15,Nhava Sheva-Jebel Ali,container,19.02
+2026-05-22,Nhava Sheva-Jebel Ali,container,20.74
+2026-05-29,Nhava Sheva-Jebel Ali,container,20.02
+2026-06-05,Nhava Sheva-Jebel Ali,container,20.7
+2026-06-12,Nhava Sheva-Jebel Ali,container,22.35
+2026-06-19,Nhava Sheva-Jebel Ali,container,21.89
+2026-06-26,Nhava Sheva-Jebel Ali,container,21.2
+2026-07-03,Nhava Sheva-Jebel Ali,container,21.8
+2026-07-10,Nhava Sheva-Jebel Ali,container,22.17
+2026-07-17,Nhava Sheva-Jebel Ali,container,20.25
+2026-07-24,Nhava Sheva-Jebel Ali,container,19.58
+2026-07-31,Nhava Sheva-Jebel Ali,container,19.98
+2026-08-07,Nhava Sheva-Jebel Ali,container,21.51
+2026-08-14,Nhava Sheva-Jebel Ali,container,19.14
+2026-08-21,Nhava Sheva-Jebel Ali,container,18.59
+2026-08-28,Nhava Sheva-Jebel Ali,container,17.69
+2026-09-04,Nhava Sheva-Jebel Ali,container,16.98
+2026-09-11,Nhava Sheva-Jebel Ali,container,16.38
+2026-09-18,Nhava Sheva-Jebel Ali,container,17.31
+2026-09-25,Nhava Sheva-Jebel Ali,container,17.91
+2022-01-07,Nhava Sheva-Casablanca,container,55.0
+2022-01-14,Nhava Sheva-Casablanca,container,59.3
+2022-01-21,Nhava Sheva-Casablanca,container,54.18
+2022-01-28,Nhava Sheva-Casablanca,container,53.91
+2022-02-04,Nhava Sheva-Casablanca,container,55.97
+2022-02-11,Nhava Sheva-Casablanca,container,53.57
+2022-02-18,Nhava Sheva-Casablanca,container,57.75
+2022-02-25,Nhava Sheva-Casablanca,container,52.83
+2022-03-04,Nhava Sheva-Casablanca,container,49.61
+2022-03-11,Nhava Sheva-Casablanca,container,46.36
+2022-03-18,Nhava Sheva-Casablanca,container,47.7
+2022-03-25,Nhava Sheva-Casablanca,container,49.68
+2022-04-01,Nhava Sheva-Casablanca,container,52.5
+2022-04-08,Nhava Sheva-Casablanca,container,49.55
+2022-04-15,Nhava Sheva-Casablanca,container,54.54
+2022-04-22,Nhava Sheva-Casablanca,container,54.67
+2022-04-29,Nhava Sheva-Casablanca,container,55.93
+2022-05-06,Nhava Sheva-Casablanca,container,57.49
+2022-05-13,Nhava Sheva-Casablanca,container,61.13
+2022-05-20,Nhava Sheva-Casablanca,container,63.11
+2022-05-27,Nhava Sheva-Casablanca,container,56.83
+2022-06-03,Nhava Sheva-Casablanca,container,59.14
+2022-06-10,Nhava Sheva-Casablanca,container,59.46
+2022-06-17,Nhava Sheva-Casablanca,container,68.63
+2022-06-24,Nhava Sheva-Casablanca,container,72.03
+2022-07-01,Nhava Sheva-Casablanca,container,78.2
+2022-07-08,Nhava Sheva-Casablanca,container,74.36
+2022-07-15,Nhava Sheva-Casablanca,container,69.69
+2022-07-22,Nhava Sheva-Casablanca,container,76.49
+2022-07-29,Nhava Sheva-Casablanca,container,70.12
+2022-08-05,Nhava Sheva-Casablanca,container,73.27
+2022-08-12,Nhava Sheva-Casablanca,container,66.14
+2022-08-19,Nhava Sheva-Casablanca,container,67.16
+2022-08-26,Nhava Sheva-Casablanca,container,65.82
+2022-09-02,Nhava Sheva-Casablanca,container,71.25
+2022-09-09,Nhava Sheva-Casablanca,container,79.4
+2022-09-16,Nhava Sheva-Casablanca,container,70.52
+2022-09-23,Nhava Sheva-Casablanca,container,65.05
+2022-09-30,Nhava Sheva-Casablanca,container,69.26
+2022-10-07,Nhava Sheva-Casablanca,container,71.68
+2022-10-14,Nhava Sheva-Casablanca,container,79.97
+2022-10-21,Nhava Sheva-Casablanca,container,89.35
+2022-10-28,Nhava Sheva-Casablanca,container,80.44
+2022-11-04,Nhava Sheva-Casablanca,container,76.91
+2022-11-11,Nhava Sheva-Casablanca,container,70.66
+2022-11-18,Nhava Sheva-Casablanca,container,66.82
+2022-11-25,Nhava Sheva-Casablanca,container,64.29
+2022-12-02,Nhava Sheva-Casablanca,container,66.94
+2022-12-09,Nhava Sheva-Casablanca,container,68.63
+2022-12-16,Nhava Sheva-Casablanca,container,62.35
+2022-12-23,Nhava Sheva-Casablanca,container,70.43
+2022-12-30,Nhava Sheva-Casablanca,container,64.63
+2023-01-06,Nhava Sheva-Casablanca,container,60.51
+2023-01-13,Nhava Sheva-Casablanca,container,59.83
+2023-01-20,Nhava Sheva-Casablanca,container,61.24
+2023-01-27,Nhava Sheva-Casablanca,container,60.29
+2023-02-03,Nhava Sheva-Casablanca,container,61.13
+2023-02-10,Nhava Sheva-Casablanca,container,62.41
+2023-02-17,Nhava Sheva-Casablanca,container,66.79
+2023-02-24,Nhava Sheva-Casablanca,container,60.17
+2023-03-03,Nhava Sheva-Casablanca,container,62.85
+2023-03-10,Nhava Sheva-Casablanca,container,60.89
+2023-03-17,Nhava Sheva-Casablanca,container,60.01
+2023-03-24,Nhava Sheva-Casablanca,container,57.37
+2023-03-31,Nhava Sheva-Casablanca,container,49.99
+2023-04-07,Nhava Sheva-Casablanca,container,49.72
+2023-04-14,Nhava Sheva-Casablanca,container,53.73
+2023-04-21,Nhava Sheva-Casablanca,container,58.66
+2023-04-28,Nhava Sheva-Casablanca,container,60.88
+2023-05-05,Nhava Sheva-Casablanca,container,57.47
+2023-05-12,Nhava Sheva-Casablanca,container,55.9
+2023-05-19,Nhava Sheva-Casablanca,container,49.27
+2023-05-26,Nhava Sheva-Casablanca,container,49.69
+2023-06-02,Nhava Sheva-Casablanca,container,50.66
+2023-06-09,Nhava Sheva-Casablanca,container,54.77
+2023-06-16,Nhava Sheva-Casablanca,container,54.53
+2023-06-23,Nhava Sheva-Casablanca,container,58.49
+2023-06-30,Nhava Sheva-Casablanca,container,64.15
+2023-07-07,Nhava Sheva-Casablanca,container,67.89
+2023-07-14,Nhava Sheva-Casablanca,container,69.62
+2023-07-21,Nhava Sheva-Casablanca,container,68.25
+2023-07-28,Nhava Sheva-Casablanca,container,59.21
+2023-08-04,Nhava Sheva-Casablanca,container,52.27
+2023-08-11,Nhava Sheva-Casablanca,container,44.6
+2023-08-18,Nhava Sheva-Casablanca,container,45.9
+2023-08-25,Nhava Sheva-Casablanca,container,45.38
+2023-09-01,Nhava Sheva-Casablanca,container,50.26
+2023-09-08,Nhava Sheva-Casablanca,container,54.96
+2023-09-15,Nhava Sheva-Casablanca,container,56.19
+2023-09-22,Nhava Sheva-Casablanca,container,50.4
+2023-09-29,Nhava Sheva-Casablanca,container,52.77
+2023-10-06,Nhava Sheva-Casablanca,container,45.37
+2023-10-13,Nhava Sheva-Casablanca,container,43.19
+2023-10-20,Nhava Sheva-Casablanca,container,45.71
+2023-10-27,Nhava Sheva-Casablanca,container,48.87
+2023-11-03,Nhava Sheva-Casablanca,container,52.36
+2023-11-10,Nhava Sheva-Casablanca,container,54.36
+2023-11-17,Nhava Sheva-Casablanca,container,47.49
+2023-11-24,Nhava Sheva-Casablanca,container,45.29
+2023-12-01,Nhava Sheva-Casablanca,container,45.44
+2023-12-08,Nhava Sheva-Casablanca,container,40.44
+2023-12-15,Nhava Sheva-Casablanca,container,41.88
+2023-12-22,Nhava Sheva-Casablanca,container,40.85
+2023-12-29,Nhava Sheva-Casablanca,container,45.51
+2024-01-05,Nhava Sheva-Casablanca,container,94.26
+2024-01-12,Nhava Sheva-Casablanca,container,103.29
+2024-01-19,Nhava Sheva-Casablanca,container,125.69
+2024-01-26,Nhava Sheva-Casablanca,container,123.98
+2024-02-02,Nhava Sheva-Casablanca,container,123.13
+2024-02-09,Nhava Sheva-Casablanca,container,132.94
+2024-02-16,Nhava Sheva-Casablanca,container,119.34
+2024-02-23,Nhava Sheva-Casablanca,container,137.83
+2024-03-01,Nhava Sheva-Casablanca,container,123.17
+2024-03-08,Nhava Sheva-Casablanca,container,117.67
+2024-03-15,Nhava Sheva-Casablanca,container,121.35
+2024-03-22,Nhava Sheva-Casablanca,container,113.85
+2024-03-29,Nhava Sheva-Casablanca,container,119.67
+2024-04-05,Nhava Sheva-Casablanca,container,129.13
+2024-04-12,Nhava Sheva-Casablanca,container,130.16
+2024-04-19,Nhava Sheva-Casablanca,container,136.5
+2024-04-26,Nhava Sheva-Casablanca,container,135.32
+2024-05-03,Nhava Sheva-Casablanca,container,139.94
+2024-05-10,Nhava Sheva-Casablanca,container,123.54
+2024-05-17,Nhava Sheva-Casablanca,container,132.12
+2024-05-24,Nhava Sheva-Casablanca,container,136.68
+2024-05-31,Nhava Sheva-Casablanca,container,125.83
+2024-06-07,Nhava Sheva-Casablanca,container,106.79
+2024-06-14,Nhava Sheva-Casablanca,container,101.24
+2024-06-21,Nhava Sheva-Casablanca,container,107.96
+2024-06-28,Nhava Sheva-Casablanca,container,95.85
+2024-07-05,Nhava Sheva-Casablanca,container,39.53
+2024-07-12,Nhava Sheva-Casablanca,container,39.58
+2024-07-19,Nhava Sheva-Casablanca,container,36.32
+2024-07-26,Nhava Sheva-Casablanca,container,35.66
+2024-08-02,Nhava Sheva-Casablanca,container,35.57
+2024-08-09,Nhava Sheva-Casablanca,container,35.56
+2024-08-16,Nhava Sheva-Casablanca,container,34.47
+2024-08-23,Nhava Sheva-Casablanca,container,36.22
+2024-08-30,Nhava Sheva-Casablanca,container,35.92
+2024-09-06,Nhava Sheva-Casablanca,container,33.9
+2024-09-13,Nhava Sheva-Casablanca,container,32.68
+2024-09-20,Nhava Sheva-Casablanca,container,35.52
+2024-09-27,Nhava Sheva-Casablanca,container,38.83
+2024-10-04,Nhava Sheva-Casablanca,container,38.87
+2024-10-11,Nhava Sheva-Casablanca,container,43.19
+2024-10-18,Nhava Sheva-Casablanca,container,45.95
+2024-10-25,Nhava Sheva-Casablanca,container,47.6
+2024-11-01,Nhava Sheva-Casablanca,container,50.13
+2024-11-08,Nhava Sheva-Casablanca,container,51.97
+2024-11-15,Nhava Sheva-Casablanca,container,54.35
+2024-11-22,Nhava Sheva-Casablanca,container,52.28
+2024-11-29,Nhava Sheva-Casablanca,container,59.9
+2024-12-06,Nhava Sheva-Casablanca,container,50.41
+2024-12-13,Nhava Sheva-Casablanca,container,50.13
+2024-12-20,Nhava Sheva-Casablanca,container,48.96
+2024-12-27,Nhava Sheva-Casablanca,container,48.19
+2025-01-03,Nhava Sheva-Casablanca,container,47.52
+2025-01-10,Nhava Sheva-Casablanca,container,50.11
+2025-01-17,Nhava Sheva-Casablanca,container,50.88
+2025-01-24,Nhava Sheva-Casablanca,container,53.12
+2025-01-31,Nhava Sheva-Casablanca,container,63.31
+2025-02-07,Nhava Sheva-Casablanca,container,66.09
+2025-02-14,Nhava Sheva-Casablanca,container,66.5
+2025-02-21,Nhava Sheva-Casablanca,container,68.07
+2025-02-28,Nhava Sheva-Casablanca,container,67.66
+2025-03-07,Nhava Sheva-Casablanca,container,67.06
+2025-03-14,Nhava Sheva-Casablanca,container,63.12
+2025-03-21,Nhava Sheva-Casablanca,container,63.29
+2025-03-28,Nhava Sheva-Casablanca,container,67.62
+2025-04-04,Nhava Sheva-Casablanca,container,76.14
+2025-04-11,Nhava Sheva-Casablanca,container,72.0
+2025-04-18,Nhava Sheva-Casablanca,container,71.29
+2025-04-25,Nhava Sheva-Casablanca,container,69.23
+2025-05-02,Nhava Sheva-Casablanca,container,64.94
+2025-05-09,Nhava Sheva-Casablanca,container,69.76
+2025-05-16,Nhava Sheva-Casablanca,container,56.46
+2025-05-23,Nhava Sheva-Casablanca,container,54.78
+2025-05-30,Nhava Sheva-Casablanca,container,55.84
+2025-06-06,Nhava Sheva-Casablanca,container,57.43
+2025-06-13,Nhava Sheva-Casablanca,container,53.61
+2025-06-20,Nhava Sheva-Casablanca,container,51.49
+2025-06-27,Nhava Sheva-Casablanca,container,51.65
+2025-07-04,Nhava Sheva-Casablanca,container,52.79
+2025-07-11,Nhava Sheva-Casablanca,container,54.82
+2025-07-18,Nhava Sheva-Casablanca,container,53.41
+2025-07-25,Nhava Sheva-Casablanca,container,60.12
+2025-08-01,Nhava Sheva-Casablanca,container,66.94
+2025-08-08,Nhava Sheva-Casablanca,container,70.37
+2025-08-15,Nhava Sheva-Casablanca,container,60.91
+2025-08-22,Nhava Sheva-Casablanca,container,61.54
+2025-08-29,Nhava Sheva-Casablanca,container,62.9
+2025-09-05,Nhava Sheva-Casablanca,container,66.99
+2025-09-12,Nhava Sheva-Casablanca,container,60.27
+2025-09-19,Nhava Sheva-Casablanca,container,67.03
+2025-09-26,Nhava Sheva-Casablanca,container,65.33
+2025-10-03,Nhava Sheva-Casablanca,container,63.76
+2025-10-10,Nhava Sheva-Casablanca,container,67.88
+2025-10-17,Nhava Sheva-Casablanca,container,66.69
+2025-10-24,Nhava Sheva-Casablanca,container,68.38
+2025-10-31,Nhava Sheva-Casablanca,container,68.75
+2025-11-07,Nhava Sheva-Casablanca,container,68.02
+2025-11-14,Nhava Sheva-Casablanca,container,66.93
+2025-11-21,Nhava Sheva-Casablanca,container,65.54
+2025-11-28,Nhava Sheva-Casablanca,container,59.49
+2025-12-05,Nhava Sheva-Casablanca,container,55.22
+2025-12-12,Nhava Sheva-Casablanca,container,58.25
+2025-12-19,Nhava Sheva-Casablanca,container,53.97
+2025-12-26,Nhava Sheva-Casablanca,container,54.1
+2026-01-02,Nhava Sheva-Casablanca,container,58.42
+2026-01-09,Nhava Sheva-Casablanca,container,53.67
+2026-01-16,Nhava Sheva-Casablanca,container,48.36
+2026-01-23,Nhava Sheva-Casablanca,container,47.51
+2026-01-30,Nhava Sheva-Casablanca,container,48.82
+2026-02-06,Nhava Sheva-Casablanca,container,49.15
+2026-02-13,Nhava Sheva-Casablanca,container,47.54
+2026-02-20,Nhava Sheva-Casablanca,container,42.78
+2026-02-27,Nhava Sheva-Casablanca,container,45.35
+2026-03-06,Nhava Sheva-Casablanca,container,46.77
+2026-03-13,Nhava Sheva-Casablanca,container,45.36
+2026-03-20,Nhava Sheva-Casablanca,container,43.52
+2026-03-27,Nhava Sheva-Casablanca,container,53.69
+2026-04-03,Nhava Sheva-Casablanca,container,55.35
+2026-04-10,Nhava Sheva-Casablanca,container,55.85
+2026-04-17,Nhava Sheva-Casablanca,container,53.5
+2026-04-24,Nhava Sheva-Casablanca,container,65.1
+2026-05-01,Nhava Sheva-Casablanca,container,65.87
+2026-05-08,Nhava Sheva-Casablanca,container,59.95
+2026-05-15,Nhava Sheva-Casablanca,container,63.13
+2026-05-22,Nhava Sheva-Casablanca,container,58.23
+2026-05-29,Nhava Sheva-Casablanca,container,56.9
+2026-06-05,Nhava Sheva-Casablanca,container,62.51
+2026-06-12,Nhava Sheva-Casablanca,container,65.15
+2026-06-19,Nhava Sheva-Casablanca,container,62.5
+2026-06-26,Nhava Sheva-Casablanca,container,68.81
+2026-07-03,Nhava Sheva-Casablanca,container,71.15
+2026-07-10,Nhava Sheva-Casablanca,container,65.4
+2026-07-17,Nhava Sheva-Casablanca,container,58.78
+2026-07-24,Nhava Sheva-Casablanca,container,62.19
+2026-07-31,Nhava Sheva-Casablanca,container,67.75
+2026-08-07,Nhava Sheva-Casablanca,container,70.03
+2026-08-14,Nhava Sheva-Casablanca,container,66.17
+2026-08-21,Nhava Sheva-Casablanca,container,60.84
+2026-08-28,Nhava Sheva-Casablanca,container,54.48
+2026-09-04,Nhava Sheva-Casablanca,container,55.57
+2026-09-11,Nhava Sheva-Casablanca,container,55.85
+2026-09-18,Nhava Sheva-Casablanca,container,52.65
+2026-09-25,Nhava Sheva-Casablanca,container,52.07
+2022-01-07,Chennai-Durban,container,38.0
+2022-01-14,Chennai-Durban,container,39.5
+2022-01-21,Chennai-Durban,container,38.98
+2022-01-28,Chennai-Durban,container,38.15
+2022-02-04,Chennai-Durban,container,39.36
+2022-02-11,Chennai-Durban,container,33.88
+2022-02-18,Chennai-Durban,container,34.68
+2022-02-25,Chennai-Durban,container,34.66
+2022-03-04,Chennai-Durban,container,36.89
+2022-03-11,Chennai-Durban,container,35.35
+2022-03-18,Chennai-Durban,container,34.04
+2022-03-25,Chennai-Durban,container,30.63
+2022-04-01,Chennai-Durban,container,31.21
+2022-04-08,Chennai-Durban,container,30.32
+2022-04-15,Chennai-Durban,container,30.24
+2022-04-22,Chennai-Durban,container,36.48
+2022-04-29,Chennai-Durban,container,38.23
+2022-05-06,Chennai-Durban,container,36.91
+2022-05-13,Chennai-Durban,container,35.27
+2022-05-20,Chennai-Durban,container,36.82
+2022-05-27,Chennai-Durban,container,41.03
+2022-06-03,Chennai-Durban,container,45.33
+2022-06-10,Chennai-Durban,container,39.9
+2022-06-17,Chennai-Durban,container,37.88
+2022-06-24,Chennai-Durban,container,35.38
+2022-07-01,Chennai-Durban,container,33.66
+2022-07-08,Chennai-Durban,container,33.02
+2022-07-15,Chennai-Durban,container,36.87
+2022-07-22,Chennai-Durban,container,38.99
+2022-07-29,Chennai-Durban,container,41.08
+2022-08-05,Chennai-Durban,container,39.17
+2022-08-12,Chennai-Durban,container,42.02
+2022-08-19,Chennai-Durban,container,39.79
+2022-08-26,Chennai-Durban,container,39.87
+2022-09-02,Chennai-Durban,container,36.64
+2022-09-09,Chennai-Durban,container,35.36
+2022-09-16,Chennai-Durban,container,35.06
+2022-09-23,Chennai-Durban,container,33.13
+2022-09-30,Chennai-Durban,container,35.39
+2022-10-07,Chennai-Durban,container,32.74
+2022-10-14,Chennai-Durban,container,34.57
+2022-10-21,Chennai-Durban,container,35.64
+2022-10-28,Chennai-Durban,container,39.32
+2022-11-04,Chennai-Durban,container,36.47
+2022-11-11,Chennai-Durban,container,31.61
+2022-11-18,Chennai-Durban,container,32.84
+2022-11-25,Chennai-Durban,container,28.2
+2022-12-02,Chennai-Durban,container,29.05
+2022-12-09,Chennai-Durban,container,32.93
+2022-12-16,Chennai-Durban,container,32.52
+2022-12-23,Chennai-Durban,container,36.16
+2022-12-30,Chennai-Durban,container,39.95
+2023-01-06,Chennai-Durban,container,38.73
+2023-01-13,Chennai-Durban,container,37.7
+2023-01-20,Chennai-Durban,container,37.23
+2023-01-27,Chennai-Durban,container,41.54
+2023-02-03,Chennai-Durban,container,39.36
+2023-02-10,Chennai-Durban,container,39.41
+2023-02-17,Chennai-Durban,container,39.87
+2023-02-24,Chennai-Durban,container,43.03
+2023-03-03,Chennai-Durban,container,42.76
+2023-03-10,Chennai-Durban,container,40.96
+2023-03-17,Chennai-Durban,container,39.8
+2023-03-24,Chennai-Durban,container,39.27
+2023-03-31,Chennai-Durban,container,40.55
+2023-04-07,Chennai-Durban,container,38.38
+2023-04-14,Chennai-Durban,container,33.16
+2023-04-21,Chennai-Durban,container,33.2
+2023-04-28,Chennai-Durban,container,31.88
+2023-05-05,Chennai-Durban,container,32.32
+2023-05-12,Chennai-Durban,container,32.08
+2023-05-19,Chennai-Durban,container,33.77
+2023-05-26,Chennai-Durban,container,34.0
+2023-06-02,Chennai-Durban,container,31.24
+2023-06-09,Chennai-Durban,container,31.79
+2023-06-16,Chennai-Durban,container,32.46
+2023-06-23,Chennai-Durban,container,32.11
+2023-06-30,Chennai-Durban,container,27.63
+2023-07-07,Chennai-Durban,container,26.38
+2023-07-14,Chennai-Durban,container,26.12
+2023-07-21,Chennai-Durban,container,30.53
+2023-07-28,Chennai-Durban,container,28.75
+2023-08-04,Chennai-Durban,container,29.24
+2023-08-11,Chennai-Durban,container,27.7
+2023-08-18,Chennai-Durban,container,26.75
+2023-08-25,Chennai-Durban,container,25.89
+2023-09-01,Chennai-Durban,container,24.13
+2023-09-08,Chennai-Durban,container,27.53
+2023-09-15,Chennai-Durban,container,31.54
+2023-09-22,Chennai-Durban,container,33.84
+2023-09-29,Chennai-Durban,container,33.34
+2023-10-06,Chennai-Durban,container,36.45
+2023-10-13,Chennai-Durban,container,36.59
+2023-10-20,Chennai-Durban,container,37.0
+2023-10-27,Chennai-Durban,container,35.48
+2023-11-03,Chennai-Durban,container,37.76
+2023-11-10,Chennai-Durban,container,39.22
+2023-11-17,Chennai-Durban,container,37.37
+2023-11-24,Chennai-Durban,container,40.54
+2023-12-01,Chennai-Durban,container,37.79
+2023-12-08,Chennai-Durban,container,38.36
+2023-12-15,Chennai-Durban,container,39.12
+2023-12-22,Chennai-Durban,container,45.11
+2023-12-29,Chennai-Durban,container,41.06
+2024-01-05,Chennai-Durban,container,39.89
+2024-01-12,Chennai-Durban,container,38.35
+2024-01-19,Chennai-Durban,container,38.41
+2024-01-26,Chennai-Durban,container,36.81
+2024-02-02,Chennai-Durban,container,37.05
+2024-02-09,Chennai-Durban,container,33.36
+2024-02-16,Chennai-Durban,container,34.41
+2024-02-23,Chennai-Durban,container,33.4
+2024-03-01,Chennai-Durban,container,27.64
+2024-03-08,Chennai-Durban,container,26.1
+2024-03-15,Chennai-Durban,container,28.6
+2024-03-22,Chennai-Durban,container,31.15
+2024-03-29,Chennai-Durban,container,38.08
+2024-04-05,Chennai-Durban,container,35.89
+2024-04-12,Chennai-Durban,container,32.43
+2024-04-19,Chennai-Durban,container,35.39
+2024-04-26,Chennai-Durban,container,33.7
+2024-05-03,Chennai-Durban,container,35.7
+2024-05-10,Chennai-Durban,container,38.58
+2024-05-17,Chennai-Durban,container,34.2
+2024-05-24,Chennai-Durban,container,38.94
+2024-05-31,Chennai-Durban,container,38.49
+2024-06-07,Chennai-Durban,container,41.06
+2024-06-14,Chennai-Durban,container,48.35
+2024-06-21,Chennai-Durban,container,55.77
+2024-06-28,Chennai-Durban,container,51.23
+2024-07-05,Chennai-Durban,container,52.95
+2024-07-12,Chennai-Durban,container,50.7
+2024-07-19,Chennai-Durban,container,47.08
+2024-07-26,Chennai-Durban,container,47.72
+2024-08-02,Chennai-Durban,container,48.45
+2024-08-09,Chennai-Durban,container,50.8
+2024-08-16,Chennai-Durban,container,58.74
+2024-08-23,Chennai-Durban,container,53.06
+2024-08-30,Chennai-Durban,container,53.65
+2024-09-06,Chennai-Durban,container,50.26
+2024-09-13,Chennai-Durban,container,46.16
+2024-09-20,Chennai-Durban,container,50.22
+2024-09-27,Chennai-Durban,container,49.17
+2024-10-04,Chennai-Durban,container,51.02
+2024-10-11,Chennai-Durban,container,53.41
+2024-10-18,Chennai-Durban,container,55.95
+2024-10-25,Chennai-Durban,container,53.35
+2024-11-01,Chennai-Durban,container,50.67
+2024-11-08,Chennai-Durban,container,49.88
+2024-11-15,Chennai-Durban,container,53.4
+2024-11-22,Chennai-Durban,container,55.0
+2024-11-29,Chennai-Durban,container,48.09
+2024-12-06,Chennai-Durban,container,44.19
+2024-12-13,Chennai-Durban,container,43.02
+2024-12-20,Chennai-Durban,container,39.38
+2024-12-27,Chennai-Durban,container,42.56
+2025-01-03,Chennai-Durban,container,46.13
+2025-01-10,Chennai-Durban,container,43.46
+2025-01-17,Chennai-Durban,container,43.1
+2025-01-24,Chennai-Durban,container,41.23
+2025-01-31,Chennai-Durban,container,38.5
+2025-02-07,Chennai-Durban,container,37.43
+2025-02-14,Chennai-Durban,container,36.18
+2025-02-21,Chennai-Durban,container,36.86
+2025-02-28,Chennai-Durban,container,39.49
+2025-03-07,Chennai-Durban,container,40.26
+2025-03-14,Chennai-Durban,container,36.49
+2025-03-21,Chennai-Durban,container,37.72
+2025-03-28,Chennai-Durban,container,38.63
+2025-04-04,Chennai-Durban,container,39.94
+2025-04-11,Chennai-Durban,container,41.11
+2025-04-18,Chennai-Durban,container,41.7
+2025-04-25,Chennai-Durban,container,36.24
+2025-05-02,Chennai-Durban,container,36.18
+2025-05-09,Chennai-Durban,container,33.48
+2025-05-16,Chennai-Durban,container,32.35
+2025-05-23,Chennai-Durban,container,33.26
+2025-05-30,Chennai-Durban,container,37.69
+2025-06-06,Chennai-Durban,container,42.57
+2025-06-13,Chennai-Durban,container,39.46
+2025-06-20,Chennai-Durban,container,37.83
+2025-06-27,Chennai-Durban,container,39.14
+2025-07-04,Chennai-Durban,container,41.49
+2025-07-11,Chennai-Durban,container,43.8
+2025-07-18,Chennai-Durban,container,44.83
+2025-07-25,Chennai-Durban,container,49.73
+2025-08-01,Chennai-Durban,container,51.64
+2025-08-08,Chennai-Durban,container,53.81
+2025-08-15,Chennai-Durban,container,49.8
+2025-08-22,Chennai-Durban,container,45.61
+2025-08-29,Chennai-Durban,container,46.09
+2025-09-05,Chennai-Durban,container,45.93
+2025-09-12,Chennai-Durban,container,43.95
+2025-09-19,Chennai-Durban,container,41.99
+2025-09-26,Chennai-Durban,container,44.52
+2025-10-03,Chennai-Durban,container,47.57
+2025-10-10,Chennai-Durban,container,47.83
+2025-10-17,Chennai-Durban,container,44.65
+2025-10-24,Chennai-Durban,container,41.55
+2025-10-31,Chennai-Durban,container,37.97
+2025-11-07,Chennai-Durban,container,38.45
+2025-11-14,Chennai-Durban,container,39.88
+2025-11-21,Chennai-Durban,container,42.17
+2025-11-28,Chennai-Durban,container,42.14
+2025-12-05,Chennai-Durban,container,43.78
+2025-12-12,Chennai-Durban,container,40.58
+2025-12-19,Chennai-Durban,container,42.2
+2025-12-26,Chennai-Durban,container,42.85
+2026-01-02,Chennai-Durban,container,40.61
+2026-01-09,Chennai-Durban,container,41.41
+2026-01-16,Chennai-Durban,container,38.51
+2026-01-23,Chennai-Durban,container,44.35
+2026-01-30,Chennai-Durban,container,46.55
+2026-02-06,Chennai-Durban,container,46.95
+2026-02-13,Chennai-Durban,container,44.78
+2026-02-20,Chennai-Durban,container,49.86
+2026-02-27,Chennai-Durban,container,49.91
+2026-03-06,Chennai-Durban,container,52.75
+2026-03-13,Chennai-Durban,container,50.69
+2026-03-20,Chennai-Durban,container,53.78
+2026-03-27,Chennai-Durban,container,49.87
+2026-04-03,Chennai-Durban,container,51.97
+2026-04-10,Chennai-Durban,container,52.92
+2026-04-17,Chennai-Durban,container,50.71
+2026-04-24,Chennai-Durban,container,51.08
+2026-05-01,Chennai-Durban,container,52.54
+2026-05-08,Chennai-Durban,container,48.19
+2026-05-15,Chennai-Durban,container,46.44
+2026-05-22,Chennai-Durban,container,46.23
+2026-05-29,Chennai-Durban,container,45.59
+2026-06-05,Chennai-Durban,container,41.59
+2026-06-12,Chennai-Durban,container,39.43
+2026-06-19,Chennai-Durban,container,35.97
+2026-06-26,Chennai-Durban,container,36.18
+2026-07-03,Chennai-Durban,container,36.13
+2026-07-10,Chennai-Durban,container,36.37
+2026-07-17,Chennai-Durban,container,35.63
+2026-07-24,Chennai-Durban,container,34.5
+2026-07-31,Chennai-Durban,container,29.78
+2026-08-07,Chennai-Durban,container,33.75
+2026-08-14,Chennai-Durban,container,31.89
+2026-08-21,Chennai-Durban,container,30.26
+2026-08-28,Chennai-Durban,container,28.51
+2026-09-04,Chennai-Durban,container,28.34
+2026-09-11,Chennai-Durban,container,27.65
+2026-09-18,Chennai-Durban,container,29.27
+2026-09-25,Chennai-Durban,container,31.77
+2022-01-07,Chennai-Port Klang,container,24.0
+2022-01-14,Chennai-Port Klang,container,23.73
+2022-01-21,Chennai-Port Klang,container,23.9
+2022-01-28,Chennai-Port Klang,container,23.78
+2022-02-04,Chennai-Port Klang,container,23.9
+2022-02-11,Chennai-Port Klang,container,24.84
+2022-02-18,Chennai-Port Klang,container,25.15
+2022-02-25,Chennai-Port Klang,container,25.16
+2022-03-04,Chennai-Port Klang,container,25.27
+2022-03-11,Chennai-Port Klang,container,26.53
+2022-03-18,Chennai-Port Klang,container,27.77
+2022-03-25,Chennai-Port Klang,container,30.63
+2022-04-01,Chennai-Port Klang,container,29.41
+2022-04-08,Chennai-Port Klang,container,27.62
+2022-04-15,Chennai-Port Klang,container,29.16
+2022-04-22,Chennai-Port Klang,container,27.31
+2022-04-29,Chennai-Port Klang,container,27.59
+2022-05-06,Chennai-Port Klang,container,27.1
+2022-05-13,Chennai-Port Klang,container,27.44
+2022-05-20,Chennai-Port Klang,container,28.74
+2022-05-27,Chennai-Port Klang,container,28.44
+2022-06-03,Chennai-Port Klang,container,26.58
+2022-06-10,Chennai-Port Klang,container,25.55
+2022-06-17,Chennai-Port Klang,container,26.64
+2022-06-24,Chennai-Port Klang,container,26.46
+2022-07-01,Chennai-Port Klang,container,25.95
+2022-07-08,Chennai-Port Klang,container,25.6
+2022-07-15,Chennai-Port Klang,container,24.4
+2022-07-22,Chennai-Port Klang,container,22.59
+2022-07-29,Chennai-Port Klang,container,23.16
+2022-08-05,Chennai-Port Klang,container,24.6
+2022-08-12,Chennai-Port Klang,container,24.98
+2022-08-19,Chennai-Port Klang,container,25.08
+2022-08-26,Chennai-Port Klang,container,25.51
+2022-09-02,Chennai-Port Klang,container,28.45
+2022-09-09,Chennai-Port Klang,container,25.79
+2022-09-16,Chennai-Port Klang,container,27.75
+2022-09-23,Chennai-Port Klang,container,29.08
+2022-09-30,Chennai-Port Klang,container,29.37
+2022-10-07,Chennai-Port Klang,container,27.57
+2022-10-14,Chennai-Port Klang,container,27.32
+2022-10-21,Chennai-Port Klang,container,29.2
+2022-10-28,Chennai-Port Klang,container,29.54
+2022-11-04,Chennai-Port Klang,container,29.62
+2022-11-11,Chennai-Port Klang,container,28.25
+2022-11-18,Chennai-Port Klang,container,28.0
+2022-11-25,Chennai-Port Klang,container,28.29
+2022-12-02,Chennai-Port Klang,container,29.75
+2022-12-09,Chennai-Port Klang,container,31.69
+2022-12-16,Chennai-Port Klang,container,29.79
+2022-12-23,Chennai-Port Klang,container,28.54
+2022-12-30,Chennai-Port Klang,container,26.21
+2023-01-06,Chennai-Port Klang,container,26.67
+2023-01-13,Chennai-Port Klang,container,25.14
+2023-01-20,Chennai-Port Klang,container,23.84
+2023-01-27,Chennai-Port Klang,container,26.64
+2023-02-03,Chennai-Port Klang,container,29.17
+2023-02-10,Chennai-Port Klang,container,28.84
+2023-02-17,Chennai-Port Klang,container,26.94
+2023-02-24,Chennai-Port Klang,container,26.44
+2023-03-03,Chennai-Port Klang,container,25.91
+2023-03-10,Chennai-Port Klang,container,25.48
+2023-03-17,Chennai-Port Klang,container,22.14
+2023-03-24,Chennai-Port Klang,container,21.94
+2023-03-31,Chennai-Port Klang,container,22.46
+2023-04-07,Chennai-Port Klang,container,22.93
+2023-04-14,Chennai-Port Klang,container,21.2
+2023-04-21,Chennai-Port Klang,container,20.76
+2023-04-28,Chennai-Port Klang,container,21.57
+2023-05-05,Chennai-Port Klang,container,20.52
+2023-05-12,Chennai-Port Klang,container,20.54
+2023-05-19,Chennai-Port Klang,container,20.9
+2023-05-26,Chennai-Port Klang,container,19.39
+2023-06-02,Chennai-Port Klang,container,20.73
+2023-06-09,Chennai-Port Klang,container,18.46
+2023-06-16,Chennai-Port Klang,container,19.42
+2023-06-23,Chennai-Port Klang,container,17.45
+2023-06-30,Chennai-Port Klang,container,17.69
+2023-07-07,Chennai-Port Klang,container,18.64
+2023-07-14,Chennai-Port Klang,container,18.63
+2023-07-21,Chennai-Port Klang,container,18.73
+2023-07-28,Chennai-Port Klang,container,18.45
+2023-08-04,Chennai-Port Klang,container,17.14
+2023-08-11,Chennai-Port Klang,container,16.75
+2023-08-18,Chennai-Port Klang,container,16.81
+2023-08-25,Chennai-Port Klang,container,18.68
+2023-09-01,Chennai-Port Klang,container,19.66
+2023-09-08,Chennai-Port Klang,container,19.94
+2023-09-15,Chennai-Port Klang,container,20.35
+2023-09-22,Chennai-Port Klang,container,20.88
+2023-09-29,Chennai-Port Klang,container,22.84
+2023-10-06,Chennai-Port Klang,container,22.65
+2023-10-13,Chennai-Port Klang,container,24.07
+2023-10-20,Chennai-Port Klang,container,24.31
+2023-10-27,Chennai-Port Klang,container,21.97
+2023-11-03,Chennai-Port Klang,container,20.48
+2023-11-10,Chennai-Port Klang,container,19.92
+2023-11-17,Chennai-Port Klang,container,21.17
+2023-11-24,Chennai-Port Klang,container,18.99
+2023-12-01,Chennai-Port Klang,container,17.67
+2023-12-08,Chennai-Port Klang,container,18.48
+2023-12-15,Chennai-Port Klang,container,20.39
+2023-12-22,Chennai-Port Klang,container,19.54
+2023-12-29,Chennai-Port Klang,container,20.77
+2024-01-05,Chennai-Port Klang,container,18.67
+2024-01-12,Chennai-Port Klang,container,19.51
+2024-01-19,Chennai-Port Klang,container,20.03
+2024-01-26,Chennai-Port Klang,container,20.06
+2024-02-02,Chennai-Port Klang,container,19.82
+2024-02-09,Chennai-Port Klang,container,19.9
+2024-02-16,Chennai-Port Klang,container,20.7
+2024-02-23,Chennai-Port Klang,container,20.37
+2024-03-01,Chennai-Port Klang,container,20.73
+2024-03-08,Chennai-Port Klang,container,21.1
+2024-03-15,Chennai-Port Klang,container,21.76
+2024-03-22,Chennai-Port Klang,container,20.74
+2024-03-29,Chennai-Port Klang,container,22.32
+2024-04-05,Chennai-Port Klang,container,24.35
+2024-04-12,Chennai-Port Klang,container,24.75
+2024-04-19,Chennai-Port Klang,container,26.09
+2024-04-26,Chennai-Port Klang,container,26.82
+2024-05-03,Chennai-Port Klang,container,28.92
+2024-05-10,Chennai-Port Klang,container,27.79
+2024-05-17,Chennai-Port Klang,container,27.92
+2024-05-24,Chennai-Port Klang,container,26.67
+2024-05-31,Chennai-Port Klang,container,28.9
+2024-06-07,Chennai-Port Klang,container,30.68
+2024-06-14,Chennai-Port Klang,container,32.27
+2024-06-21,Chennai-Port Klang,container,34.8
+2024-06-28,Chennai-Port Klang,container,32.37
+2024-07-05,Chennai-Port Klang,container,29.57
+2024-07-12,Chennai-Port Klang,container,28.7
+2024-07-19,Chennai-Port Klang,container,30.34
+2024-07-26,Chennai-Port Klang,container,32.44
+2024-08-02,Chennai-Port Klang,container,30.88
+2024-08-09,Chennai-Port Klang,container,30.03
+2024-08-16,Chennai-Port Klang,container,29.69
+2024-08-23,Chennai-Port Klang,container,28.86
+2024-08-30,Chennai-Port Klang,container,24.91
+2024-09-06,Chennai-Port Klang,container,25.31
+2024-09-13,Chennai-Port Klang,container,24.96
+2024-09-20,Chennai-Port Klang,container,24.99
+2024-09-27,Chennai-Port Klang,container,26.86
+2024-10-04,Chennai-Port Klang,container,25.94
+2024-10-11,Chennai-Port Klang,container,25.62
+2024-10-18,Chennai-Port Klang,container,23.22
+2024-10-25,Chennai-Port Klang,container,23.4
+2024-11-01,Chennai-Port Klang,container,21.75
+2024-11-08,Chennai-Port Klang,container,23.65
+2024-11-15,Chennai-Port Klang,container,23.0
+2024-11-22,Chennai-Port Klang,container,23.93
+2024-11-29,Chennai-Port Klang,container,25.12
+2024-12-06,Chennai-Port Klang,container,24.22
+2024-12-13,Chennai-Port Klang,container,23.65
+2024-12-20,Chennai-Port Klang,container,24.18
+2024-12-27,Chennai-Port Klang,container,22.69
+2025-01-03,Chennai-Port Klang,container,23.72
+2025-01-10,Chennai-Port Klang,container,23.22
+2025-01-17,Chennai-Port Klang,container,22.89
+2025-01-24,Chennai-Port Klang,container,26.86
+2025-01-31,Chennai-Port Klang,container,27.11
+2025-02-07,Chennai-Port Klang,container,28.31
+2025-02-14,Chennai-Port Klang,container,25.79
+2025-02-21,Chennai-Port Klang,container,25.45
+2025-02-28,Chennai-Port Klang,container,26.65
+2025-03-07,Chennai-Port Klang,container,26.72
+2025-03-14,Chennai-Port Klang,container,27.45
+2025-03-21,Chennai-Port Klang,container,27.32
+2025-03-28,Chennai-Port Klang,container,29.69
+2025-04-04,Chennai-Port Klang,container,27.5
+2025-04-11,Chennai-Port Klang,container,27.73
+2025-04-18,Chennai-Port Klang,container,28.22
+2025-04-25,Chennai-Port Klang,container,28.82
+2025-05-02,Chennai-Port Klang,container,29.87
+2025-05-09,Chennai-Port Klang,container,30.46
+2025-05-16,Chennai-Port Klang,container,30.54
+2025-05-23,Chennai-Port Klang,container,28.25
+2025-05-30,Chennai-Port Klang,container,28.52
+2025-06-06,Chennai-Port Klang,container,25.75
+2025-06-13,Chennai-Port Klang,container,25.2
+2025-06-20,Chennai-Port Klang,container,25.38
+2025-06-27,Chennai-Port Klang,container,21.92
+2025-07-04,Chennai-Port Klang,container,24.03
+2025-07-11,Chennai-Port Klang,container,22.17
+2025-07-18,Chennai-Port Klang,container,21.22
+2025-07-25,Chennai-Port Klang,container,21.95
+2025-08-01,Chennai-Port Klang,container,22.76
+2025-08-08,Chennai-Port Klang,container,23.67
+2025-08-15,Chennai-Port Klang,container,23.36
+2025-08-22,Chennai-Port Klang,container,21.76
+2025-08-29,Chennai-Port Klang,container,22.15
+2025-09-05,Chennai-Port Klang,container,21.69
+2025-09-12,Chennai-Port Klang,container,20.81
+2025-09-19,Chennai-Port Klang,container,21.29
+2025-09-26,Chennai-Port Klang,container,22.04
+2025-10-03,Chennai-Port Klang,container,23.5
+2025-10-10,Chennai-Port Klang,container,21.66
+2025-10-17,Chennai-Port Klang,container,21.94
+2025-10-24,Chennai-Port Klang,container,21.93
+2025-10-31,Chennai-Port Klang,container,22.84
+2025-11-07,Chennai-Port Klang,container,22.56
+2025-11-14,Chennai-Port Klang,container,19.6
+2025-11-21,Chennai-Port Klang,container,18.56
+2025-11-28,Chennai-Port Klang,container,18.31
+2025-12-05,Chennai-Port Klang,container,17.89
+2025-12-12,Chennai-Port Klang,container,17.57
+2025-12-19,Chennai-Port Klang,container,18.02
+2025-12-26,Chennai-Port Klang,container,18.58
+2026-01-02,Chennai-Port Klang,container,18.8
+2026-01-09,Chennai-Port Klang,container,19.32
+2026-01-16,Chennai-Port Klang,container,19.62
+2026-01-23,Chennai-Port Klang,container,19.7
+2026-01-30,Chennai-Port Klang,container,18.25
+2026-02-06,Chennai-Port Klang,container,19.26
+2026-02-13,Chennai-Port Klang,container,19.78
+2026-02-20,Chennai-Port Klang,container,19.05
+2026-02-27,Chennai-Port Klang,container,18.97
+2026-03-06,Chennai-Port Klang,container,18.83
+2026-03-13,Chennai-Port Klang,container,18.58
+2026-03-20,Chennai-Port Klang,container,19.0
+2026-03-27,Chennai-Port Klang,container,20.52
+2026-04-03,Chennai-Port Klang,container,20.93
+2026-04-10,Chennai-Port Klang,container,18.7
+2026-04-17,Chennai-Port Klang,container,18.3
+2026-04-24,Chennai-Port Klang,container,18.9
+2026-05-01,Chennai-Port Klang,container,19.31
+2026-05-08,Chennai-Port Klang,container,18.92
+2026-05-15,Chennai-Port Klang,container,19.01
+2026-05-22,Chennai-Port Klang,container,18.92
+2026-05-29,Chennai-Port Klang,container,17.7
+2026-06-05,Chennai-Port Klang,container,17.03
+2026-06-12,Chennai-Port Klang,container,16.37
+2026-06-19,Chennai-Port Klang,container,17.01
+2026-06-26,Chennai-Port Klang,container,18.21
+2026-07-03,Chennai-Port Klang,container,19.19
+2026-07-10,Chennai-Port Klang,container,19.63
+2026-07-17,Chennai-Port Klang,container,22.75
+2026-07-24,Chennai-Port Klang,container,22.52
+2026-07-31,Chennai-Port Klang,container,20.91
+2026-08-07,Chennai-Port Klang,container,18.88
+2026-08-14,Chennai-Port Klang,container,21.18
+2026-08-21,Chennai-Port Klang,container,21.26
+2026-08-28,Chennai-Port Klang,container,21.21
+2026-09-04,Chennai-Port Klang,container,21.12
+2026-09-11,Chennai-Port Klang,container,22.38
+2026-09-18,Chennai-Port Klang,container,23.28
+2026-09-25,Chennai-Port Klang,container,23.37
+2022-01-07,Nhava Sheva-Santos,container,78.0
+2022-01-14,Nhava Sheva-Santos,container,72.62
+2022-01-21,Nhava Sheva-Santos,container,77.29
+2022-01-28,Nhava Sheva-Santos,container,67.1
+2022-02-04,Nhava Sheva-Santos,container,65.18
+2022-02-11,Nhava Sheva-Santos,container,70.59
+2022-02-18,Nhava Sheva-Santos,container,80.73
+2022-02-25,Nhava Sheva-Santos,container,89.48
+2022-03-04,Nhava Sheva-Santos,container,95.67
+2022-03-11,Nhava Sheva-Santos,container,103.02
+2022-03-18,Nhava Sheva-Santos,container,92.0
+2022-03-25,Nhava Sheva-Santos,container,79.55
+2022-04-01,Nhava Sheva-Santos,container,70.31
+2022-04-08,Nhava Sheva-Santos,container,67.15
+2022-04-15,Nhava Sheva-Santos,container,62.04
+2022-04-22,Nhava Sheva-Santos,container,62.67
+2022-04-29,Nhava Sheva-Santos,container,74.59
+2022-05-06,Nhava Sheva-Santos,container,73.67
+2022-05-13,Nhava Sheva-Santos,container,83.32
+2022-05-20,Nhava Sheva-Santos,container,77.55
+2022-05-27,Nhava Sheva-Santos,container,78.59
+2022-06-03,Nhava Sheva-Santos,container,76.87
+2022-06-10,Nhava Sheva-Santos,container,70.92
+2022-06-17,Nhava Sheva-Santos,container,73.63
+2022-06-24,Nhava Sheva-Santos,container,72.65
+2022-07-01,Nhava Sheva-Santos,container,70.8
+2022-07-08,Nhava Sheva-Santos,container,71.21
+2022-07-15,Nhava Sheva-Santos,container,72.65
+2022-07-22,Nhava Sheva-Santos,container,71.52
+2022-07-29,Nhava Sheva-Santos,container,70.25
+2022-08-05,Nhava Sheva-Santos,container,60.01
+2022-08-12,Nhava Sheva-Santos,container,59.99
+2022-08-19,Nhava Sheva-Santos,container,59.26
+2022-08-26,Nhava Sheva-Santos,container,59.97
+2022-09-02,Nhava Sheva-Santos,container,67.45
+2022-09-09,Nhava Sheva-Santos,container,69.93
+2022-09-16,Nhava Sheva-Santos,container,74.79
+2022-09-23,Nhava Sheva-Santos,container,71.16
+2022-09-30,Nhava Sheva-Santos,container,71.14
+2022-10-07,Nhava Sheva-Santos,container,68.4
+2022-10-14,Nhava Sheva-Santos,container,60.15
+2022-10-21,Nhava Sheva-Santos,container,56.35
+2022-10-28,Nhava Sheva-Santos,container,55.0
+2022-11-04,Nhava Sheva-Santos,container,56.63
+2022-11-11,Nhava Sheva-Santos,container,63.64
+2022-11-18,Nhava Sheva-Santos,container,59.66
+2022-11-25,Nhava Sheva-Santos,container,61.98
+2022-12-02,Nhava Sheva-Santos,container,63.68
+2022-12-09,Nhava Sheva-Santos,container,57.04
+2022-12-16,Nhava Sheva-Santos,container,62.75
+2022-12-23,Nhava Sheva-Santos,container,73.77
+2022-12-30,Nhava Sheva-Santos,container,71.74
+2023-01-06,Nhava Sheva-Santos,container,77.89
+2023-01-13,Nhava Sheva-Santos,container,69.1
+2023-01-20,Nhava Sheva-Santos,container,72.76
+2023-01-27,Nhava Sheva-Santos,container,65.88
+2023-02-03,Nhava Sheva-Santos,container,71.2
+2023-02-10,Nhava Sheva-Santos,container,81.18
+2023-02-17,Nhava Sheva-Santos,container,73.77
+2023-02-24,Nhava Sheva-Santos,container,67.24
+2023-03-03,Nhava Sheva-Santos,container,77.78
+2023-03-10,Nhava Sheva-Santos,container,86.87
+2023-03-17,Nhava Sheva-Santos,container,101.81
+2023-03-24,Nhava Sheva-Santos,container,102.97
+2023-03-31,Nhava Sheva-Santos,container,112.24
+2023-04-07,Nhava Sheva-Santos,container,103.22
+2023-04-14,Nhava Sheva-Santos,container,108.5
+2023-04-21,Nhava Sheva-Santos,container,116.15
+2023-04-28,Nhava Sheva-Santos,container,126.41
+2023-05-05,Nhava Sheva-Santos,container,121.88
+2023-05-12,Nhava Sheva-Santos,container,121.14
+2023-05-19,Nhava Sheva-Santos,container,129.11
+2023-05-26,Nhava Sheva-Santos,container,137.9
+2023-06-02,Nhava Sheva-Santos,container,125.13
+2023-06-09,Nhava Sheva-Santos,container,118.11
+2023-06-16,Nhava Sheva-Santos,container,121.76
+2023-06-23,Nhava Sheva-Santos,container,115.6
+2023-06-30,Nhava Sheva-Santos,container,113.08
+2023-07-07,Nhava Sheva-Santos,container,100.62
+2023-07-14,Nhava Sheva-Santos,container,99.62
+2023-07-21,Nhava Sheva-Santos,container,104.85
+2023-07-28,Nhava Sheva-Santos,container,108.22
+2023-08-04,Nhava Sheva-Santos,container,105.51
+2023-08-11,Nhava Sheva-Santos,container,101.17
+2023-08-18,Nhava Sheva-Santos,container,99.4
+2023-08-25,Nhava Sheva-Santos,container,108.3
+2023-09-01,Nhava Sheva-Santos,container,97.52
+2023-09-08,Nhava Sheva-Santos,container,87.77
+2023-09-15,Nhava Sheva-Santos,container,83.24
+2023-09-22,Nhava Sheva-Santos,container,85.57
+2023-09-29,Nhava Sheva-Santos,container,77.29
+2023-10-06,Nhava Sheva-Santos,container,81.41
+2023-10-13,Nhava Sheva-Santos,container,74.16
+2023-10-20,Nhava Sheva-Santos,container,69.13
+2023-10-27,Nhava Sheva-Santos,container,66.85
+2023-11-03,Nhava Sheva-Santos,container,70.36
+2023-11-10,Nhava Sheva-Santos,container,74.01
+2023-11-17,Nhava Sheva-Santos,container,70.4
+2023-11-24,Nhava Sheva-Santos,container,89.94
+2023-12-01,Nhava Sheva-Santos,container,94.49
+2023-12-08,Nhava Sheva-Santos,container,98.1
+2023-12-15,Nhava Sheva-Santos,container,104.06
+2023-12-22,Nhava Sheva-Santos,container,95.19
+2023-12-29,Nhava Sheva-Santos,container,92.0
+2024-01-05,Nhava Sheva-Santos,container,94.76
+2024-01-12,Nhava Sheva-Santos,container,90.16
+2024-01-19,Nhava Sheva-Santos,container,90.77
+2024-01-26,Nhava Sheva-Santos,container,93.43
+2024-02-02,Nhava Sheva-Santos,container,94.95
+2024-02-09,Nhava Sheva-Santos,container,86.02
+2024-02-16,Nhava Sheva-Santos,container,78.96
+2024-02-23,Nhava Sheva-Santos,container,70.44
+2024-03-01,Nhava Sheva-Santos,container,80.31
+2024-03-08,Nhava Sheva-Santos,container,81.31
+2024-03-15,Nhava Sheva-Santos,container,88.36
+2024-03-22,Nhava Sheva-Santos,container,85.51
+2024-03-29,Nhava Sheva-Santos,container,86.4
+2024-04-05,Nhava Sheva-Santos,container,87.49
+2024-04-12,Nhava Sheva-Santos,container,96.31
+2024-04-19,Nhava Sheva-Santos,container,98.52
+2024-04-26,Nhava Sheva-Santos,container,98.89
+2024-05-03,Nhava Sheva-Santos,container,92.86
+2024-05-10,Nhava Sheva-Santos,container,89.0
+2024-05-17,Nhava Sheva-Santos,container,91.04
+2024-05-24,Nhava Sheva-Santos,container,95.72
+2024-05-31,Nhava Sheva-Santos,container,92.32
+2024-06-07,Nhava Sheva-Santos,container,98.47
+2024-06-14,Nhava Sheva-Santos,container,91.2
+2024-06-21,Nhava Sheva-Santos,container,96.71
+2024-06-28,Nhava Sheva-Santos,container,102.95
+2024-07-05,Nhava Sheva-Santos,container,110.66
+2024-07-12,Nhava Sheva-Santos,container,100.37
+2024-07-19,Nhava Sheva-Santos,container,108.2
+2024-07-26,Nhava Sheva-Santos,container,104.79
+2024-08-02,Nhava Sheva-Santos,container,106.75
+2024-08-09,Nhava Sheva-Santos,container,109.25
+2024-08-16,Nhava Sheva-Santos,container,106.64
+2024-08-23,Nhava Sheva-Santos,container,108.01
+2024-08-30,Nhava Sheva-Santos,container,104.45
+2024-09-06,Nhava Sheva-Santos,container,95.12
+2024-09-13,Nhava Sheva-Santos,container,96.83
+2024-09-20,Nhava Sheva-Santos,container,102.26
+2024-09-27,Nhava Sheva-Santos,container,103.21
+2024-10-04,Nhava Sheva-Santos,container,100.19
+2024-10-11,Nhava Sheva-Santos,container,111.03
+2024-10-18,Nhava Sheva-Santos,container,102.39
+2024-10-25,Nhava Sheva-Santos,container,98.82
+2024-11-01,Nhava Sheva-Santos,container,79.99
+2024-11-08,Nhava Sheva-Santos,container,81.5
+2024-11-15,Nhava Sheva-Santos,container,81.5
+2024-11-22,Nhava Sheva-Santos,container,76.12
+2024-11-29,Nhava Sheva-Santos,container,69.29
+2024-12-06,Nhava Sheva-Santos,container,73.49
+2024-12-13,Nhava Sheva-Santos,container,78.62
+2024-12-20,Nhava Sheva-Santos,container,73.61
+2024-12-27,Nhava Sheva-Santos,container,70.71
+2025-01-03,Nhava Sheva-Santos,container,64.71
+2025-01-10,Nhava Sheva-Santos,container,68.25
+2025-01-17,Nhava Sheva-Santos,container,68.1
+2025-01-24,Nhava Sheva-Santos,container,76.71
+2025-01-31,Nhava Sheva-Santos,container,78.74
+2025-02-07,Nhava Sheva-Santos,container,77.06
+2025-02-14,Nhava Sheva-Santos,container,85.53
+2025-02-21,Nhava Sheva-Santos,container,91.33
+2025-02-28,Nhava Sheva-Santos,container,87.24
+2025-03-07,Nhava Sheva-Santos,container,102.61
+2025-03-14,Nhava Sheva-Santos,container,105.09
+2025-03-21,Nhava Sheva-Santos,container,124.01
+2025-03-28,Nhava Sheva-Santos,container,120.22
+2025-04-04,Nhava Sheva-Santos,container,118.15
+2025-04-11,Nhava Sheva-Santos,container,103.55
+2025-04-18,Nhava Sheva-Santos,container,96.56
+2025-04-25,Nhava Sheva-Santos,container,91.09
+2025-05-02,Nhava Sheva-Santos,container,91.67
+2025-05-09,Nhava Sheva-Santos,container,91.13
+2025-05-16,Nhava Sheva-Santos,container,92.5
+2025-05-23,Nhava Sheva-Santos,container,93.82
+2025-05-30,Nhava Sheva-Santos,container,89.82
+2025-06-06,Nhava Sheva-Santos,container,90.45
+2025-06-13,Nhava Sheva-Santos,container,79.53
+2025-06-20,Nhava Sheva-Santos,container,70.57
+2025-06-27,Nhava Sheva-Santos,container,75.34
+2025-07-04,Nhava Sheva-Santos,container,80.61
+2025-07-11,Nhava Sheva-Santos,container,78.11
+2025-07-18,Nhava Sheva-Santos,container,66.53
+2025-07-25,Nhava Sheva-Santos,container,62.16
+2025-08-01,Nhava Sheva-Santos,container,62.6
+2025-08-08,Nhava Sheva-Santos,container,63.86
+2025-08-15,Nhava Sheva-Santos,container,57.72
+2025-08-22,Nhava Sheva-Santos,container,51.32
+2025-08-29,Nhava Sheva-Santos,container,51.26
+2025-09-05,Nhava Sheva-Santos,container,50.09
+2025-09-12,Nhava Sheva-Santos,container,57.25
+2025-09-19,Nhava Sheva-Santos,container,59.32
+2025-09-26,Nhava Sheva-Santos,container,58.32
+2025-10-03,Nhava Sheva-Santos,container,56.85
+2025-10-10,Nhava Sheva-Santos,container,61.96
+2025-10-17,Nhava Sheva-Santos,container,67.03
+2025-10-24,Nhava Sheva-Santos,container,64.49
+2025-10-31,Nhava Sheva-Santos,container,61.3
+2025-11-07,Nhava Sheva-Santos,container,64.22
+2025-11-14,Nhava Sheva-Santos,container,61.32
+2025-11-21,Nhava Sheva-Santos,container,51.44
+2025-11-28,Nhava Sheva-Santos,container,54.56
+2025-12-05,Nhava Sheva-Santos,container,50.31
+2025-12-12,Nhava Sheva-Santos,container,55.39
+2025-12-19,Nhava Sheva-Santos,container,61.97
+2025-12-26,Nhava Sheva-Santos,container,73.16
+2026-01-02,Nhava Sheva-Santos,container,72.36
+2026-01-09,Nhava Sheva-Santos,container,62.69
+2026-01-16,Nhava Sheva-Santos,container,56.64
+2026-01-23,Nhava Sheva-Santos,container,52.0
+2026-01-30,Nhava Sheva-Santos,container,62.67
+2026-02-06,Nhava Sheva-Santos,container,69.4
+2026-02-13,Nhava Sheva-Santos,container,75.83
+2026-02-20,Nhava Sheva-Santos,container,73.07
+2026-02-27,Nhava Sheva-Santos,container,72.52
+2026-03-06,Nhava Sheva-Santos,container,70.89
+2026-03-13,Nhava Sheva-Santos,container,61.95
+2026-03-20,Nhava Sheva-Santos,container,64.91
+2026-03-27,Nhava Sheva-Santos,container,60.7
+2026-04-03,Nhava Sheva-Santos,container,58.07
+2026-04-10,Nhava Sheva-Santos,container,62.89
+2026-04-17,Nhava Sheva-Santos,container,68.12
+2026-04-24,Nhava Sheva-Santos,container,74.61
+2026-05-01,Nhava Sheva-Santos,container,71.92
+2026-05-08,Nhava Sheva-Santos,container,66.2
+2026-05-15,Nhava Sheva-Santos,container,71.13
+2026-05-22,Nhava Sheva-Santos,container,67.77
+2026-05-29,Nhava Sheva-Santos,container,60.43
+2026-06-05,Nhava Sheva-Santos,container,56.89
+2026-06-12,Nhava Sheva-Santos,container,59.59
+2026-06-19,Nhava Sheva-Santos,container,56.21
+2026-06-26,Nhava Sheva-Santos,container,63.86
+2026-07-03,Nhava Sheva-Santos,container,66.28
+2026-07-10,Nhava Sheva-Santos,container,67.25
+2026-07-17,Nhava Sheva-Santos,container,57.24
+2026-07-24,Nhava Sheva-Santos,container,62.14
+2026-07-31,Nhava Sheva-Santos,container,74.13
+2026-08-07,Nhava Sheva-Santos,container,85.54
+2026-08-14,Nhava Sheva-Santos,container,77.83
+2026-08-21,Nhava Sheva-Santos,container,88.69
+2026-08-28,Nhava Sheva-Santos,container,79.5
+2026-09-04,Nhava Sheva-Santos,container,78.81
+2026-09-11,Nhava Sheva-Santos,container,86.64
+2026-09-18,Nhava Sheva-Santos,container,94.35
+2026-09-25,Nhava Sheva-Santos,container,101.3
+2022-01-07,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.0
+2022-01-14,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",18.96
+2022-01-21,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.75
+2022-01-28,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.21
+2022-02-04,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.04
+2022-02-11,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",18.14
+2022-02-18,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",14.35
+2022-02-25,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",12.79
+2022-03-04,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",12.91
+2022-03-11,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",14.51
+2022-03-18,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",15.57
+2022-03-25,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.35
+2022-04-01,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.07
+2022-04-08,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",24.95
+2022-04-15,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.63
+2022-04-22,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",22.84
+2022-04-29,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.75
+2022-05-06,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.32
+2022-05-13,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.51
+2022-05-20,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",24.38
+2022-05-27,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",23.25
+2022-06-03,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",24.97
+2022-06-10,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.54
+2022-06-17,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",23.2
+2022-06-24,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",25.99
+2022-07-01,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",28.76
+2022-07-08,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",27.81
+2022-07-15,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",25.42
+2022-07-22,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.06
+2022-07-29,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",23.55
+2022-08-05,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",25.26
+2022-08-12,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",22.0
+2022-08-19,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",22.98
+2022-08-26,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.46
+2022-09-02,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",20.43
+2022-09-09,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",20.04
+2022-09-16,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",20.43
+2022-09-23,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",20.08
+2022-09-30,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.89
+2022-10-07,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",18.1
+2022-10-14,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",20.76
+2022-10-21,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.22
+2022-10-28,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",16.86
+2022-11-04,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.72
+2022-11-11,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",20.18
+2022-11-18,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.2
+2022-11-25,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",23.43
+2022-12-02,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",26.74
+2022-12-09,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",28.65
+2022-12-16,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",25.27
+2022-12-23,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",24.9
+2022-12-30,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",22.75
+2023-01-06,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",22.74
+2023-01-13,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",23.49
+2023-01-20,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.63
+2023-01-27,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",20.47
+2023-02-03,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",20.61
+2023-02-10,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",22.02
+2023-02-17,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.32
+2023-02-24,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",20.68
+2023-03-03,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.33
+2023-03-10,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",15.98
+2023-03-17,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",16.62
+2023-03-24,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",17.38
+2023-03-31,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",20.01
+2023-04-07,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",18.01
+2023-04-14,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",16.66
+2023-04-21,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",18.47
+2023-04-28,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",17.47
+2023-05-05,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",16.85
+2023-05-12,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",16.83
+2023-05-19,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",14.6
+2023-05-26,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",12.98
+2023-06-02,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",13.21
+2023-06-09,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",13.29
+2023-06-16,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",14.69
+2023-06-23,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",13.59
+2023-06-30,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",14.58
+2023-07-07,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",11.33
+2023-07-14,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",9.64
+2023-07-21,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",11.23
+2023-07-28,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",13.55
+2023-08-04,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",14.34
+2023-08-11,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",12.84
+2023-08-18,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",11.73
+2023-08-25,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",11.75
+2023-09-01,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",12.91
+2023-09-08,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",13.46
+2023-09-15,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",15.15
+2023-09-22,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",15.51
+2023-09-29,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",17.18
+2023-10-06,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.87
+2023-10-13,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.08
+2023-10-20,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",20.95
+2023-10-27,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",18.43
+2023-11-03,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.19
+2023-11-10,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",17.08
+2023-11-17,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",17.44
+2023-11-24,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",15.47
+2023-12-01,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",15.0
+2023-12-08,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",15.93
+2023-12-15,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",15.33
+2023-12-22,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",17.68
+2023-12-29,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.71
+2024-01-05,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.84
+2024-01-12,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.48
+2024-01-19,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",20.29
+2024-01-26,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.98
+2024-02-02,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.02
+2024-02-09,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",18.05
+2024-02-16,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",15.75
+2024-02-23,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",15.54
+2024-03-01,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",17.25
+2024-03-08,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.36
+2024-03-15,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.59
+2024-03-22,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",20.34
+2024-03-29,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",18.46
+2024-04-05,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",16.48
+2024-04-12,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",15.59
+2024-04-19,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",12.11
+2024-04-26,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",11.26
+2024-05-03,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",12.7
+2024-05-10,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",16.02
+2024-05-17,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",14.07
+2024-05-24,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",16.73
+2024-05-31,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",17.02
+2024-06-07,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",17.36
+2024-06-14,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",15.49
+2024-06-21,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",14.47
+2024-06-28,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",13.49
+2024-07-05,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",14.1
+2024-07-12,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",16.85
+2024-07-19,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",15.87
+2024-07-26,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",16.11
+2024-08-02,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",17.58
+2024-08-09,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",18.12
+2024-08-16,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.85
+2024-08-23,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",17.86
+2024-08-30,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",16.16
+2024-09-06,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",15.33
+2024-09-13,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",15.09
+2024-09-20,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",17.58
+2024-09-27,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.22
+2024-10-04,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",25.08
+2024-10-11,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",26.62
+2024-10-18,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",23.59
+2024-10-25,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.72
+2024-11-01,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",20.75
+2024-11-08,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",17.94
+2024-11-15,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",18.87
+2024-11-22,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",20.1
+2024-11-29,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.67
+2024-12-06,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",22.24
+2024-12-13,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",20.52
+2024-12-20,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",18.97
+2024-12-27,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",20.09
+2025-01-03,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",20.78
+2025-01-10,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",23.92
+2025-01-17,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",27.77
+2025-01-24,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",30.84
+2025-01-31,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",29.51
+2025-02-07,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",26.94
+2025-02-14,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",23.89
+2025-02-21,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",22.83
+2025-02-28,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.85
+2025-03-07,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",23.53
+2025-03-14,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",26.18
+2025-03-21,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",23.71
+2025-03-28,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",25.09
+2025-04-04,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",24.23
+2025-04-11,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",25.75
+2025-04-18,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",23.36
+2025-04-25,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",23.27
+2025-05-02,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",27.95
+2025-05-09,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",25.35
+2025-05-16,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",22.59
+2025-05-23,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",22.81
+2025-05-30,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.88
+2025-06-06,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",23.08
+2025-06-13,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",23.76
+2025-06-20,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",24.06
+2025-06-27,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.68
+2025-07-04,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.48
+2025-07-11,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",22.42
+2025-07-18,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",24.55
+2025-07-25,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",23.98
+2025-08-01,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",29.71
+2025-08-08,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",27.15
+2025-08-15,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",24.15
+2025-08-22,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.3
+2025-08-29,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.79
+2025-09-05,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.58
+2025-09-12,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",24.43
+2025-09-19,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.93
+2025-09-26,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",22.43
+2025-10-03,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",23.75
+2025-10-10,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.02
+2025-10-17,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",18.36
+2025-10-24,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",18.05
+2025-10-31,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",17.79
+2025-11-07,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.33
+2025-11-14,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",18.56
+2025-11-21,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.89
+2025-11-28,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",17.34
+2025-12-05,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",17.01
+2025-12-12,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",17.92
+2025-12-19,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",15.95
+2025-12-26,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",13.08
+2026-01-02,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",12.23
+2026-01-09,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",12.79
+2026-01-16,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",13.55
+2026-01-23,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",13.71
+2026-01-30,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",16.26
+2026-02-06,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.07
+2026-02-13,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",18.95
+2026-02-20,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",18.91
+2026-02-27,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",15.39
+2026-03-06,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",15.37
+2026-03-13,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",16.27
+2026-03-20,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",18.12
+2026-03-27,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",15.87
+2026-04-03,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.18
+2026-04-10,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",22.31
+2026-04-17,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",22.9
+2026-04-24,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",22.59
+2026-05-01,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.37
+2026-05-08,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",23.57
+2026-05-15,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",25.11
+2026-05-22,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",24.53
+2026-05-29,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",22.85
+2026-06-05,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",21.83
+2026-06-12,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",24.82
+2026-06-19,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",26.57
+2026-06-26,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",27.72
+2026-07-03,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",25.82
+2026-07-10,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",24.46
+2026-07-17,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",25.13
+2026-07-24,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",23.95
+2026-07-31,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",22.93
+2026-08-07,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.67
+2026-08-14,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",16.86
+2026-08-21,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",18.52
+2026-08-28,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",19.2
+2026-09-04,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",22.76
+2026-09-11,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",20.76
+2026-09-18,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",18.6
+2026-09-25,Richards Bay-Krishnapatnam,"dry bulk (coal, Supramax)",17.69

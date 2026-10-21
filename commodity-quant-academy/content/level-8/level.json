@@ -1,0 +1,190 @@
+{
+  "id": "level-8",
+  "n": 8,
+  "title": "Expert / Production",
+  "short": "Production",
+  "summary": "Clean code, OOP, typing, pytest, git, packaging, logging, APIs, Streamlit and a README a hiring manager reads.",
+  "phase": 5,
+  "status": "planned",
+  "modules": [
+    {
+      "id": "l8-m1",
+      "title": "Clean code",
+      "lessons": [
+        {
+          "id": "l8-m1-l1",
+          "title": "Naming and structure",
+          "objectives": [
+            "Refactor a notebook into modules",
+            "Single responsibility"
+          ]
+        },
+        {
+          "id": "l8-m1-l2",
+          "title": "OOP for trading objects",
+          "objectives": [
+            "Trade, Hedge, Portfolio classes",
+            "Composition vs inheritance"
+          ]
+        },
+        {
+          "id": "l8-m1-l3",
+          "title": "Type hints and dataclasses",
+          "objectives": [
+            "Typed domain models",
+            "mypy basics"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l8-m1-boss",
+        "title": "Boss battle: Clean code"
+      }
+    },
+    {
+      "id": "l8-m2",
+      "title": "Testing and tooling",
+      "lessons": [
+        {
+          "id": "l8-m2-l1",
+          "title": "pytest",
+          "objectives": [
+            "Unit tests for pricing functions",
+            "Fixtures and parametrise"
+          ]
+        },
+        {
+          "id": "l8-m2-l2",
+          "title": "git and GitHub",
+          "objectives": [
+            "Branches, commits, pull requests",
+            "A clean history"
+          ]
+        },
+        {
+          "id": "l8-m2-l3",
+          "title": "Packaging and logging",
+          "objectives": [
+            "pyproject.toml and a CLI",
+            "Structured logs"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l8-m2-boss",
+        "title": "Boss battle: Testing and tooling"
+      }
+    },
+    {
+      "id": "l8-m3",
+      "title": "Data sources",
+      "lessons": [
+        {
+          "id": "l8-m3-l1",
+          "title": "APIs safely",
+          "objectives": [
+            "Kite Connect docs and yfinance, local only",
+            "Keys out of code"
+          ]
+        },
+        {
+          "id": "l8-m3-l2",
+          "title": "Scheduling and caching",
+          "objectives": [
+            "Daily jobs and cached data",
+            "Idempotent pipelines"
+          ]
+        },
+        {
+          "id": "l8-m3-l3",
+          "title": "Configuration and secrets",
+          "objectives": [
+            "Config files and environment variables",
+            "Never commit keys"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l8-m3-boss",
+        "title": "Boss battle: Data sources"
+      }
+    },
+    {
+      "id": "l8-m4",
+      "title": "Apps",
+      "lessons": [
+        {
+          "id": "l8-m4-l1",
+          "title": "Streamlit dashboards",
+          "objectives": [
+            "Build a risk dashboard",
+            "State and caching"
+          ]
+        },
+        {
+          "id": "l8-m4-l2",
+          "title": "Reports",
+          "objectives": [
+            "Excel and PDF exports",
+            "Formatting for management"
+          ]
+        },
+        {
+          "id": "l8-m4-l3",
+          "title": "Deploying locally",
+          "objectives": [
+            "Run the app for a team on a laptop",
+            "What changes for real production"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l8-m4-boss",
+        "title": "Boss battle: Apps"
+      }
+    },
+    {
+      "id": "l8-m5",
+      "title": "Portfolio",
+      "lessons": [
+        {
+          "id": "l8-m5-l1",
+          "title": "Writing the README",
+          "objectives": [
+            "Problem, approach, results, how to run",
+            "What hiring managers scan for"
+          ]
+        },
+        {
+          "id": "l8-m5-l2",
+          "title": "Interview walkthrough",
+          "objectives": [
+            "Explain trade-offs out loud",
+            "Demo script"
+          ]
+        },
+        {
+          "id": "l8-m5-l3",
+          "title": "The capstone review",
+          "objectives": [
+            "Self-review against a hiring checklist",
+            "Plan the next 90 days"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l8-m5-boss",
+        "title": "Boss battle: Portfolio"
+      }
+    }
+  ],
+  "levelBoss": {
+    "id": "l8-boss",
+    "title": "Level 8 boss battle"
+  },
+  "project": {
+    "id": "l8-project",
+    "title": "Integrated Commodity Risk Platform",
+    "pitch": "Trade book, pricing, hedging, VaR and a dashboard combined into one GitHub-ready repo."
+  }
+}

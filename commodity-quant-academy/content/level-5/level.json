@@ -1,0 +1,258 @@
+{
+  "id": "level-5",
+  "n": 5,
+  "title": "Derivatives",
+  "short": "Derivatives",
+  "summary": "Forwards, futures and LME prompts, hedging, swaps, options, Black-76, Greeks, implied vol, Asian options and NSE index options.",
+  "phase": 3,
+  "status": "planned",
+  "modules": [
+    {
+      "id": "l5-m1",
+      "title": "Forwards and futures",
+      "lessons": [
+        {
+          "id": "l5-m1-l1",
+          "title": "Forwards vs futures",
+          "objectives": [
+            "Margining and mark-to-market",
+            "Why prices differ (slightly)"
+          ]
+        },
+        {
+          "id": "l5-m1-l2",
+          "title": "LME prompt dates",
+          "objectives": [
+            "Daily, weekly, monthly prompts",
+            "Cash, Tom, 3M and carries"
+          ]
+        },
+        {
+          "id": "l5-m1-l3",
+          "title": "Pricing a forward",
+          "objectives": [
+            "Cost of carry with storage",
+            "Arbitrage bounds"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l5-m1-boss",
+        "title": "Boss battle: Forwards and futures"
+      }
+    },
+    {
+      "id": "l5-m2",
+      "title": "Hedging physical",
+      "lessons": [
+        {
+          "id": "l5-m2-l1",
+          "title": "Hedging a fixed-price sale",
+          "objectives": [
+            "Buy futures against a fixed sale",
+            "Hedge P&L vs physical P&L"
+          ]
+        },
+        {
+          "id": "l5-m2-l2",
+          "title": "QP hedging",
+          "objectives": [
+            "Price-fixing and averaging hedges",
+            "Pricing-out a QP"
+          ]
+        },
+        {
+          "id": "l5-m2-l3",
+          "title": "Swaps",
+          "objectives": [
+            "Average-price swaps for customers",
+            "Swap valuation"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l5-m2-boss",
+        "title": "Boss battle: Hedging physical"
+      }
+    },
+    {
+      "id": "l5-m3",
+      "title": "Options basics",
+      "lessons": [
+        {
+          "id": "l5-m3-l1",
+          "title": "Payoffs",
+          "objectives": [
+            "Calls, puts and payoff diagrams",
+            "Long vs short risk"
+          ]
+        },
+        {
+          "id": "l5-m3-l2",
+          "title": "Put-call parity",
+          "objectives": [
+            "Parity on futures options",
+            "Synthetic positions"
+          ]
+        },
+        {
+          "id": "l5-m3-l3",
+          "title": "Black-76",
+          "objectives": [
+            "Implement and test against known values",
+            "Inputs and units"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l5-m3-boss",
+        "title": "Boss battle: Options basics"
+      }
+    },
+    {
+      "id": "l5-m4",
+      "title": "Greeks",
+      "lessons": [
+        {
+          "id": "l5-m4-l1",
+          "title": "Delta and gamma",
+          "objectives": [
+            "Hedge ratios and convexity",
+            "Delta-hedging P&L"
+          ]
+        },
+        {
+          "id": "l5-m4-l2",
+          "title": "Vega and theta",
+          "objectives": [
+            "Vol and time decay",
+            "The gamma-theta trade-off"
+          ]
+        },
+        {
+          "id": "l5-m4-l3",
+          "title": "Greeks of a book",
+          "objectives": [
+            "Aggregate Greeks",
+            "Scenario vs Greeks P&L"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l5-m4-boss",
+        "title": "Boss battle: Greeks"
+      }
+    },
+    {
+      "id": "l5-m5",
+      "title": "Volatility",
+      "lessons": [
+        {
+          "id": "l5-m5-l1",
+          "title": "Implied volatility",
+          "objectives": [
+            "Solve for IV by bisection/Newton",
+            "Why IV is not a forecast"
+          ]
+        },
+        {
+          "id": "l5-m5-l2",
+          "title": "Smiles and surfaces",
+          "objectives": [
+            "Build a surface from a chain",
+            "Skew in metals vs equity index"
+          ]
+        },
+        {
+          "id": "l5-m5-l3",
+          "title": "Vol trading basics",
+          "objectives": [
+            "Realised vs implied",
+            "Straddle P&L and gamma scalping"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l5-m5-boss",
+        "title": "Boss battle: Volatility"
+      }
+    },
+    {
+      "id": "l5-m6",
+      "title": "Average-price options",
+      "lessons": [
+        {
+          "id": "l5-m6-l1",
+          "title": "Asian options",
+          "objectives": [
+            "Why QP pricing is an Asian exposure",
+            "Monte Carlo pricing"
+          ]
+        },
+        {
+          "id": "l5-m6-l2",
+          "title": "Variance reduction",
+          "objectives": [
+            "Antithetic and control variates",
+            "Convergence checks"
+          ]
+        },
+        {
+          "id": "l5-m6-l3",
+          "title": "Pricing a QP option for a customer",
+          "objectives": [
+            "Quote a capped-price QP deal",
+            "Explain the premium to sales"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l5-m6-boss",
+        "title": "Boss battle: Average-price options"
+      }
+    },
+    {
+      "id": "l5-m7",
+      "title": "NSE index options",
+      "lessons": [
+        {
+          "id": "l5-m7-l1",
+          "title": "Index options mechanics",
+          "objectives": [
+            "Lot sizes, expiries, settlement",
+            "STT and costs"
+          ]
+        },
+        {
+          "id": "l5-m7-l2",
+          "title": "Strategies",
+          "objectives": [
+            "Spreads, straddles, iron condors",
+            "Max loss and margin"
+          ]
+        },
+        {
+          "id": "l5-m7-l3",
+          "title": "Systematic rules for your trading",
+          "objectives": [
+            "Entry/exit rules on paper",
+            "A trading journal in code"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l5-m7-boss",
+        "title": "Boss battle: NSE index options"
+      }
+    }
+  ],
+  "levelBoss": {
+    "id": "l5-boss",
+    "title": "Level 5 boss battle"
+  },
+  "project": {
+    "id": "l5-project",
+    "title": "Commodity Options Pricer & Greeks Lab",
+    "pitch": "Black-76, Asian options via Monte Carlo, and a vol surface from a synthetic chain."
+  }
+}

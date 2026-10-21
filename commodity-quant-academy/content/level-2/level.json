@@ -1,0 +1,294 @@
+{
+  "id": "level-2",
+  "n": 2,
+  "title": "Data Handling",
+  "short": "Data",
+  "summary": "Files, CSV/Excel, pandas (filter, groupby, merge, pivot, time series), numpy, cleaning and SQL from Python.",
+  "phase": 2,
+  "status": "planned",
+  "modules": [
+    {
+      "id": "l2-m1",
+      "title": "Files and CSV",
+      "lessons": [
+        {
+          "id": "l2-m1-l1",
+          "title": "Reading and writing text files",
+          "objectives": [
+            "Open, read and write files with context managers",
+            "Parse a broker recap file line by line"
+          ]
+        },
+        {
+          "id": "l2-m1-l2",
+          "title": "The csv module",
+          "objectives": [
+            "Read the trade book with csv.DictReader",
+            "Write a filtered confirmation list"
+          ]
+        },
+        {
+          "id": "l2-m1-l3",
+          "title": "Excel in and out",
+          "objectives": [
+            "Read and write .xlsx with pandas/openpyxl",
+            "Produce a formatted position sheet"
+          ]
+        },
+        {
+          "id": "l2-m1-l4",
+          "title": "Paths and folders",
+          "objectives": [
+            "Use pathlib to handle monthly report folders",
+            "Batch-process a folder of invoices"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l2-m1-boss",
+        "title": "Boss battle: Files and CSV"
+      }
+    },
+    {
+      "id": "l2-m2",
+      "title": "pandas core",
+      "lessons": [
+        {
+          "id": "l2-m2-l1",
+          "title": "Series and DataFrames",
+          "objectives": [
+            "Load trade_book.csv and inspect dtypes",
+            "Select columns and rows"
+          ]
+        },
+        {
+          "id": "l2-m2-l2",
+          "title": "Filtering",
+          "objectives": [
+            "Boolean masks for open trades by region",
+            "Combine conditions safely"
+          ]
+        },
+        {
+          "id": "l2-m2-l3",
+          "title": "New columns",
+          "objectives": [
+            "Compute provisional value and premium totals",
+            "Vectorised arithmetic vs loops"
+          ]
+        },
+        {
+          "id": "l2-m2-l4",
+          "title": "Sorting and ranking",
+          "objectives": [
+            "Rank counterparties by tonnage",
+            "nlargest and sort_values"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l2-m2-boss",
+        "title": "Boss battle: pandas core"
+      }
+    },
+    {
+      "id": "l2-m3",
+      "title": "Aggregation",
+      "lessons": [
+        {
+          "id": "l2-m3-l1",
+          "title": "groupby",
+          "objectives": [
+            "Tonnes and value by counterparty and month",
+            "Multiple aggregations with agg"
+          ]
+        },
+        {
+          "id": "l2-m3-l2",
+          "title": "pivot_table",
+          "objectives": [
+            "Month x Incoterm tonnage matrix",
+            "Margins and fill values"
+          ]
+        },
+        {
+          "id": "l2-m3-l3",
+          "title": "merge and join",
+          "objectives": [
+            "Join trades to FX and price tables",
+            "Avoid many-to-many blow-ups"
+          ]
+        },
+        {
+          "id": "l2-m3-l4",
+          "title": "Reshaping",
+          "objectives": [
+            "melt and stack for report layouts",
+            "Tidy vs wide data"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l2-m3-boss",
+        "title": "Boss battle: Aggregation"
+      }
+    },
+    {
+      "id": "l2-m4",
+      "title": "Time series",
+      "lessons": [
+        {
+          "id": "l2-m4-l1",
+          "title": "Dates and DatetimeIndex",
+          "objectives": [
+            "Parse dates, set an index",
+            "Business days vs calendar days"
+          ]
+        },
+        {
+          "id": "l2-m4-l2",
+          "title": "Resampling",
+          "objectives": [
+            "Daily LME to monthly averages",
+            "QP averages with resample"
+          ]
+        },
+        {
+          "id": "l2-m4-l3",
+          "title": "Shifting and lags",
+          "objectives": [
+            "Day-on-day changes",
+            "Align prices to QP windows"
+          ]
+        },
+        {
+          "id": "l2-m4-l4",
+          "title": "Missing days",
+          "objectives": [
+            "Holidays and gaps in price series",
+            "Forward fill vs drop: when each is wrong"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l2-m4-boss",
+        "title": "Boss battle: Time series"
+      }
+    },
+    {
+      "id": "l2-m5",
+      "title": "numpy",
+      "lessons": [
+        {
+          "id": "l2-m5-l1",
+          "title": "Arrays and vectorisation",
+          "objectives": [
+            "Array maths on price vectors",
+            "Why vectorised code is faster"
+          ]
+        },
+        {
+          "id": "l2-m5-l2",
+          "title": "Broadcasting",
+          "objectives": [
+            "Scenario grids: price shocks x tonnages",
+            "Shapes and axes"
+          ]
+        },
+        {
+          "id": "l2-m5-l3",
+          "title": "Random numbers",
+          "objectives": [
+            "Seeded simulations with default_rng",
+            "Reproducible results"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l2-m5-boss",
+        "title": "Boss battle: numpy"
+      }
+    },
+    {
+      "id": "l2-m6",
+      "title": "Cleaning",
+      "lessons": [
+        {
+          "id": "l2-m6-l1",
+          "title": "Messy counterparty names",
+          "objectives": [
+            "Normalise names and map aliases",
+            "Detect duplicates"
+          ]
+        },
+        {
+          "id": "l2-m6-l2",
+          "title": "Types and units",
+          "objectives": [
+            "Fix tonnes stored as text, kt vs t",
+            "Validate ranges"
+          ]
+        },
+        {
+          "id": "l2-m6-l3",
+          "title": "Reconciliation",
+          "objectives": [
+            "Match two trade lists and report breaks",
+            "Anti-joins with indicator=True"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l2-m6-boss",
+        "title": "Boss battle: Cleaning"
+      }
+    },
+    {
+      "id": "l2-m7",
+      "title": "SQL from Python",
+      "lessons": [
+        {
+          "id": "l2-m7-l1",
+          "title": "sqlite3 basics",
+          "objectives": [
+            "Create a trades table and insert rows",
+            "Parameterised queries"
+          ]
+        },
+        {
+          "id": "l2-m7-l2",
+          "title": "Queries into pandas",
+          "objectives": [
+            "read_sql for position reports",
+            "GROUP BY in SQL vs pandas"
+          ]
+        },
+        {
+          "id": "l2-m7-l3",
+          "title": "Building a small trade database",
+          "objectives": [
+            "Schema for trades, invoices, prices",
+            "Indexes and joins"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l2-m7-boss",
+        "title": "Boss battle: SQL from Python"
+      }
+    }
+  ],
+  "placement": {
+    "id": "l2-placement",
+    "title": "Level 2 placement test"
+  },
+  "levelBoss": {
+    "id": "l2-boss",
+    "title": "Level 2 boss battle"
+  },
+  "project": {
+    "id": "l2-project",
+    "title": "Physical Trade Book Analyser",
+    "pitch": "Open positions by month, metal, counterparty and Incoterm, plus a QP exposure report."
+  }
+}

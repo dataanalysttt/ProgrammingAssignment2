@@ -1,0 +1,190 @@
+{
+  "id": "level-7",
+  "n": 7,
+  "title": "Systematic Trading & Quant",
+  "short": "Systematic",
+  "summary": "Backtesting design, look-ahead bias, costs, spread and trend strategies, sizing, metrics, walk-forward and careful ML.",
+  "phase": 4,
+  "status": "planned",
+  "modules": [
+    {
+      "id": "l7-m1",
+      "title": "Backtest design",
+      "lessons": [
+        {
+          "id": "l7-m1-l1",
+          "title": "Event loop vs vectorised",
+          "objectives": [
+            "Design a simple backtester",
+            "Signals, positions, P&L"
+          ]
+        },
+        {
+          "id": "l7-m1-l2",
+          "title": "Look-ahead bias",
+          "objectives": [
+            "Shift signals correctly",
+            "Survivorship and data snooping"
+          ]
+        },
+        {
+          "id": "l7-m1-l3",
+          "title": "Transaction costs",
+          "objectives": [
+            "Fees, spreads and slippage",
+            "Cost sensitivity"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l7-m1-boss",
+        "title": "Boss battle: Backtest design"
+      }
+    },
+    {
+      "id": "l7-m2",
+      "title": "Strategies",
+      "lessons": [
+        {
+          "id": "l7-m2-l1",
+          "title": "Spread mean reversion",
+          "objectives": [
+            "Z-score entries on cash-3M",
+            "Stationarity checks"
+          ]
+        },
+        {
+          "id": "l7-m2-l2",
+          "title": "Trend following",
+          "objectives": [
+            "Moving-average and breakout rules",
+            "Whipsaw"
+          ]
+        },
+        {
+          "id": "l7-m2-l3",
+          "title": "Carry signals",
+          "objectives": [
+            "Curve shape as a signal",
+            "Combining signals"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l7-m2-boss",
+        "title": "Boss battle: Strategies"
+      }
+    },
+    {
+      "id": "l7-m3",
+      "title": "Sizing and metrics",
+      "lessons": [
+        {
+          "id": "l7-m3-l1",
+          "title": "Position sizing",
+          "objectives": [
+            "Vol targeting and Kelly caution",
+            "Risk per trade"
+          ]
+        },
+        {
+          "id": "l7-m3-l2",
+          "title": "Performance metrics",
+          "objectives": [
+            "Sharpe, Sortino, drawdown, hit rate",
+            "Annualisation"
+          ]
+        },
+        {
+          "id": "l7-m3-l3",
+          "title": "Robustness",
+          "objectives": [
+            "Parameter sweeps and stability",
+            "Monte Carlo of trades"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l7-m3-boss",
+        "title": "Boss battle: Sizing and metrics"
+      }
+    },
+    {
+      "id": "l7-m4",
+      "title": "Validation",
+      "lessons": [
+        {
+          "id": "l7-m4-l1",
+          "title": "Walk-forward testing",
+          "objectives": [
+            "Rolling train/test",
+            "Out-of-sample discipline"
+          ]
+        },
+        {
+          "id": "l7-m4-l2",
+          "title": "Machine learning, carefully",
+          "objectives": [
+            "A simple classifier on features",
+            "Overfitting warning signs"
+          ]
+        },
+        {
+          "id": "l7-m4-l3",
+          "title": "Research hygiene",
+          "objectives": [
+            "A research log and pre-registration",
+            "Multiple-testing correction"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l7-m4-boss",
+        "title": "Boss battle: Validation"
+      }
+    },
+    {
+      "id": "l7-m5",
+      "title": "Options strategies on index data",
+      "lessons": [
+        {
+          "id": "l7-m5-l1",
+          "title": "Backtesting option strategies",
+          "objectives": [
+            "Synthetic option prices with Black-76",
+            "Expiry handling"
+          ]
+        },
+        {
+          "id": "l7-m5-l2",
+          "title": "Short-vol risks",
+          "objectives": [
+            "Tail events and margin",
+            "Why steady profits mislead"
+          ]
+        },
+        {
+          "id": "l7-m5-l3",
+          "title": "Comparing to buy-and-hold",
+          "objectives": [
+            "Benchmarks and risk-adjusted comparison",
+            "Honest reporting of results"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l7-m5-boss",
+        "title": "Boss battle: Options strategies on index data"
+      }
+    }
+  ],
+  "levelBoss": {
+    "id": "l7-boss",
+    "title": "Level 7 boss battle"
+  },
+  "project": {
+    "id": "l7-project",
+    "title": "Metals Spread Backtester + Options Strategy Backtester",
+    "pitch": "A spread mean-reversion backtester on metals and an options strategy backtester on index data."
+  }
+}

@@ -1,0 +1,173 @@
+{
+ "events": [
+  {
+   "id": "warehouse-cancel",
+   "kind": "bonus",
+   "xp": 30,
+   "title": "LME warrant cancellation spike",
+   "text": "A large block of zinc warrants was cancelled overnight in a single location. Cash-3M jumps into backwardation. You spotted it in the morning stocks report before the desk meeting. **+30 XP.**"
+  },
+  {
+   "id": "premium-tick",
+   "kind": "bonus",
+   "xp": 25,
+   "title": "Rotterdam premium assessed higher",
+   "text": "The weekly SHG zinc premium assessment for Rotterdam ticks up $15/t. Your open DAP offers are now priced below market. You flag it to sales before they confirm. **+25 XP.**"
+  },
+  {
+   "id": "fx-gap",
+   "kind": "bonus",
+   "xp": 25,
+   "title": "USD/INR gaps higher at the open",
+   "text": "The rupee opens 0.6% weaker after a policy surprise. Your INR-denominated domestic offers need repricing; you catch it on the first quote. **+25 XP.**"
+  },
+  {
+   "id": "flash-crash",
+   "kind": "challenge",
+   "xp": 60,
+   "minLevel": 1,
+   "title": "Flash crash! Re-price the book",
+   "text": "LME zinc drops **8%** in ten minutes on a fat-finger order. Risk wants the mark-to-market change on the open fixed-price book *now*.",
+   "prompt": "`book` is a list of open fixed-price **sales** as `(tonnes, fixed_price)`. Before the crash the market was `2900`; after it, `2900 * 0.92`.\n\nFor a fixed-price sale, MTM per tonne = fixed price − market price, so a falling market is a **gain** for the seller.\n\nCreate `mtm_before`, `mtm_after` (total USD across the book) and `change = mtm_after - mtm_before`.",
+   "starter": "book = [(500, 2950), (250, 2880), (1000, 2910)]\nmarket_before = 2900\nmarket_after = 2900 * 0.92\n",
+   "solution": "book = [(500, 2950), (250, 2880), (1000, 2910)]\nmarket_before = 2900\nmarket_after = 2900 * 0.92\nmtm_before = 0\nmtm_after = 0\nfor tonnes, price in book:\n    mtm_before += tonnes * (price - market_before)\n    mtm_after += tonnes * (price - market_after)\nchange = mtm_after - mtm_before\nprint(round(change, 2))",
+   "tests": [
+    {
+     "name": "mtm_before = 30,000",
+     "code": "assert approx(mtm_before, 30000), f'mtm_before is {mtm_before}; expected 500*50 + 250*(-20) + 1000*10 = 30,000.'"
+    },
+    {
+     "name": "change = +406,000",
+     "code": "assert approx(change, 406000), f'change is {change}; expected 1,750 t x 232 = 406,000 (a gain: you sold at fixed prices before the drop).'"
+    }
+   ]
+  },
+  {
+   "id": "dispute-weights",
+   "kind": "challenge",
+   "xp": 50,
+   "minLevel": 1,
+   "title": "Counterparty disputes the weights",
+   "text": "Nordhavn's receiving report shows **1.2 t** less than your weight certificate on a 500 t lot. They want a credit note.",
+   "prompt": "At final price `3105` USD/t (LME + premium), compute `credit_note` = weight difference × price, rounded to 2 decimals. Then set `within_tolerance` to `True` if the difference is within the contract tolerance of 0.2% of 500 t, else `False`.",
+   "starter": "certificate_t = 500.000\nreceived_t = 498.800\nfinal_price = 3105\n",
+   "solution": "certificate_t = 500.000\nreceived_t = 498.800\nfinal_price = 3105\ncredit_note = round((certificate_t - received_t) * final_price, 2)\nwithin_tolerance = (certificate_t - received_t) <= 0.002 * certificate_t\n",
+   "tests": [
+    {
+     "name": "credit_note = 3,726.00",
+     "code": "assert approx(credit_note, 3726.0), f'credit_note is {credit_note}; expected 1.2 t x 3,105 = 3,726.00.'"
+    },
+    {
+     "name": "tolerance check",
+     "code": "assert within_tolerance is False, f'within_tolerance is {within_tolerance}; 0.2% of 500 t is 1.0 t and the difference is 1.2 t, so it is outside tolerance (False).'"
+    }
+   ]
+  }
+ ],
+ "micro": [
+  {
+   "id": "m-invoice",
+   "title": "Invoice value",
+   "minLevel": 0,
+   "concept": "print",
+   "prompt": "Set `value` to the invoice value of **300 t** at LME **2,870** plus **210** premium, and print it.",
+   "starter": "",
+   "solution": "value = 300 * (2870 + 210)\nprint(value)",
+   "hints": [
+    "tonnes × (price + premium)",
+    "Brackets make the addition happen first.",
+    "```python\nvalue = 300 * (2870 + ___)\n```"
+   ],
+   "tests": [
+    {
+     "name": "value = 924,000",
+     "code": "assert value == 924000, f'value is {value}; expected 300 x 3,080 = 924,000.'"
+    }
+   ]
+  },
+  {
+   "id": "m-fx",
+   "title": "EUR invoice",
+   "minLevel": 0,
+   "concept": "variables",
+   "prompt": "An invoice is **USD 1,250,000**. EUR/USD is **1.0850** (USD per 1 EUR). Set `eur` to the EUR amount, rounded to 2 decimals.",
+   "starter": "usd = 1_250_000\neurusd = 1.0850\n",
+   "solution": "usd = 1_250_000\neurusd = 1.0850\neur = round(usd / eurusd, 2)",
+   "hints": [
+    "EUR/USD tells you how many USD one EUR buys.",
+    "To go from USD to EUR, divide by EUR/USD.",
+    "```python\neur = round(usd / eurusd, 2)\n```"
+   ],
+   "tests": [
+    {
+     "name": "eur = 1,152,073.73",
+     "code": "assert approx(eur, 1152073.73), f'eur is {eur}; expected 1,250,000 / 1.0850 = 1,152,073.73. Did you multiply instead of divide?'"
+    }
+   ]
+  },
+  {
+   "id": "m-qp",
+   "title": "QP average",
+   "minLevel": 1,
+   "concept": "aggregation",
+   "prompt": "Compute `qp_avg`, the average of the prices in `qp`, rounded to 2 decimals.",
+   "starter": "qp = [2841.5, 2856.0, 2830.25, 2862.75, 2849.0]\n",
+   "solution": "qp = [2841.5, 2856.0, 2830.25, 2862.75, 2849.0]\nqp_avg = round(sum(qp) / len(qp), 2)",
+   "hints": [
+    "Average = total ÷ count.",
+    "`sum()` adds a list; `len()` counts it.",
+    "```python\nqp_avg = round(sum(qp) / ___, 2)\n```"
+   ],
+   "tests": [
+    {
+     "name": "qp_avg = 2,847.90",
+     "code": "assert approx(qp_avg, 2847.9), f'qp_avg is {qp_avg}; expected 14,239.5 / 5 = 2,847.90.'"
+    }
+   ]
+  },
+  {
+   "id": "m-incoterm",
+   "title": "Who books freight?",
+   "minLevel": 1,
+   "concept": "conditionals",
+   "prompt": "Write `seller_books_freight(incoterm)` returning `True` for `CFR`, `CIF`, `DAP` and `DDP`, and `False` for `FCA` and `FOB`.",
+   "starter": "def seller_books_freight(incoterm):\n    pass\n",
+   "solution": "def seller_books_freight(incoterm):\n    return incoterm in (\"CFR\", \"CIF\", \"DAP\", \"DDP\")",
+   "hints": [
+    "Under C and D terms the seller contracts the main carriage.",
+    "`x in (a, b, c)` is True when x equals any of them.",
+    "```python\n    return incoterm in (\"CFR\", ___)\n```"
+   ],
+   "tests": [
+    {
+     "name": "C and D terms",
+     "code": "assert all(seller_books_freight(t) is True for t in ['CFR', 'CIF', 'DAP', 'DDP']), 'Under CFR, CIF, DAP and DDP the seller books the main carriage: return True.'"
+    },
+    {
+     "name": "F terms",
+     "code": "assert seller_books_freight('FCA') is False and seller_books_freight('FOB') is False, 'Under FCA and FOB the buyer books the main carriage: return False.'"
+    }
+   ]
+  },
+  {
+   "id": "m-containers",
+   "title": "Containers needed",
+   "minLevel": 1,
+   "concept": "operators",
+   "prompt": "Zinc ingots load about **25 t** per 20-ft container. Set `containers` to the number needed for **1,060 t** (a part-full box still counts as one).",
+   "starter": "tonnes = 1060\nper_box = 25\n",
+   "solution": "tonnes = 1060\nper_box = 25\ncontainers = -(-tonnes // per_box)",
+   "hints": [
+    "1,060 / 25 = 42.4, and you can't book 0.4 of a box.",
+    "Round up: `math.ceil`, or `-(-a // b)` with floor division.",
+    "```python\nimport math\ncontainers = math.ceil(tonnes / per_box)\n```"
+   ],
+   "tests": [
+    {
+     "name": "containers = 43",
+     "code": "assert containers == 43, f'containers is {containers}; 1,060 / 25 = 42.4, which rounds UP to 43 boxes.'"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "level-0",
+  "n": 0,
+  "title": "Orientation",
+  "short": "Orientation",
+  "summary": "How the academy works, reading errors, your plan, and a placement test for Level 1.",
+  "phase": 1,
+  "status": "ready",
+  "modules": [
+    {
+      "id": "l0-m1",
+      "title": "Desk induction",
+      "summary": "Get the tools working and decide how you'll study.",
+      "lessons": [
+        {
+          "id": "l0-m1-l1",
+          "file": "l1-how-it-works.md",
+          "title": "How the academy works"
+        },
+        {
+          "id": "l0-m1-l2",
+          "file": "l2-reading-errors.md",
+          "title": "Reading errors without panic"
+        },
+        {
+          "id": "l0-m1-l3",
+          "file": "l3-your-plan.md",
+          "title": "Your plan, in numbers"
+        },
+        {
+          "id": "l0-m1-l4",
+          "file": "l4-placement-guide.md",
+          "title": "Where should you start?"
+        }
+      ],
+      "boss": {
+        "id": "l0-boss",
+        "file": "boss.md",
+        "title": "Orientation check: first day on the desk"
+      }
+    }
+  ],
+  "levelBoss": {
+    "id": "l0-boss",
+    "file": "boss.md",
+    "title": "Orientation check: first day on the desk"
+  }
+}

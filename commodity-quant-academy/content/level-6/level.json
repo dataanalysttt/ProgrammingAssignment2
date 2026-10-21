@@ -1,0 +1,198 @@
+{
+  "id": "level-6",
+  "n": 6,
+  "title": "Risk Management",
+  "short": "Risk",
+  "summary": "Exposure aggregation, hedge effectiveness, basis risk, VaR/CVaR, stress tests, credit exposure, P&L attribution and limits.",
+  "phase": 4,
+  "status": "planned",
+  "modules": [
+    {
+      "id": "l6-m1",
+      "title": "Exposure",
+      "lessons": [
+        {
+          "id": "l6-m1-l1",
+          "title": "Position aggregation",
+          "objectives": [
+            "Net exposure by metal and month",
+            "Physical + paper in one view"
+          ]
+        },
+        {
+          "id": "l6-m1-l2",
+          "title": "Pricing exposure",
+          "objectives": [
+            "Unpriced QP tonnage as delta",
+            "Exposure ladders"
+          ]
+        },
+        {
+          "id": "l6-m1-l3",
+          "title": "FX and premium exposure",
+          "objectives": [
+            "Exposure to EUR, INR and regional premiums",
+            "One-page exposure summary"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l6-m1-boss",
+        "title": "Boss battle: Exposure"
+      }
+    },
+    {
+      "id": "l6-m2",
+      "title": "Hedging quality",
+      "lessons": [
+        {
+          "id": "l6-m2-l1",
+          "title": "Hedge ratio",
+          "objectives": [
+            "Minimum-variance hedge ratio",
+            "Regression approach"
+          ]
+        },
+        {
+          "id": "l6-m2-l2",
+          "title": "Hedge effectiveness",
+          "objectives": [
+            "Dollar-offset and R-squared",
+            "Documenting effectiveness"
+          ]
+        },
+        {
+          "id": "l6-m2-l3",
+          "title": "Basis risk",
+          "objectives": [
+            "Premium and location basis",
+            "What a futures hedge cannot cover"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l6-m2-boss",
+        "title": "Boss battle: Hedging quality"
+      }
+    },
+    {
+      "id": "l6-m3",
+      "title": "Value at Risk",
+      "lessons": [
+        {
+          "id": "l6-m3-l1",
+          "title": "Parametric VaR",
+          "objectives": [
+            "Variance-covariance VaR",
+            "Assumptions and limits"
+          ]
+        },
+        {
+          "id": "l6-m3-l2",
+          "title": "Historical VaR",
+          "objectives": [
+            "Full revaluation on history",
+            "Window length effects"
+          ]
+        },
+        {
+          "id": "l6-m3-l3",
+          "title": "Monte Carlo VaR",
+          "objectives": [
+            "Correlated simulations",
+            "Cholesky decomposition"
+          ]
+        },
+        {
+          "id": "l6-m3-l4",
+          "title": "CVaR and backtesting",
+          "objectives": [
+            "Expected shortfall",
+            "Kupiec test"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l6-m3-boss",
+        "title": "Boss battle: Value at Risk"
+      }
+    },
+    {
+      "id": "l6-m4",
+      "title": "Stress testing",
+      "lessons": [
+        {
+          "id": "l6-m4-l1",
+          "title": "Scenario design",
+          "objectives": [
+            "LME -15% and USD/INR +3%",
+            "Historical vs hypothetical"
+          ]
+        },
+        {
+          "id": "l6-m4-l2",
+          "title": "Reverse stress",
+          "objectives": [
+            "What breaks the desk",
+            "Communicating tail risk"
+          ]
+        },
+        {
+          "id": "l6-m4-l3",
+          "title": "Liquidity and concentration",
+          "objectives": [
+            "Exposure vs market depth",
+            "Concentration add-ons"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l6-m4-boss",
+        "title": "Boss battle: Stress testing"
+      }
+    },
+    {
+      "id": "l6-m5",
+      "title": "Credit and P&L",
+      "lessons": [
+        {
+          "id": "l6-m5-l1",
+          "title": "Counterparty exposure",
+          "objectives": [
+            "Current and potential exposure",
+            "Credit limits by counterparty"
+          ]
+        },
+        {
+          "id": "l6-m5-l2",
+          "title": "P&L attribution",
+          "objectives": [
+            "Price, premium, FX and carry effects",
+            "Explaining P&L to management"
+          ]
+        },
+        {
+          "id": "l6-m5-l3",
+          "title": "Limits monitoring",
+          "objectives": [
+            "Limit framework and breaches",
+            "Escalation reporting"
+          ]
+        }
+      ],
+      "boss": {
+        "id": "l6-m5-boss",
+        "title": "Boss battle: Credit and P&L"
+      }
+    }
+  ],
+  "levelBoss": {
+    "id": "l6-boss",
+    "title": "Level 6 boss battle"
+  },
+  "project": {
+    "id": "l6-project",
+    "title": "Desk Risk Report",
+    "pitch": "Daily VaR, stress, exposure by bucket and limit breaches, exportable to Excel and PDF."
+  }
+}

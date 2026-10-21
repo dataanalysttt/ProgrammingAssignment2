@@ -1,0 +1,214 @@
+{
+  "id": "level-1",
+  "n": 1,
+  "title": "Python Foundations",
+  "short": "Foundations",
+  "summary": "Variables, types, strings, lists, dicts, loops, conditionals, functions and errors, all on trade data.",
+  "phase": 1,
+  "status": "ready",
+  "placement": {
+    "id": "l1-placement",
+    "file": "placement.md",
+    "title": "Level 1 placement test"
+  },
+  "modules": [
+    {
+      "id": "l1-m1",
+      "title": "Numbers and variables",
+      "summary": "Store trade figures, do invoice arithmetic, convert types and handle money rounding.",
+      "lessons": [
+        {
+          "id": "l1-m1-l1",
+          "file": "m1/variables.md",
+          "title": "Variables: naming the numbers on an invoice"
+        },
+        {
+          "id": "l1-m1-l2",
+          "file": "m1/types.md",
+          "title": "Types: int, float, str and bool"
+        },
+        {
+          "id": "l1-m1-l3",
+          "file": "m1/rounding.md",
+          "title": "Money, rounding and float traps"
+        },
+        {
+          "id": "l1-m1-l4",
+          "file": "m1/operators.md",
+          "title": "Floor division, modulo and powers"
+        }
+      ],
+      "boss": {
+        "id": "l1-m1-boss",
+        "file": "m1/boss.md",
+        "title": "Freight desk at 4:55pm"
+      }
+    },
+    {
+      "id": "l1-m2",
+      "title": "Strings and f-strings",
+      "summary": "Clean counterparty names, parse contract references and print invoice lines.",
+      "lessons": [
+        {
+          "id": "l1-m2-l1",
+          "file": "m2/strings.md",
+          "title": "Strings and string methods"
+        },
+        {
+          "id": "l1-m2-l2",
+          "file": "m2/slicing.md",
+          "title": "Indexing and slicing contract references"
+        },
+        {
+          "id": "l1-m2-l3",
+          "file": "m2/split-join.md",
+          "title": "split and join: parsing a recap line"
+        },
+        {
+          "id": "l1-m2-l4",
+          "file": "m2/fstrings.md",
+          "title": "f-strings and number formatting"
+        }
+      ],
+      "boss": {
+        "id": "l1-m2-boss",
+        "file": "m2/boss.md",
+        "title": "The confirmation that went out wrong"
+      }
+    },
+    {
+      "id": "l1-m3",
+      "title": "Lists",
+      "summary": "Hold QP price series, aggregate them, slice and sort, and transform with comprehensions.",
+      "lessons": [
+        {
+          "id": "l1-m3-l1",
+          "file": "m3/lists.md",
+          "title": "Lists: a QP's daily prices"
+        },
+        {
+          "id": "l1-m3-l2",
+          "file": "m3/aggregating.md",
+          "title": "sum, min, max and the QP average"
+        },
+        {
+          "id": "l1-m3-l3",
+          "file": "m3/slicing-sorting.md",
+          "title": "Slicing and sorting"
+        },
+        {
+          "id": "l1-m3-l4",
+          "file": "m3/comprehensions.md",
+          "title": "List comprehensions"
+        }
+      ],
+      "boss": {
+        "id": "l1-m3-boss",
+        "file": "m3/boss.md",
+        "title": "QP average dispute"
+      }
+    },
+    {
+      "id": "l1-m4",
+      "title": "Dictionaries",
+      "summary": "Model trade records, build a mini trade book and aggregate by counterparty.",
+      "lessons": [
+        {
+          "id": "l1-m4-l1",
+          "file": "m4/dicts.md",
+          "title": "Dictionaries as trade records"
+        },
+        {
+          "id": "l1-m4-l2",
+          "file": "m4/list-of-dicts.md",
+          "title": "A trade book: lists of dicts"
+        },
+        {
+          "id": "l1-m4-l3",
+          "file": "m4/aggregating-dicts.md",
+          "title": "Grouping with dicts: tonnes by counterparty"
+        }
+      ],
+      "boss": {
+        "id": "l1-m4-boss",
+        "file": "m4/boss.md",
+        "title": "Month-end position check"
+      }
+    },
+    {
+      "id": "l1-m5",
+      "title": "Control flow",
+      "summary": "Make decisions by Incoterm, loop over trades, allocate lots and pair data.",
+      "lessons": [
+        {
+          "id": "l1-m5-l1",
+          "file": "m5/conditionals.md",
+          "title": "if / elif / else: who pays the freight?"
+        },
+        {
+          "id": "l1-m5-l2",
+          "file": "m5/for-loops.md",
+          "title": "for loops over a trade book"
+        },
+        {
+          "id": "l1-m5-l3",
+          "file": "m5/while-loops.md",
+          "title": "while, break and continue: allocating lots"
+        },
+        {
+          "id": "l1-m5-l4",
+          "file": "m5/enumerate-zip.md",
+          "title": "enumerate, zip and range"
+        }
+      ],
+      "boss": {
+        "id": "l1-m5-boss",
+        "file": "m5/boss.md",
+        "title": "Allocation crunch"
+      }
+    },
+    {
+      "id": "l1-m6",
+      "title": "Functions and errors",
+      "summary": "Write reusable pricing functions and handle bad inputs properly.",
+      "lessons": [
+        {
+          "id": "l1-m6-l1",
+          "file": "m6/functions.md",
+          "title": "Defining functions"
+        },
+        {
+          "id": "l1-m6-l2",
+          "file": "m6/returns-defaults.md",
+          "title": "Return values, defaults and keyword arguments"
+        },
+        {
+          "id": "l1-m6-l3",
+          "file": "m6/exceptions.md",
+          "title": "Errors and try / except"
+        },
+        {
+          "id": "l1-m6-l4",
+          "file": "m6/raising.md",
+          "title": "Raising errors: validating inputs"
+        }
+      ],
+      "boss": {
+        "id": "l1-m6-boss",
+        "file": "m6/boss.md",
+        "title": "Final invoice dispute at 4:55pm"
+      }
+    }
+  ],
+  "levelBoss": {
+    "id": "l1-boss",
+    "file": "boss.md",
+    "title": "Month-end close (level boss)"
+  },
+  "project": {
+    "id": "l1-project",
+    "file": "project.md",
+    "title": "Provisional vs Final Invoice Calculator",
+    "pitch": "Handles QP averaging, weight and price adjustments, and FX conversion; produces a final invoice statement."
+  }
+}

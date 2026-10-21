@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en-GB" data-theme="auto">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Commodity Quant Academy</title>
+  <meta name="description" content="Private, local-only Python academy for commodity trading, derivatives and risk.">
+  <meta name="theme-color" content="#0f1419">
+  <meta name="referrer" content="no-referrer">
+  <!-- iPhone: "Add to Home Screen" opens full-screen like an app -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Quant Academy">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="apple-touch-icon" href="assets/icon-180.png">
+  <link rel="icon" type="image/svg+xml" href="assets/icon.svg">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#/home" aria-label="Home"><img src="assets/icon.svg" alt="" width="28" height="28"><span>Quant Academy</span></a>
+    <nav class="topnav" aria-label="Main">
+      <a href="#/home" data-nav="home">Home</a><a href="#/review" data-nav="review">Review</a><a href="#/map" data-nav="map">Map</a>
+      <a href="#/stats" data-nav="stats">Stats</a><a href="#/trophies" data-nav="trophies">Trophies</a><a href="#/settings" data-nav="settings">Settings</a>
+    </nav>
+    <div class="chips">
+      <span class="chip" title="Streak"><span class="ic">▲</span><span id="hdr-streak">0d</span></span>
+      <span class="chip rank-chip"><span id="hdr-rank">Ops Analyst</span> · <span id="hdr-xp">0 XP</span></span>
+      <span id="py-status" class="py-dot" data-state="idle" title="Python: idle"></span>
+      <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme" title="Toggle theme (t)">☾</button>
+    </div>
+  </header>
+
+  <div id="storage-warning" class="banner warm" hidden><div><strong>Browser storage is blocked</strong> (private mode?). Progress lasts only until you close this tab. Export before leaving.</div></div>
+
+  <main id="view" class="wrap" tabindex="-1"></main>
+
+  <nav class="tabbar" aria-label="Main (mobile)">
+    <a href="#/home" data-nav="home"><span>⌂</span>Home</a>
+    <a href="#/review" data-nav="review"><span>↻</span>Review</a>
+    <a href="#/quick" data-nav="quick"><span>5′</span>5-min</a>
+    <a href="#/map" data-nav="map"><span>◇</span>Map</a>
+    <a href="#/settings" data-nav="settings"><span>⚙</span>More</a>
+  </nav>
+
+  <div id="toasts" aria-live="polite"></div>
+  <div id="modal" hidden></div>
+  <noscript><p class="wrap">This app needs JavaScript.</p></noscript>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
